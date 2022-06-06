@@ -1,0 +1,12 @@
+- name: Home
+  link: /index.html
+- name: Unser Club
+  link: /about.html
+- name: Über Toastmasters
+  link: /toastmasters.html
+- name: Blog
+  link: /blog.html
+- name: Kontakt
+  link: /contact.html
+- name: Impressum
+  link: /imprint.html

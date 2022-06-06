@@ -1,0 +1,21 @@
+<div class="header-container">
+    <header>
+        <!-- <div class="logo-container"> -->
+        <!--     <a href="/index.html"> -->
+        <!--         logo -->
+        <!--         <!-1- <img src="/assets/persistent/logo.png" alt="Toastmasters logo" class="logo"> -1-> -->
+        <!--     </a> -->
+        <!-- </div> -->
+        <nav class="nav">
+            <ul>
+                {% for item in site.data.navbar %}
+                <li>
+                    <a href="{{ item.link }}">{{ item.name }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </nav>
+        <h1 class="heading-large">Toastmasters Aachen</h1>
+    </header>
+</div>
+
