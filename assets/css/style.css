@@ -2,12 +2,26 @@
     box-sizing: border-box;
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Times New Roman';
-    color: #555;
 }
 
 html, body {
     margin: 0;
     padding: 0;
+}
+
+h1 {
+    font-size: 24pt;
+    color: #333;
+}
+
+h2 {
+    font-size: 20pt;
+    color: #444;
+}
+
+p {
+    font-size: 16pt;
+    color: #555;
 }
 
 .site {
@@ -86,4 +100,23 @@ html, body {
 .footer a {
     margin: 0;
     padding: 0;
+}
+
+.blog-preview {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-bottom: 2px solid lightgrey;
+}
+
+.blog-preview a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.blog-preview a:hover {
+    color: grey;
+    transition: 0.5s;
 }

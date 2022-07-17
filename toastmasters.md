@@ -9,14 +9,16 @@ Die Organisation mit Zentrale in Kalifornien hat derzeit über 313.000 Mitgliede
 Seit 1924 hilft Toastmasters International Menschen dabei, mit mehr Selbstvertrauen vor Publikum zu sprechen.
 
 
-## Entwicklung von Führungskompetenzen
+**Entwicklung von Führungskompetenzen**
 
 Verbessere deine Softskills im Bereich Zeitmanagement, Teamarbeit, Problemlösung und Entscheidungsfindung.
 
-## Bestimme dein eigenes Lerntempo
+**Bestimme dein eigenes Lerntempo**
 
 Toastmasters ist flexibel und passt sich an deinen Kalender an, damit du nicht die Balance verlierst.
 
+
+---
 
 # Wie funktioniert Toastmasters?
 
