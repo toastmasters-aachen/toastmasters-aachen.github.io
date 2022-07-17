@@ -6,16 +6,20 @@
         <!--         <!-1- <img src="/assets/persistent/logo.png" alt="Toastmasters logo" class="logo"> -1-> -->
         <!--     </a> -->
         <!-- </div> -->
-        <nav class="nav">
-            <ul>
-                {% for item in site.data.navbar %}
-                <li>
-                    <a href="{{ item.link }}">{{ item.name }}</a>
-                </li>
-                {% endfor %}
-            </ul>
-        </nav>
-        <h1 class="heading-large">Toastmasters Aachen</h1>
+        <div style="position: relative;">
+            <div class="nav-container">
+                <nav class="nav">
+                    <ul>
+                        {% for item in site.data.navbar %}
+                        <li>
+                            <a href="{{ item.link }}">{{ item.name }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </nav>
+            </div>
+            <h1 class="heading-large">Toastmasters Aachen</h1>
+        </div>
     </header>
 </div>
 
