@@ -36,6 +36,11 @@ h2 {
     color: #444;
 }
 
+h3 {
+    font-size: 18pt;
+    color: #555;
+}
+
 p {
     font-size: 16pt;
     color: #555;
@@ -165,4 +170,5 @@ p {
     align-content: center;
     border-radius: 8px;
     margin: 10px;
+    text-decoration: none;
 }
