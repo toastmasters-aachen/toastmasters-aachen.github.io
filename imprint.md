@@ -45,4 +45,4 @@ Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer 
 
 ---
 
-**Quelle:** <https://www.e-recht24.de>
+**Quelle:** <https://www.e-recht24.de>´

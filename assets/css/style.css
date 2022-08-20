@@ -147,3 +147,23 @@ p {
     color: grey;
     transition: 0.5s;
 }
+
+.btn-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button-centered {
+    background-color: #004165;
+    border: none;
+    color: white;
+    padding: 10px 5px;
+    font-size: 16px;
+    align-self: center;
+    align-content: center;
+    border-radius: 8px;
+    margin: 10px;
+    text-decoration: none;
+}
