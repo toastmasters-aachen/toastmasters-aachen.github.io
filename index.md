@@ -18,11 +18,9 @@ Dank des konstruktiven Feedbacks unserer Mitglieder hast du dabei die Möglichke
 
 ## Wann?
 
-Jeden Dienstag um 19.15 Uhr.
+Jeden Dienstag um 19:00 Uhr.
 
 
 ## Wo?
 
 Zurzeit online über Zoom.
-
-
