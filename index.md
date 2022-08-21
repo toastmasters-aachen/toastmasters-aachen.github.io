@@ -23,4 +23,4 @@ Jeden Dienstag um 19:00 Uhr.
 
 ## Wo?
 
-Zurzeit online über Zoom.
+Käthe-Kollwitz-Schule, Bayernallee 6, 52066 Aachen
