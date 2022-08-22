@@ -22,7 +22,7 @@ title: Toastmasters Aachen e. V.
 email: info@aachen-toastmasters.de
 description: Verbessere deine Rede- und Präsentationsfähigkeiten in einer lebendigen und unterstützenden Community!
 # baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://aachen-toastmasters.de/homepage" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://aachen-toastmasters.de" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
