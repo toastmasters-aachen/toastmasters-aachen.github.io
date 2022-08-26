@@ -1,9 +1,12 @@
 ---
 layout: post
 date: 2022-08-20
-title: "Willkommen bei den Toastmasters Aachen!"
-category: 
+title: "New Homepage!"
+category: news
 published: true
-excerpt: "Dies ist der erste Post dieses Blogs."
+excerpt: "Toastmasters Aachen e.V. has launched a new homepage."
 ---
 
+# New Homepage online
+
+Toastmasters Aachen e.V. has launched a new homepage. Stay tuned for new features!
