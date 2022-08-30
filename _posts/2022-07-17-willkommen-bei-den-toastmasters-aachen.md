@@ -13,4 +13,4 @@ Toastmasters Aachen e.V. has launched a new homepage. Stay tuned for new feature
 
 ![](/assets/images/default-no-profile-pic.jpg)
 
-![](/assets/images/default-no-profile-pic.jpg | width=100px)
+<img src="/assets/images/default-no-profile-pic.jpg" width="100">
