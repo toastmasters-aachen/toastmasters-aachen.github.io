@@ -11,6 +11,8 @@ excerpt: "Toastmasters Aachen e.V. has launched a new homepage."
 
 Toastmasters Aachen e.V. has launched a new homepage. Stay tuned for new features!
 
+[//]: # (This is a comment.)
+
 ![](/assets/images/default-no-profile-pic.jpg)
 
 <img src="/assets/images/default-no-profile-pic.jpg" width="100">
