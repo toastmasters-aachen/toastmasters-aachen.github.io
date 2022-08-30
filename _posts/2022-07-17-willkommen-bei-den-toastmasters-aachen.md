@@ -10,3 +10,6 @@ excerpt: "Toastmasters Aachen e.V. has launched a new homepage."
 # New Homepage online
 
 Toastmasters Aachen e.V. has launched a new homepage. Stay tuned for new features!
+
+
+![no profile picture](/assets/images/default-no-profile-pic.jpg)
