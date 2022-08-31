@@ -9,7 +9,7 @@ excerpt: "Toastmasters Aachen e.V. has launched a new homepage."
 
 # New Homepage online
 
-Toastmasters Aachen e.V. has launched a new homepage. Stay tuned for new features!
+Toastmasters Aachen e.V. has launched a new homepage. Stay tuned for new features! Here is a new sentence.
 
 [//]: # (This is a comment.)
 
