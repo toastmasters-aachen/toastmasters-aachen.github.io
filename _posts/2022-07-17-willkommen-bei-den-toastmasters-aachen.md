@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Hello
 category: news
 published: true
 excerpt: "Toastmasters Aachen e.V. has launched a new homepage."
