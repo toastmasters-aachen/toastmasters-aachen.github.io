@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome, New Officer Board!"
+title: "Welcome, New Officers!"
 category: news
 published: true
 excerpt: "We thank the previous board for their service and wish the new team good luck!"
