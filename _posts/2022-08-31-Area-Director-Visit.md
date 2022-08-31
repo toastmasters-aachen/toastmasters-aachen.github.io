@@ -2,7 +2,7 @@
 layout: post
 title: "Visit From Area Director"
 category: news
-published: true
+published: false
 excerpt: "Area Director Ms. Pragya Dubey Visits Aachen TM to Share Ideas and Give Valuable Feedback"
 ---
 
