@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A New Chapter in the History of Aachen Toastmasters e.V., established 2014"
+title: " Aachen Toastmasters e.V. Has a Revamped Home Online"
 category: news
 published: true
 excerpt: "Toastmasters Aachen e.V. is excited to launch a new and improved homepage."
