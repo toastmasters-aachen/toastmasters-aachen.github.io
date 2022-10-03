@@ -8,11 +8,3 @@ excerpt: ""
 
 # 
 
-[//]: # (This is a comment.)
-
-![](/assets/images/default-no-profile-pic.jpg)
-
-<img src="/assets/images/default-no-profile-pic.jpg">
-
-
-​
