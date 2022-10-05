@@ -7,4 +7,4 @@ excerpt: ""
 ---
 
 # 
-<img src="/assets/images/meeting#483 poster.png">
+<img src="/assets/images/public-speaking-ig.png">
