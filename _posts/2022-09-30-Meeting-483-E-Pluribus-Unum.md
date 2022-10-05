@@ -7,4 +7,4 @@ excerpt: ""
 ---
 
 # 
-<img src="/assets/images/public-speaking-ig.png">
+<img src="/assets/images/public-speaking-ig.png" width="400">
