@@ -12,6 +12,16 @@ Unser Club ist zweisprachig (Deutsch/Englisch) und wir heißen Menschen jeder Ku
 
 Bilder sagen sprichwörtlich und wahrhaftig mehr als 1000 Worte, also komm vorbei und mach dir deinen eigenen Eindruck!
 
+# Unser Vorstand
+
+Club President - M. Oezesenlik
+Vice President of Education - L. Dittrich
+Vice President of Membership - C. Bianco
+Vice President of Public Relations - A. Lanser CC, CL
+Club Treasurer - M. Kaparaki CC
+Secretary - H. Westerhoff
+Immediate Past President - J.Nakayama CC, CL
+
 
 
 
