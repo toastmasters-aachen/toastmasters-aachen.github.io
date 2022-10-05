@@ -26,7 +26,7 @@ Club Treasurer - M. Kaparaki CC
 
 Secretary - H. Westerhoff
 
-Immediate Past President - J.Nakayama CC, CL
+Immediate Past President - J. Nakayama CC, CL
 
 
 
