@@ -10,4 +10,4 @@ excerpt: ""
 
 Deutsches Abend, moderiert von C. Bianco.
 
-<img src="/assets/images/public-speaking-ig.png" width="400">
+<img src="/assets/images/meeting-483-poster.png" width="400">
