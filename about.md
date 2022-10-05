@@ -15,12 +15,19 @@ Bilder sagen sprichwörtlich und wahrhaftig mehr als 1000 Worte, also komm vorbe
 # Unser Vorstand
 
 Club President - M. Oezesenlik
+
 Vice President of Education - L. Dittrich
+
 Vice President of Membership - C. Bianco
+
 Vice President of Public Relations - A. Lanser CC, CL
+
 Club Treasurer - M. Kaparaki CC
+
 Secretary - H. Westerhoff
+
 Immediate Past President - J.Nakayama CC, CL
+
 
 
 
