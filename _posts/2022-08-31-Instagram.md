@@ -12,4 +12,6 @@ Our Public Relations and Membership Teams have created another social media outl
 
 [//]: # (This is a comment.)
 
+<img src="/assets/images/igbrand.jpeg" width="500">
+
 
