@@ -14,7 +14,7 @@ Unser Club ist zweisprachig (Deutsch/Englisch) und wir heißen Menschen jeder Ku
 
 Bilder sagen sprichwörtlich und wahrhaftig mehr als 1000 Worte, also komm vorbei und mach dir deinen eigenen Eindruck!
 
-# Unser Vorstand
+# Unser Vorstand 2022-2023
 
 Club President - M. Oezesenlik
 
