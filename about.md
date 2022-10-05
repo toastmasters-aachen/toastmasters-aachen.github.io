@@ -20,13 +20,21 @@ Club President - M. Oezesenlik
 
 Vice President of Education - L. Dittrich
 
+Vice President of Education Support - vacant
+
 Vice President of Membership - C. Bianco
 
+Vice President of Membership Support - vacant
+
 Vice President of Public Relations - A. Lanser CC, CL
+
+Vice President of Public Relations Support - vacant
 
 Club Treasurer - M. Kaparaki CC
 
 Secretary - H. Westerhoff
+
+Sergeant at Arms - vacant
 
 Immediate Past President - J. Nakayama CC, CL
 
