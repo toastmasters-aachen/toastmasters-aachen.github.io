@@ -6,7 +6,7 @@ title: "Upcoming Speech Contests"
 
 category: news
 
-published: true
+published: false
 
 excerpt: "TM Aachen is a Force to be Reckoned With"
 
