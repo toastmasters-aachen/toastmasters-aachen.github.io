@@ -9,4 +9,4 @@ excerpt: "TM Aachen has a rich history of Contest Success"
 # 
 
 
-<img src="/assets/images/meeting-483-poster.png" width="400">
+<img src="/assets/images/" width="400">
