@@ -11,3 +11,4 @@ excerpt: "Guests welcome! Join us online or in person! Sign-up required"
 
 
 <img src="/assets/images/" width="400">
+
