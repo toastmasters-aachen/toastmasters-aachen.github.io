@@ -6,7 +6,6 @@ category: news
 published: true
 excerpt: "Guests welcome! Join us online or in person! Sign-up required"
 ---
-
 # The team is really excited about our first hybrid meeting with our good friends over at Toastmasters Cologne!
 
 
