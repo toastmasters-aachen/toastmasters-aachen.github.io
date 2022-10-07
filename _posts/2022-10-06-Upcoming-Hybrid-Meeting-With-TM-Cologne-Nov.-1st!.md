@@ -6,7 +6,7 @@ published: true
 excerpt: "Guests welcome! Pre-registration required!"
 ---
 
-# 
+Send us an email if you would like to participate!
 
 
 
