@@ -23,4 +23,5 @@ Jeden Dienstag um 19:00 Uhr.
 
 ## Wo?
 
-<del>Käthe-Kollwitz-Schule, Bayernallee 6, 52066 Aachen</del> <span style="color:red">Am 04.10.22 und 11.10.22 online; Zoom Links auf Anfrage</span>
+Raum 19 - Käthe-Kollwitz-Schule, Bayernallee 6, 52066 Aachen 
+(Gegenüber der FH und um die Ecke der Katholischen Hochschule)
