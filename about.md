@@ -39,6 +39,20 @@ Sergeant at Arms - vacant
 Immediate Past President - J. Nakayama CC, CL
 
 
+# Online Resources
+
+www.Toastmasters.org - The international Website!
+
+
+https://tmclub.eu/clubdata.php?c=728 - Our weekly meeting management tool!  (Members only access)
+
+
+https://www.toastmasters.org/education/pathways - Our Education Tools and Programs
+
+
+# Our Socials
+
+Coming soon!
 
 
 
