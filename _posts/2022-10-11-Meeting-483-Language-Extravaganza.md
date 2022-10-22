@@ -1,6 +1,5 @@
 
 ---
-
 layout: post
 title: "Meeting #484 - Language Extravaganza"
 category: news
