@@ -6,6 +6,21 @@ layout: default
 
 Verbessere deine Rede- und Präsentationsfähigkeiten in einer lebendigen und unterstützenden Community!
 
+# Unser nächstes Treffen
+
+<img src="assets/images/tmac-489-poster.png" class="img-centered">
+
+<p style="text-align:center">
+<b>Termin:</b> Dienstag, 15. November 2022, 19:00 Uhr <br>
+
+<b>Ort:</b>
+<span style="color:red;font-weight:bold">
+Brabantstraße 43, 52070 Aachen (c/o Tecis Finanzberatung)
+</span>
+</p>
+
+# Warum Toastmasters Aachen?
+
 ## Vom Zitteraal zum Vortragskünstler!
 
 Lampenfieber vor einer Rede?
@@ -19,7 +34,6 @@ Dank des konstruktiven Feedbacks unserer Mitglieder hast du dabei die Möglichke
 ## Wann?
 
 Jeden Dienstag um 19:00 Uhr.
-
 
 ## Wo?
 

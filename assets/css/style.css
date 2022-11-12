@@ -29,16 +29,19 @@ html, body {
 h1 {
     font-size: 24pt;
     color: #333;
+    text-align: center;
 }
 
 h2 {
     font-size: 20pt;
     color: #444;
+    text-align: center;
 }
 
 h3 {
     font-size: 18pt;
     color: #555;
+    text-align: center;
 }
 
 p {
@@ -171,4 +174,11 @@ p {
     border-radius: 8px;
     margin: 10px;
     text-decoration: none;
+}
+
+.img-centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
