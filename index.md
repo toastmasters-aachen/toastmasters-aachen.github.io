@@ -23,4 +23,5 @@ Jeden Dienstag um 19:00 Uhr.
 
 ## Wo?
 
-Käthe-Kollwitz-Schule, Bayernallee 6, 52066 Aachen
+Raum 19 - Käthe-Kollwitz-Schule, Bayernallee 6, 52066 Aachen 
+(Gegenüber der FH und um die Ecke der Katholischen Hochschule)
