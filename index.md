@@ -10,14 +10,7 @@ layout: default
 
 Verbessere deine Rede- und Präsentationsfähigkeiten in einer lebendigen und unterstützenden Community!
 
-<p style="text-align:center">
-<b>Termin:</b> Dienstag, 15. November 2022, 19:00 Uhr <br>
 
-<b>Ort:</b>
-<span style="color:red;font-weight:bold">
-Brabantstraße 43, 52070 Aachen (c/o Tecis Finanzberatung)
-</span>
-</p>
 
 # Warum Toastmasters Aachen?
 
