@@ -23,7 +23,7 @@ Every new member should get a proper introduction to the club when they join but
 
 📑 How it works:
 
-    mentor can be anyone who has done their ice breaker, (ideally someone who finished level 1 or is part of TM for a bit of time)
+    A mentor can be anyone who has done their ice breaker, (ideally someone who finished level 1 or is part of TM for a bit of time)
 
     limited time-frame: until the ice breaker speech is done
 
