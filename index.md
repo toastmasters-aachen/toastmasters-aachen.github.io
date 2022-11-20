@@ -6,13 +6,6 @@ layout: default
 
 Verbessere deine Rede- und Präsentationsfähigkeiten in einer lebendigen und unterstützenden Community!
 
-# Unser nächstes Treffen
-
-<img src="assets/images/tmac-489-poster.png" style="display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;">
-
 <p style="text-align:center">
 <b>Termin:</b> Dienstag, 15. November 2022, 19:00 Uhr <br>
 
