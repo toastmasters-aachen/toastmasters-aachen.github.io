@@ -1,9 +1,5 @@
-
-
 ---
 layout: default
-
-
 ---
 
 # Willkommen bei den Toastmasters Aachen!
