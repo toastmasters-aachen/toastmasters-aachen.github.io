@@ -3,8 +3,10 @@ layout: default
 ---
 
 # Unser Club
+<p align="center">
 
-<img src="/assets/images/tmclubgrouppic2.jpeg" width="500">
+<img src="/assets/images/tmclubgrouppic2.jpeg" width="600">
+</p>
 
 Wir sind eine dynamische Gruppe aus allen Teilen der Welt, die sich der Persönlichkeitsentwicklung in den Bereichen von Kommunikation und Führungskompetenz widmet.
 Egal ob Nestküken oder alter Hase, unser Verein besteht aus Mitgliedern aller Altersklassen.
