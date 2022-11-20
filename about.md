@@ -44,14 +44,11 @@ Immediate Past President - J. Nakayama CC, CL
 
 
 # Online Resources
+The international Website! - www.Toastmasters.org  
 
-www.Toastmasters.org - The international Website!
+Our weekly meeting management tool!  (Members only access) - https://tmclub.eu/clubdata.php?c=728 
 
-
-https://tmclub.eu/clubdata.php?c=728 - Our weekly meeting management tool!  (Members only access)
-
-
-https://www.toastmasters.org/education/pathways - Our Education Tools and Programs
+Our Education Tools and Programs - https://www.toastmasters.org/education/pathways 
 
 
 #Testmonials
