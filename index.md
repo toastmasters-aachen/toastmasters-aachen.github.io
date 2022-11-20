@@ -10,7 +10,7 @@ layout: default
 
 Verbessere deine Rede- und Präsentationsfähigkeiten in einer lebendigen und unterstützenden Community!
 
-
+<img src="/assets/images/tmclubgrouppic.jpeg" width="400">
 
 # Warum Toastmasters Aachen?
 
