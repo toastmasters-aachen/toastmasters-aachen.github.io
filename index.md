@@ -9,8 +9,10 @@ layout: default
 # Willkommen bei den Toastmasters Aachen!
 
 Verbessere deine Rede- und Präsentationsfähigkeiten in einer lebendigen und unterstützenden Community!
+<p align="center">
 
-<img src="/assets/images/tmclubgrouppic.jpeg" width="400">
+<img src="/assets/images/tmclubgrouppic.jpeg" width="500">
+</p>
 
 # Warum Toastmasters Aachen?
 
