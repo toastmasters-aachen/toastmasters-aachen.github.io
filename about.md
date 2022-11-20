@@ -59,7 +59,7 @@ However, this is the obvious part. It took me a while to discover the hidden pow
 As I moved on to new areas, team coaching, I could try things out as mini projects in the Toastmasters evenings, and as fun as it is, I thought of the table topic questions when I was giving an interview for a new position.
 Toastmasters has helped me gain more confidence about what I say and this is reflected automatically in my everyday life. The group has been a safety net to develop myself."
 
-- M Kaparaki, Member since 2014
+M. Kaparaki, Member since 2014
 
 # Our Socials
 
