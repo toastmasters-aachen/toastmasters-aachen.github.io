@@ -13,6 +13,8 @@ Um Mitglied zu werden, schicke bitte das folgende Formular ausgefüllt an info@a
     <a class="button-centered" href="downloads/tmac_membership_form_en.pdf" download="tmac_membership_form_en.pdf" >Membership Application Form (English)</a>
 </p>
 
+
+
 # Du bist bereits Mitglied? Prima! 
 
 Hier sind deine nächsten Schritte:
