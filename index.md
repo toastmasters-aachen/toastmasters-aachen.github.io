@@ -36,7 +36,7 @@ Dank des konstruktiven Feedbacks unserer Mitglieder hast du dabei die Möglichke
 
 ## Wann?
 
-Jeden Dienstag um 19:00 Uhr.
+Jeden Dienstag um 18:45 Uhr.
 
 ## Wo?
 
