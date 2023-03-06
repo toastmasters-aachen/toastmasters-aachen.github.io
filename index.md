@@ -22,6 +22,12 @@ Käthe-Kollwitz-Berufskolleg, Bayernallee 6, 52066 Aachen
 </span>
 </p>
 
+# Quick Links to get you started!
+
+Easy Speak : Our Weekly Scheduling Platform
+Pathways Basecamp : Our Educational Program Complete with Assessments, Instructions and Evaluations
+Toastmasters.Org : The International Website
+
 # Warum Toastmasters Aachen?
 
 ## Vom Zitteraal zum Vortragskünstler!
