@@ -14,7 +14,7 @@ Verbessere deine Rede- und Präsentationsfähigkeiten in einer lebendigen und un
     width: 90%;">
 
 <p style="text-align:center">
-<b>Termin:</b> Dienstag, 14. Februar 2022, 19:00 Uhr <br>
+<b>Termin:</b> Dienstag, 07. März 2022, 18:45 Uhr <br>
 
 <b>Ort:</b>
 <span style="font-weight:bold">
