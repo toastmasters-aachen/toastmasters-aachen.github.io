@@ -8,7 +8,7 @@ Verbessere deine Rede- und Präsentationsfähigkeiten in einer lebendigen und un
 
 # Unser nächstes Treffen
 
-<img src="assets/images/tmac-502-poster.png" style="display: block;
+<img src="assets/images/505_club_contest.png" style="display: block;
     margin-left: auto;
     margin-right: auto;
     width: 90%;">
