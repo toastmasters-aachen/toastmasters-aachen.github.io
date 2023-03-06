@@ -24,9 +24,11 @@ Käthe-Kollwitz-Berufskolleg, Bayernallee 6, 52066 Aachen
 
 # Quick Links to get you started!
 
-Easy Speak : Our Weekly Scheduling Platform
-Pathways Basecamp : Our Educational Program Complete with Assessments, Instructions and Evaluations
-Toastmasters.Org : The International Website
+<a href="https://tmclub.eu/clubdata.php?c=728">EasySpeak</a> - Our weekly meeting management tool!  (Members only access)
+
+<a href="https://www.toastmasters.org/education/pathways">Toastmasters Basecamp and Pathways</a> - Our Education Program, complete with Instructions, Assessments and Evaluations!
+
+<a href="https://www.toastmasters.org">Toastmasters.org</a> - The international Website!
 
 # Warum Toastmasters Aachen?
 
