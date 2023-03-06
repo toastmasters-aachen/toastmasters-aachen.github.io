@@ -47,6 +47,15 @@ Immediate Past President - J. Nakayama CC, CL
 
 <a href="https://www.toastmasters.org/education/pathways">Toastmasters Basecamp and Pathways</a> - Our Education Tools and Programs
 
+# Mentoring Makes and Keeps us Strong!
+
+Mentoring is a resource and skill set that is integrated in our Pathways Program, and is vital to our club's thriving culture!  
+Tips:  
+If there is someone with whom you would like to work, simply ask them if they are available.
+If yes, discuss logistics including availability, goals, expectations and which communication tools will be used.
+If that works, do a test run for a month!
+If that works, continue for 5 more months and don't forget to celebrate your achievement at the end!
+Our Board is always there to support if needed!
 
 # Testmonials
 
