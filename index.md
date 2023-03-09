@@ -28,6 +28,8 @@ Käthe-Kollwitz-Berufskolleg, Bayernallee 6, 52066 Aachen
 
 <a href="https://www.toastmasters.org/education/pathways">Toastmasters Basecamp and Pathways</a> - Our Education Program, complete with Instructions, Assessments and Evaluations!
 
+<a href="https://toastmasters-95.org"</a> - Our District Website!
+
 <a href="https://www.toastmasters.org">Toastmasters.org</a> - The international Website!
 
 # Warum Toastmasters Aachen?
