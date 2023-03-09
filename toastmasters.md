@@ -2,9 +2,27 @@
 layout: default
 ---
 
-# Was ist Toastmasters?
+# Wer sind Toastmasters Aachen e.V?
 
-Toastmasters International ist eine Non-Profit-Bildungsorganisation, in der Mitglieder im Rahmen eines weltweiten Netzwerks von Clubs Kommunikations- und Rhetorikfähigkeiten sowie Führungskompetenzen erlernen können.
+Dieser Club wurde im Jahr 2014 gegründet.  Wir haben Mitglieder jeden Alters, aus allen Berufen und aus vielen verschiedenen Herkunftsländern. 
+
+Seit Jahren hält der Club wöchentliche Treffen, Chief-Officer-Trainings und Wettbewerbe im Pavillon unseres Partners, der Stadtbibliothek Aachen, neben dem
+Aachener Busbahnhof ab.
+
+Das Team Aachen ist ein starker Konkurrent in der Welt der TM-Wettbewerbe und hat bereits mehrere Preise auf Bezirks- und Divisionsebene gewonnen.  
+
+Zwischen März 2020 und August 2022 war unser Club aufgrund der Corona-Pandemie von Obdachlosigkeit und Personalmangel betroffen - wir danken allen
+Mitgliedern und Gästen, die in dieser Zeit ihre Zeit, Energie und Neugierde eingebracht haben. Seit Herbst 2022 hat die TM Aachen in der Käthe-Kollwitz
+Berufsschule in der Bayernallee ein neues Zuhause gefunden.
+
+Seitdem wächst der Verein stetig, der Vorstand bekommt Zuwachs und wir freuen uns auf eine noch schönere Zukunft!  Und eines hat sich in den zehn Jahren
+nicht geändert:  Aachen Toastmasters ist der spaßigste Club in der Region, und wenn Sie das nicht glauben, kommen Sie vorbei und überzeugen Sie sich selbst
+von der Energie! 
+
+# Was ist Toastmasters International?
+
+Toastmasters International ist eine Non-Profit-Bildungsorganisation, in der Mitglieder im Rahmen eines weltweiten Netzwerks von Clubs Kommunikations- und
+Rhetorikfähigkeiten sowie Führungskompetenzen erlernen können.
 Die Organisation mit Zentrale in Kalifornien hat derzeit über 313.000 Mitglieder in über 14.650 Clubs in 126 Ländern.
 Seit 1924 hilft Toastmasters International Menschen dabei, mit mehr Selbstvertrauen vor Publikum zu sprechen.
 
