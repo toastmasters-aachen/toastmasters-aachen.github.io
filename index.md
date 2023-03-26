@@ -17,7 +17,7 @@ Käthe-Kollwitz-Berufskolleg, Bayernallee 6, 52066 Aachen
 </span>
 </p>
 
-
+<p style="text-align:center">
 <a href="https://tmclub.eu/clubdata.php?c=728">EasySpeak</a> - Nimm an unserem nächsten Treffen teil!
 
 
