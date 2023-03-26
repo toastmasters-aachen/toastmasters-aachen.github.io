@@ -19,4 +19,4 @@ Um Mitglied zu werden, schicke bitte das folgende Formular ausgefüllt an info@a
 
 Every new member should get a proper introduction to the club when they join but there is not always time to do an official intro meeting.
 
-We encourage older members to guide new members for roughly four weeks, helping them to get accustomed to the various platforms we use, completing essential tasks like choosing a path, finding a project and getting their evaluation resources.  
+We encourage older members to guide new members for roughly four weeks, helping them to get accustomed to the various platforms we use, and completing essential tasks like choosing a path, finding a project and getting their evaluation resources.  
