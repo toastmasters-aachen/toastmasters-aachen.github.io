@@ -14,7 +14,7 @@ Verbessere deine Rede- und Präsentationsfähigkeiten in einer lebendigen und un
     width: 75%;">
 
 <p style="text-align:center">
-<b>Termin:</b> Dienstag, 07. März 2022, 18:45 Uhr <br>
+<b>Termin:</b> Dienstag, 28. März 2022, 18:45 Uhr <br>
 
 <b>Ort:</b>
 <span style="font-weight:bold">
