@@ -36,6 +36,10 @@ Secretary - H. Westerhoff
 
 Sergeant at Arms - vacant
 
+Happiness Manager - vacant
+
+Events Manager - vacant
+
 Immediate Past President - J. Nakayama CC, CL
 
 
