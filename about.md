@@ -36,6 +36,8 @@ Secretary - H. Westerhoff
 
 Sergeant at Arms - vacant
 
+Sergeant at Arms Support - Vacant
+
 Happiness Manager - vacant
 
 Events Manager - vacant
