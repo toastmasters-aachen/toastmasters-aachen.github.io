@@ -2,16 +2,11 @@
 layout: default
 ---
 
-# Willkommen bei den Toastmasters Aachen!
+# Bist du bereit, ein hervorragender Redner zu werden?
 
 Verbessere deine Rede- und Präsentationsfähigkeiten in einer lebendigen und unterstützenden Community!
 
 # Unser nächstes Treffen
-
-<img src="assets/images/506-Aachentm.png" width="100" style="display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;">
 
 <p style="text-align:center">
 <b>Termin:</b> Dienstag, 28. März 2022, 18:45 Uhr <br>
