@@ -4,6 +4,8 @@ layout: default
 
 # Bist du bereit, ein hervorragender Redner zu werden?
 
+[Jump to English](#are-you-ready-to-become-an-excellent-speaker)
+
 Verbessere deine Rede- und Präsentationsfähigkeiten in einer lebendigen und unterstützenden Community!
 
 # Unser nächstes Treffen
@@ -33,3 +35,4 @@ Bei den Toastmasters Aachen üben wir regelmäßig das Sprechen und Präsentiere
 Dank des konstruktiven Feedbacks unserer Mitglieder hast du dabei die Möglichkeit, deine Fähigkeiten kontinuierlich auszubauen und dich selbst besser kennenzulernen.
 
 
+# Are You Ready to Become an Excellent Speaker?
