@@ -8,10 +8,12 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
-#
+
+
+
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
@@ -21,15 +23,18 @@
 title: Toastmasters Aachen e. V.
 email: info@aachen-toastmasters.de
 description: Verbessere deine Rede- und Präsentationsfähigkeiten in einer lebendigen und unterstützenden Community!
-# baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://aachen-toastmasters.de" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
-# github_username:  jekyll
+
 
 # Build settings
 # theme: minima
 # plugins:
 #  - jekyll-feed
+
+sass:
+  style: compressed
+  sass_dir: _sass
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
