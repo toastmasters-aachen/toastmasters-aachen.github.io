@@ -4,15 +4,33 @@ layout: default
 
 # Unser Club
 
-<img src="/assets/images/tmac-500-grouppic.jpg" width="800" style="display: block; margin-left: auto; margin-right: auto;">
-
-Wir sind eine dynamische Gruppe aus allen Teilen der Welt, die sich der Persönlichkeitsentwicklung in den Bereichen von Kommunikation und Führungskompetenz widmet.
-Egal ob Nestküken oder alter Hase, unser Verein besteht aus Mitgliedern aller Altersklassen.
+Wir sind eine dynamische Gruppe aus allen Teilen der Welt, die sich der Entwicklung von Fähigkeiten in den Bereichen Kommunikation und Führungskompetenz widmet.
+Egal ob Nestküken oder alter Hase, unser Verein besteht aus Mitgliedern aller Altersklassen und Erfahrungslevels.
 Durch Aachen als Universitätsstadt sind unsene Mitglieder sowohl Studierende als auch Berufstätige aus verschiedensten Branchen.
 
 Unser Club ist zweisprachig (Deutsch/Englisch) und wir heißen Menschen jeder Kultur willkommen!
 
-Bilder sagen sprichwörtlich und wahrhaftig mehr als 1000 Worte, also komm vorbei und mach dir deinen eigenen Eindruck!
+
+## Wer sind Toastmasters Aachen e. V.?
+
+Die Toastmasters Aachen gibt es schon seit 2012.
+Alles fing im ganz kleinen Kreis an, mit drei Freunden, die sich im Restaurant oder in der Kneipe trafen und in lockerer Runde ihre Redefähigkeiten erprobten und verbesserten, unterstützt von ein paar Kölner Toastmasters, die uns maßgeblich dabei halfen, diesen Club zu dem zu machen, was er heute ist.
+Innerhalb kurzer Zeit wuchs diese Gruppe so weit an, dass ein Tisch in der Kneipe bald zu eng wurde und so zogen die Toastmasters Aachen zunächst in einen Raum in der Aachener Volkshochschule ein und als auch der zu klein wurde, in den früheren Pavillon der Stadtbibliothek.
+Dort wurden wir 2014 ein offizieller Toastmasters Club und gründeten auch den eigetragenen Verein.
+Seit 2022 treffen wir uns in der Käthe-Kollwitz-Berufsschule in der Bayernallee.
+
+Über die Jahre haben wir eine unglaubliche Vielfalt von Menschen jeden Alters, aus allen Berufen und aus vielen verschiedenen Herkunftsländern bei uns begrüßen dürfen.
+Unser Club ist gut vernetzt mit den anderen Toastmasters-Clubs aus der Region und auch bei Wettbewerben sind wir immer wieder stark vertreten gewesen.
+Wir haben schon viele Mitglieder auf überregionale Wettbewerbe geschickt und haben sogar Divisions- und Europameister hervorgebracht!
+
+Die Corona-Pandemie hat unseren Club hart getroffen, da wir uns über zwei Jahre nicht in Person treffen konnten.
+Trotzdem haben wir es geschafft, diesen Club am Leben zu halten und seitdem wächst der Verein stetig, der Vorstand bekommt Zuwachs und wir freuen uns auf eine noch schönere Zukunft!
+Und eines hat sich in den zehn Jahren nicht geändert:
+Aachen Toastmasters ist der spaßigste Club in der Region, und wenn Du uns nicht glaubst, komm vorbei und überzeug' Dich selbst!
+
+
+
+
 
 # Unser Vorstand 2022-2023
 

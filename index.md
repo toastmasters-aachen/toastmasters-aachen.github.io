@@ -4,25 +4,11 @@ layout: default
 
 # Bist du bereit, ein hervorragender Redner zu werden?
 
-[Jump to English](#are-you-ready-to-become-an-excellent-speaker)
+<!-- [Jump to English](#are-you-ready-to-become-an-excellent-speaker) -->
 
 Verbessere deine Rede- und Präsentationsfähigkeiten in einer lebendigen und unterstützenden Community!
 
-# Unser nächstes Treffen
-
-<p style="text-align:center">
-<b>Termin:</b> Dienstag, 28. März 2022, 18:45 Uhr <br>
-
-<b>Ort:</b>
-<span style="font-weight:bold">
-Käthe-Kollwitz-Berufskolleg, Bayernallee 6, 52066 Aachen 
-</span>
-</p>
-
-<p style="text-align:center">
-<a href="https://tmclub.eu/clubdata.php?c=728">EasySpeak</a> - Nimm an unserem nächsten Treffen teil!
-</p>
-
+<img src="/assets/images/tmac-500-grouppic.jpg" width="800" style="display: block; margin-left: auto; margin-right: auto;">
 
 # Warum Toastmasters Aachen?
 
@@ -35,4 +21,16 @@ Bei den Toastmasters Aachen üben wir regelmäßig das Sprechen und Präsentiere
 Dank des konstruktiven Feedbacks unserer Mitglieder hast du dabei die Möglichkeit, deine Fähigkeiten kontinuierlich auszubauen und dich selbst besser kennenzulernen.
 
 
-# Are You Ready to Become an Excellent Speaker?
+# Unser nächstes Treffen
+
+**Termin**: Immer dienstags, ab 18:45 Uhr (wöchentlich abwechselnd Deutsch und Englisch)
+
+**Ort**: Käthe-Kollwitz-Berufskolleg, Bayernallee 6, 52066 Aachen
+
+
+**Komm vorbei!**
+Als Gast kannst Du jederzeit und solange Du möchtest kostenlos unsere Clubabende besuchen und Dich an manchen Teilen des Abends auch aktiv beteiligen.
+Sende uns einfach eine E-Mail an info@aachen-toastmasters.de.
+
+
+<!--- # Are You Ready to Become an Excellent Speaker? --->
