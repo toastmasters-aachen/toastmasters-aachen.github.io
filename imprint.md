@@ -14,7 +14,7 @@ Hainbuchenstr. 10
 Vereinsregister: VR 5558  
 Registergericht: Amtsgericht Aachen  
 
-**Vertreten durch:** Mehmet Oezesenlik  
+**Vertreten durch**: Mehmet Oezesenlik  
 
 
 ### Kontakt
@@ -40,4 +40,4 @@ Hainbuchenstr. 10
 Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
 
 
-**Quelle:** <https://www.e-recht24.de>´
+**Quelle**: [eRecht24](https://www.e-recht24.de)
