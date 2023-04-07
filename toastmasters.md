@@ -2,23 +2,6 @@
 layout: default
 ---
 
-# Wer sind Toastmasters Aachen e.V?
-
-Dieser Club wurde im Jahr 2014 gegründet.  Wir haben Mitglieder jeden Alters, aus allen Berufen und aus vielen verschiedenen Herkunftsländern. 
-
-Seit Jahren hält der Club wöchentliche Treffen, Chief-Officer-Trainings und Wettbewerbe im Pavillon unseres Partners, der Stadtbibliothek Aachen, neben dem
-Aachener Busbahnhof ab.
-
-Das Team Aachen ist ein starker Konkurrent in der Welt der TM-Wettbewerbe und hat bereits mehrere Preise auf Bezirks- und Divisionsebene gewonnen.  
-
-Zwischen März 2020 und August 2022 war unser Club aufgrund der Corona-Pandemie von Obdachlosigkeit und Personalmangel betroffen - wir danken allen
-Mitgliedern und Gästen, die in dieser Zeit ihre Zeit, Energie und Neugierde eingebracht haben. Seit Herbst 2022 hat die TM Aachen in der Käthe-Kollwitz
-Berufsschule in der Bayernallee ein neues Zuhause gefunden.
-
-Seitdem wächst der Verein stetig, der Vorstand bekommt Zuwachs und wir freuen uns auf eine noch schönere Zukunft!  Und eines hat sich in den zehn Jahren
-nicht geändert:  Aachen Toastmasters ist der spaßigste Club in der Region, und wenn Sie das nicht glauben, kommen Sie vorbei und überzeugen Sie sich selbst
-von der Energie! 
-
 # Was ist Toastmasters International?
 
 Toastmasters International ist eine Non-Profit-Bildungsorganisation, in der Mitglieder im Rahmen eines weltweiten Netzwerks von Clubs Kommunikations- und
@@ -36,17 +19,19 @@ Verbessere deine Softskills im Bereich Zeitmanagement, Teamarbeit, Problemlösun
 Toastmasters ist flexibel und passt sich an deinen Kalender an, damit du nicht die Balance verlierst.
 
 
----
 
 # Wie funktioniert Toastmasters?
 
 Der typische Toastmasters Club hat 20-40 Mitglieder.
-Jedes Mitglied setzt seine Ziele selbst und bestimmt sein Lerntempo.
+Jedes Mitglied setzt seine Ziele selbst und bestimmt sein eigenes Lerntempo.
+
 Der erste Teil jedes Treffens ist vorbereiteten Reden gewidmet.
 Mitglieder erarbeiten diese mithilfe eines Handbuchs.
 Jede Rede baut jeweils auf dem vorhergehenden Redeprojekt auf.
 Ziel ist es, jeweils an einem bestimmten Aspekt der Rhetorik zu arbeiten, z. B. Aufbau einer Rede, Körperhaltung, Stimme, Gestik, Blickkontakt etc.
+
 Bei den Stegreifreden lernen die Mitglieder, kurze Reden zu improvisieren.
+
 Im dritten Teil des Treffens erhalten die Redner konstruktives Feedback:
 Der Bewerter weist auf Stärken und Schwächen hin und gibt konkrete Hinweise zur Verbesserung.
 Darüberhinaus können alle anderen Teilnehmer den Rednern mündlich und/oder schriftlich weitere Rückmeldungen geben.

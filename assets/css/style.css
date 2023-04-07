@@ -19,7 +19,7 @@
 }
 
 html, body {
-    background: rgba(0, 0, 0, 0.05);
+    background: #eee;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -90,6 +90,7 @@ p {
 
 .nav li {
     display: inline;
+    border-radius: 10px;
     padding: 10px 10px;
 }
 
@@ -121,8 +122,10 @@ p {
 }
 
 .container {
+    align: center;
+    background: #eee;
     margin-top: 100px;
-    max-width: 900px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 0 1.5em;
 }
