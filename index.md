@@ -8,7 +8,7 @@ layout: default
 
 Verbessere deine Rede- und Präsentationsfähigkeiten in einer lebendigen und unterstützenden Community!
 
-<img src="/assets/images/tmac-500-grouppic.jpg" width="800" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="/assets/images/home-group-pic.jpg" width="800" style="display: block; margin-left: auto; margin-right: auto;">
 
 # Warum Toastmasters Aachen?
 
