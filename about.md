@@ -10,58 +10,73 @@ Durch Aachen als Universitätsstadt sind unsene Mitglieder sowohl Studierende al
 
 Unser Club ist zweisprachig (Deutsch/Englisch) und wir heißen Menschen jeder Kultur willkommen!
 
-
-## Wer sind Toastmasters Aachen e. V.?
+## Wer sind die Toastmasters Aachen?
 
 Die Toastmasters Aachen gibt es schon seit 2012.
-Alles fing im ganz kleinen Kreis an, mit drei Freunden, die sich im Restaurant oder in der Kneipe trafen und in lockerer Runde ihre Redefähigkeiten erprobten und verbesserten, unterstützt von ein paar Kölner Toastmasters, die uns maßgeblich dabei halfen, diesen Club zu dem zu machen, was er heute ist.
+Alles fing im ganz kleinen Kreis an, mit drei Freund*innen, die sich im Restaurant oder in der Kneipe trafen und in lockerer Runde ihre Redefähigkeiten erprobten und verbesserten, unterstützt von ein paar Kölner Toastmasters, die uns maßgeblich dabei halfen, diesen Club zu dem zu machen, was er heute ist.
 Innerhalb kurzer Zeit wuchs diese Gruppe so weit an, dass ein Tisch in der Kneipe bald zu eng wurde und so zogen die Toastmasters Aachen zunächst in einen Raum in der Aachener Volkshochschule ein und als auch der zu klein wurde, in den früheren Pavillon der Stadtbibliothek.
 Dort wurden wir 2014 ein offizieller Toastmasters Club und gründeten auch den eigetragenen Verein.
-Seit 2022 treffen wir uns in der Käthe-Kollwitz-Berufsschule in der Bayernallee.
+Nach einem Jahr, in dem wir in der Käthe-Kollwitz-Berufsschule in der Bayernallee beheimatet waren, sind wir seit Juli 2023 im schönen Welthaus Aachen an der Schanz zu Hause!
 
 Über die Jahre haben wir eine unglaubliche Vielfalt von Menschen jeden Alters, aus allen Berufen und aus vielen verschiedenen Herkunftsländern bei uns begrüßen dürfen.
 Unser Club ist gut vernetzt mit den anderen Toastmasters-Clubs aus der Region und auch bei Wettbewerben sind wir immer wieder stark vertreten gewesen.
-Wir haben schon viele Mitglieder auf überregionale Wettbewerbe geschickt und haben sogar Divisions- und Europameister hervorgebracht!
+Wir haben schon viele Mitglieder auf überregionale Wettbewerbe geschickt und haben sogar Divisions- und Europameister hervorgebracht! Über mehr als zehn Jahre und mehr als 500 Treffen haben wir es geschafft, diesen Club trotz aller Widrigkeiten am Leben zu halten. Der Verein wächst stetig, der Vorstand bekommt Zuwachs und wir freuen uns auf eine noch schönere Zukunft!
 
-Die Corona-Pandemie hat unseren Club hart getroffen, da wir uns über zwei Jahre nicht in Person treffen konnten.
-Trotzdem haben wir es geschafft, diesen Club am Leben zu halten und seitdem wächst der Verein stetig, der Vorstand bekommt Zuwachs und wir freuen uns auf eine noch schönere Zukunft!
 Und eines hat sich in den zehn Jahren nicht geändert:
 Aachen Toastmasters ist der spaßigste Club in der Region, und wenn Du uns nicht glaubst, komm vorbei und überzeug' Dich selbst!
 
+## Unser Team - Der Vorstand 2023-2024
 
-
-
-
-# Unser Vorstand 2022-2023
-
-Club President - M. Oezesenlik
-
-Vice President of Education - L. Dittrich
-
-Vice President of Education Support - vacant
-
-Vice President of Membership - C. Bianco
-
-Vice President of Membership Support - vacant
-
-Vice President of Public Relations - A. Lanser CC, CL
-
-Vice President of Public Relations Support - vacant
-
-Club Treasurer - M. Kaparaki CC
-
-Secretary - H. Westerhoff
-
-Sergeant at Arms - vacant
-
-Sergeant at Arms Support - Vacant
-
-Happiness Manager - vacant
-
-Events Manager - vacant
-
-Immediate Past President - J. Nakayama CC, CL
-
+<table class="tg">
+<thead>
+  <tr>
+    <th>Rolle im Vorstand<br><span style="font-style:italic">Officer Board Role</span></th>
+    <th>Officer</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="row1">1. Vorsitzender<br><span style="font-style:italic">President</span></td>
+    <td class="row2">Harmen Westerhof</td>
+  </tr>
+  <tr>
+    <td class="row1">Vizepräsident für Weiterbildung<br><span style="font-style:italic">VP Education</span></td>
+    <td class="row2">Carmine Bianco</td>
+  </tr>
+  <tr>
+    <td class="row1">Schatzmeister<br><span style="font-style:italic">Treasurer</span></td>
+    <td class="row2">Sebastian Vogt</td>
+  </tr>
+  <tr>
+    <td class="row1">Vizepräsident für Mitgliedschaft<br><span style="font-style:italic">VP Membership</span></td>
+    <td class="row2">Amadeus Küppers</td>
+  </tr>
+  <tr>
+    <td class="row1">Vizepräsidentin für Öffentlichkeitsarbeit<br><span style="font-style:italic">VP Public Relations</span></td>
+    <td class="row2">Mia Giang Do</td>
+  </tr>
+  <tr>
+    <td class="row1">Schriftführerin<br><span style="font-style:italic">Secretary</span></td>
+    <td class="row2">Anna K. Bernrath</td>
+  </tr>
+  <tr>
+    <td class="row1">Saalmeister<br><span style="font-style:italic">Sergeant-at-Arms</span></td>
+    <td class="row2">Malte Holch</td>
+  </tr>
+  <tr>
+    <td class="row1">Vizepräsident für Mentoring<br><span style="font-style:italic">VP Mentoring</span></td>
+    <td class="row2">Goutham G. Nimmala</td>
+  </tr>
+  <tr>
+    <td class="row1">Vizepräsidentin für Mitgliedschaft - Support<br><span style="font-style:italic">VP Membership - Support</span></td>
+    <td class="row2">Meaza Coßmann</td>
+  </tr>
+  <tr>
+    <td class="row1">Vizepräsidentin für Öffentlichkeitsarbeit - Support<br><span style="font-style:italic">VP Public Relations - Support</span></td>
+    <td class="row2">Ashika Lanser <span style="font-weight:bold">CC CL</span></td>
+  </tr>
+</tbody>
+</table>
 
 # Online Resources
 
@@ -71,26 +86,17 @@ Immediate Past President - J. Nakayama CC, CL
 
 <a href="https://www.toastmasters.org/education/pathways">Toastmasters Basecamp and Pathways</a> - Our Education Tools and Programs
 
-
-# Mentoring Makes and Keeps us Strong!
-
-Mentoring is a resource and skill set that is integrated in our Pathways Program, and is vital to our club's thriving culture!  
-Tips:  
-If there is someone with whom you would like to work, simply ask them if they are available.
-If yes, discuss logistics including availability, goals, expectations and which communication tools will be used.
-If that works, do a test run for a month!
-If that works, continue for 5 more months and don't forget to celebrate your achievement at the end!
-Our Board is always there to support if needed!
-
 # Testimonials
 
-"I used to work in the area of software development and in a modern company even a single developer is a leader. Why? Because a team should take decisions about itself.  Very often I had to explain my position and convince the colleagues about my ideas. What could help me here better than the TM prepared speeches?
-However, this is the obvious part. It took me a while to discover the hidden power of Toastmasters, and this was the evaluations. At work, we had every month the so called, 'retrospective', where we look back and try to improve our processes. Through the evaluations I've developed a critical eye not only for the achievements but also for the potential improvements and I applied this method also to the communication with my colleagues.
+<i>I used to work in the area of software development and in a modern company even a single developer is a leader. Why? Because a team should take decisions about itself.  Very often I had to explain my position and convince the colleagues about my ideas. What could help me here better than the TM prepared speeches?</i>
 
-As I moved on to new areas, team coaching, I could try things out as mini projects in the Toastmasters evenings, and as fun as it is, I thought of the table topic questions when I was giving an interview for a new position.
-Toastmasters has helped me gain more confidence about what I say and this is reflected automatically in my everyday life. The group has been a safety net to develop myself."
+<i>However, this is the obvious part. It took me a while to discover the hidden power of Toastmasters, and this was the evaluations. At work, we had every month the so called, 'retrospective', where we look back and try to improve our processes. Through the evaluations I've developed a critical eye not only for the achievements but also for the potential improvements and I applied this method also to the communication with my colleagues.</i>
 
-M Kaparaki, Member since 2014
+<i>As I moved on to new areas, team coaching, I could try things out as mini projects in the Toastmasters evenings, and as fun as it is, I thought of the table topic questions when I was giving an interview for a new position.</i>
+
+<i>Toastmasters has helped me gain more confidence about what I say and this is reflected automatically in my everyday life. The group has been a safety net to develop myself.</i>
+
+M. Kaparaki, Member since 2014
 
 
 # Our Socials

@@ -4,7 +4,7 @@ layout: default
 
 # Mitglied werden
 
-Die Toastmasters-Mitgliedschaft ist grundsätzlich allen volljährigen Interessenten offen.
+Die Toastmasters-Mitgliedschaft ist grundsätzlich allen volljährigen Interessent*innen offen.
 
 Um Mitglied zu werden, schicke bitte das folgende Formular ausgefüllt an info@aachen-toastmasters.de:
 
@@ -13,10 +13,28 @@ Um Mitglied zu werden, schicke bitte das folgende Formular ausgefüllt an info@a
     <a class="button-centered" href="downloads/tmac_membership_form_en.pdf" download="tmac_membership_form_en.pdf" >Membership Application Form (English)</a>
 </p>
 
-
-
 # Du bist bereits Mitglied? Prima! 
 
-Every new member should get a proper introduction to the club when they join but there is not always time to do an official intro meeting.
+Jedes neue Mitglied sollte eine Einführung in das Toastmasters-Leben bekommen. Aber für eine offizielle Einführungsveranstaltung fehlt oft die Zeit.
 
-We encourage older members to guide new members for roughly four weeks, helping them to get accustomed to the various platforms we use, and completing essential tasks like choosing a path, finding a project and getting their evaluation resources.  
+Dafür sind die Mitglieder*innen da - wie wär's mit unserem Mentoring-Programm?
+
+## Mentoring - One for you, one for me
+
+Für Toastmasters, Mentoring ist eine Ressource und eine Fähigkeit, die in den Pathways-Programmen jeweils propagiert und erlernt wird. Für uns, und für Dich, ist es die Möglichkeit, über unseren Club und seine Kultur mehr zu erfahren.
+
+### Was bedeutet Mentoring?
+
+Das Mentoring Programm bringt erfahrene Mitglieder\*innen mit Neulingen zusammen. Mentor\*innen können Dich auf zwei Ebenen unterstützen:
+<ul>
+<li style="font-size: 16pt"><i>Die praktische Ebene</i>: Wie melde ich mich in EasySpeak an? Wie wähle ich mein Pathway in BaseCamp? Wie beantrage ich einen Redetermin, oder eine andere Rolle?</li>
+<li style="font-size: 16pt"><i>Die Toastmaster-Ebene</i>: Was sind denn diese Pathways überhaupt? Wie strukturiere ich meine Rede? Was sollte ich erzählen, und wie?</li></ul>
+
+Das Mentoring-Programm dauert grundsätzlich 6 Monate. Nach dieser Zeit wirst Du in der Lage sein, Dich sicher und selbstbewusst durch die Toastmasters-Welt zu bewegen, und für den nächsten Frischling sogar als Mentor\*in zur Verfügung zu stehen!
+
+### Wie melde ich mich dafür an?
+
+Ganz einfach: Frag den <i>Vizepräsidenten für Weiterbildung</i> oder den <i>Vizepräsidenten für Mentoring</i> nach geeigneten Ansprechpartner\*innen. Oder spreche deine\*n Wunschmentor\*in direkt an.
+
+Wie man das Mentoring-Verhältnis gestaltet, ist jedem <i>Mentor-Mentee</i> Paar selbst überlassen. Die ersten 4 Wochen gelten als eine Art "Testphase" - da kann man sicherstellen, dass man sich für die richtige Person entschieden hat!
+
