@@ -25,7 +25,7 @@ Dank des konstruktiven Feedbacks unserer Mitglieder hast du dabei die Möglichke
 
 **Termin**: Immer dienstags, ab 18:45 Uhr (wöchentlich abwechselnd Deutsch und Englisch)
 
-**Ort**: Käthe-Kollwitz-Berufskolleg, Bayernallee 6, 52066 Aachen
+**Ort**: Welthaus Aachen, An der Schanz 1, 52064 Aachen
 
 
 **Komm vorbei!**
