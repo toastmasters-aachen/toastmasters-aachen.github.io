@@ -7,14 +7,14 @@ layout: default
 
 ### Angaben gemäß § 5 TMG
 
-Toastmasters Aachen e. V.  
-Hainbuchenstr. 10  
-52074 Aachen  
+Toastmasters Aachen e. V.
+Dammstraße 51
+52066 Aachen
 
 Vereinsregister: VR 5558  
-Registergericht: Amtsgericht Aachen  
+Registergericht: Amtsgericht Aachen
 
-**Vertreten durch**: Mehmet Oezesenlik  
+**Vertreten durch**: Harmen Westerhof
 
 
 ### Kontakt
@@ -30,9 +30,9 @@ E-Mail: info@aachen-toastmasters.de
 
 ### Redaktionell verantwortlich
 
-Mehmet Oezesenlik  
-Hainbuchenstr. 10  
-52074 Aachen  
+Harmen Westerhof
+Dammstraße 51
+52066 Aachen
 
 
 ### Verbraucherstreitbeilegung/Universalschlichtungsstelle
