@@ -7,9 +7,9 @@ layout: default
 
 ### Angaben gemäß § 5 TMG
 
-Toastmasters Aachen e. V.
-Dammstraße 51
-52066 Aachen
+Toastmasters Aachen e. V.  
+Dammstraße 51  
+52066 Aachen  
 
 Vereinsregister: VR 5558  
 Registergericht: Amtsgericht Aachen
