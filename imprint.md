@@ -30,9 +30,9 @@ E-Mail: info@aachen-toastmasters.de
 
 ### Redaktionell verantwortlich
 
-Harmen Westerhof
-Dammstraße 51
-52066 Aachen
+Harmen Westerhof  
+Dammstraße 51  
+52066 Aachen  
 
 
 ### Verbraucherstreitbeilegung/Universalschlichtungsstelle
