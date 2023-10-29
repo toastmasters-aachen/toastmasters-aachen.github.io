@@ -23,7 +23,7 @@ Dank des konstruktiven Feedbacks unserer Mitglieder hast du dabei die Möglichke
 
 # Unser nächstes Treffen
 
-Alle Events werden auf [Meetup](https://meetu.ps/c/4s2D7/Dg7x6/d) angekündigt. Die Clubabende sind abwechselnd auf Deutsch und Englisch.
+Wir treffen uns Dienstagabends um 18:45 in der Aula, im Welthaus, an der Schanz.  Alle Events werden auf [Meetup](https://meetu.ps/c/4s2D7/Dg7x6/d) angekündigt. Die Clubabende sind abwechselnd auf Deutsch und Englisch.
 
 **Komm vorbei!**
 Als Gast kannst Du jederzeit und solange Du möchtest kostenlos unsere Clubabende besuchen und Dich an manchen Teilen des Abends auch aktiv beteiligen.<br/>
