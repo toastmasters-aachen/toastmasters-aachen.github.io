@@ -32,4 +32,6 @@ Falls Du noch weiter Infos brauchst, dann schicke unse eine Mail!
 [info@aachen-toastmasters.de](mailto:info@aachen-toastmasters.de).
 
 
-<!--- # Are You Ready to Become an Excellent Speaker? --->
+# Our Socials
+
+Coming soon!
