@@ -27,7 +27,9 @@ Wir treffen uns Dienstagabends um 18:45 in der Aula, im Welthaus, an der Schanz.
 
 **Komm vorbei!**
 Als Gast kannst Du jederzeit und solange Du möchtest kostenlos unsere Clubabende besuchen und Dich an manchen Teilen des Abends auch aktiv beteiligen.<br/>
-Sende uns einfach eine E-Mail an [info@aachen-toastmasters.de](mailto:info@aachen-toastmasters.de).
+
+Falls Du noch weiter Infos brauchst, dann schicke unse eine Mail!
+[info@aachen-toastmasters.de](mailto:info@aachen-toastmasters.de).
 
 
 <!--- # Are You Ready to Become an Excellent Speaker? --->
