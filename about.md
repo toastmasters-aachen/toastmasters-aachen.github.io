@@ -108,9 +108,7 @@ Ashika L.
 M. Kaparaki, Member since 2014
 
 
-# Our Socials
 
-Coming soon!
 
 
 
