@@ -86,6 +86,15 @@ Aachen Toastmasters ist der spaßigste Club in der Region, und wenn Du uns nicht
 
 <a href="https://www.toastmasters.org/education/pathways">Toastmasters Basecamp and Pathways</a> - Our Education Tools and Programs
 
+# Achtung, Toastmasteres Aachen ist beim Wettbewerbe immer dabei!
+<i>Im Jahr 2017, weniger als ein Jahr nach meinem Eintritt in den Club als Mitglied, habe ich verschiedene Städte in NRW besucht und bin sogar zur Bezirkskonferenz nach Berlin gefahren, zum Halbfinale des Bewertungsredewettbewerbs. Ich habe diese Runde zwar nicht gewonnen, aber ich habe eine Menge Erfahrung gesammelt.  
+
+Damals vor ein paar hundert Leuten zu sprechen, hat immer noch einen Einfluss darauf, wie ich bei der Arbeit, zu Hause und in meinem Club auftrete.
+
+Ich habe Toastmasters aus der ganzen Welt getroffen, einige von ihnen sind seit über 25 Jahren Mitglied, und ich habe sogar ihre Ehemänner und Ehefrauen kennengelernt! Die Leidenschaft für das Sprechen in der Öffentlichkeit geht tief!</i>
+Ashika L.
+
+
 # Testimonials
 
 <i>I used to work in the area of software development and in a modern company even a single developer is a leader. Why? Because a team should take decisions about itself.  Very often I had to explain my position and convince the colleagues about my ideas. What could help me here better than the TM prepared speeches?</i>
