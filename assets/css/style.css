@@ -147,12 +147,19 @@ p {
     padding: 0;
 }
 
+.blog-preview-title {
+    font-size: 15pt;
+    padding-bottom: 10px;
+    color: #555;
+    text-align: left;
+}
+
 .blog-preview {
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-bottom: 2px solid lightgrey;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
 }
 
 .blog-preview a {
