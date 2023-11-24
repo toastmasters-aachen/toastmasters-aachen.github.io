@@ -93,7 +93,7 @@ Aachen Toastmasters ist der spaßigste Club in der Region, und wenn Du uns nicht
 
 <i>Damals vor ein paar hundert Leuten zu sprechen, hat immer noch einen Einfluss darauf, wie ich bei der Arbeit, zu Hause und in meinem Club auftrete.</i>
 
-<i>Ich habe Toastmasters aus der ganzen Welt getroffen, einige von ihnen sind seit über 25 Jahren Mitglied, und ich habe sogar ihre Ehemänner und Ehefrauen kennengelernt! Die Leidenschaft für das Sprechen in der Öffentlichkeit geht tief!</i>
+<i>Ich habe Toastmasters aus der ganzen Welt getroffen, einige von ihnen sind seit über 25 Jahren Mitglied, und haben sogar ihre Ehemänner und Ehefrauen dort kennengelernt! Die Leidenschaft für das Sprechen in der Öffentlichkeit geht tief!</i>
 
 Ashika L., Member since 2016
 
