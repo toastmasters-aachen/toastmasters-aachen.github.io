@@ -31,7 +31,8 @@ Aachen Toastmasters ist der spaßigste Club in der Region, und wenn Du uns nicht
 <thead>
   <tr>
     <th>Rolle im Vorstand<br><span style="font-style:italic">Officer Board Role</span></th>
-    <th>Officer</th>
+    <th>Officer Name </th>
+    <th>Mini Bio</th>
   </tr>
 </thead>
 <tbody>
@@ -43,6 +44,7 @@ Aachen Toastmasters ist der spaßigste Club in der Region, und wenn Du uns nicht
   <tr>
     <td class="row1">Vizepräsident für Weiterbildung<br><span style="font-style:italic">VP Education</span></td>
     <td class="row2">Carmine Bianco</td>
+    <td class="row3">Ich bin 27 Jahre alt, gebürtig Softwareentwickler und beruflich Italiener (oder andersrum). Auf der Bühne tanze ich gerne rum, mache Wortspiele und reiße Witze, über die nur ich lache. Ich lebe seit 2014 in Aachen und bin seit Ende 2021 Mitglied bei Toastmasters Aachen; am Club schätze ich, dass man sich immer wohlwollend Rückmeldung gibt, und dass man immer die Gelegenheit bekommt, über den Tellerrand (und jenseits der Tech-Blase) zu schauen. Meine Lieblingsrollen sind Ah-Counter und Grammarian, denn ich finde Füllwörter, ähm, nervig und Anglizismen cringe.</td>
   </tr>
   <tr>
     <td class="row1">Schatzmeister<br><span style="font-style:italic">Treasurer</span></td>
