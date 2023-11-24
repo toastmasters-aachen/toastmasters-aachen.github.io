@@ -36,8 +36,9 @@ Aachen Toastmasters ist der spaßigste Club in der Region, und wenn Du uns nicht
 </thead>
 <tbody>
   <tr>
-    <td class="row1">1. Vorsitzender<br><span style="font-style:italic">President</span></td>
+    <td class="row1">1. Vorsitzender<br><span style="font-style:italic">President</span><br> Leiter des Clubs und verantwortlich für die Gesamtführung, Koordination und Organisation der Clubaktivitäten</td>
     <td class="row2">Harmen Westerhof</td>
+    <td class="row3">Ich bin geburtiger Niederländer, und seit 12 Jahren in Aachen. Ich liebe die zelebrierende, inkludierende und ermutigende Atmosphäre bei Toastmasters Aachen. Sie hat förmlich dazu beigetragen, dass ich aus meiner Depression geklettert bin. Jeder der sich traut, auf die Bühne zu kommen, bekommt Applaus, egal wie man abschneidet, und das Feedback, das man bekommt, ist immer wertschätzend gemeint. Ich arbeite bei einem Second-Handladen, und in Zukunft sehe ich mich als Motivationsredner, Mentor, und Outdoor-educator. Ich liebe es sonst noch, zu wandern, bergzusteigen, zu tanzen, zu philosophieren, zu meditieren, zuzuhören, und ich spiele gern Didgeridoo!</td>
   </tr>
   <tr>
     <td class="row1">Vizepräsident für Weiterbildung<br><span style="font-style:italic">VP Education</span></td>
