@@ -53,10 +53,15 @@ Aachen Toastmasters ist der spaßigste Club in der Region, und wenn Du uns nicht
   <tr>
     <td class="row1">Vizepräsident für Mitgliedschaft<br><span style="font-style:italic">VP Membership</span></td>
     <td class="row2">Amadeus Küppers</td>
+    <td class="row3">Neben meiner Rolle bei den Toastmasters interessiere ich mich für Wirtschaft, Leadership, Technik, Startups,  Reisen und vieles mehr.
+Mein Motto: “Wer nichts wagt, der nichts gewinnt – einfach mal machen!“
+</td>
   </tr>
   <tr>
     <td class="row1">Vizepräsidentin für Öffentlichkeitsarbeit<br><span style="font-style:italic">VP Public Relations</span></td>
     <td class="row2">Mia Giang Do</td>
+    <td class="row3">Ich bin im Jahr 2022 Toastmasters-Club Aachen beigetreten, um meine Kommunikationsfähigkeiten zu stärken und mein soziales Netzwerk zu erweitern. Seitdem bin ich fast bei jedem Meeting dabei, da die einzigartige, konstruktive Atmosphäre und die ehrlichen, dennoch respektvollen Rückmeldungen der anderen Mitglieder mir enorm weiterhelfen. Beruflich bin ich in der Physik tätig, und in meiner Freizeit bin ich eine begeisterte Pflanzenliebhaberin.
+</td>
   </tr>
   <tr>
     <td class="row1">Schriftführerin<br><span style="font-style:italic">Secretary</span></td>
@@ -69,6 +74,9 @@ Aachen Toastmasters ist der spaßigste Club in der Region, und wenn Du uns nicht
   <tr>
     <td class="row1">Vizepräsident für Mentoring<br><span style="font-style:italic">VP Mentoring</span></td>
     <td class="row2">Goutham G. Nimmala</td>
+    <td class="row3"> Ich bin Toastmasters beigetreten, um meine Kommunikationsfähigkeit und meine Deutschkenntnis zu verbessern. 
+In meiner Position als Vizepräsident für Mentoring überwache ich den Fortschritt unseres Mentoringprogramms, unterstütze Mitglieder bei der Anmeldung und bringe potenzielle Mentoren und Mentees zusammen. Meine Aufgabe steht im Einklang mit der Mission von Toastmasters, die individuelle Entwicklung und die Bewältigung von Herausforderungen durch gegenseitige Unterstützung zu fördern.
+</td>
   </tr>
   <tr>
     <td class="row1">Vizepräsidentin für Mitgliedschaft - Support<br><span style="font-style:italic">VP Membership - Support</span></td>
@@ -77,6 +85,9 @@ Aachen Toastmasters ist der spaßigste Club in der Region, und wenn Du uns nicht
   <tr>
     <td class="row1">Vizepräsidentin für Öffentlichkeitsarbeit - Support<br><span style="font-style:italic">VP Public Relations - Support</span></td>
     <td class="row2">Ashika Lanser <span style="font-weight:bold">CC CL</span></td>
+    <td class="row3">Nachdem ich 2016 dem Club beigetreten bin, hat sich nicht nur mein beruflicher Werdegang bereichert, gelohnt und noch mehr Spaß gemacht, sondern auch mein Privatleben hat unzählige Vorteile gebracht.
+Es ist nicht nur die positive Einstellung, sondern auch das konsequente Training, das Feedback und manchmal auch der Druck, der auf einem lastet. Mein einziges Bedauern?  Dass ich nicht zehn Jahre früher angefangen habe.
+Jetzt bin ich Vollzeitstudentin der Sozialen Arbeit und Teilzeit-Integrationslehrerin in Düren, wo ich mit Migrantinnen arbeite.  Und das, wenn ich nicht gerade damit beschäftigt bin, meine Familie zu erziehen und immer mehr Lebensmittel zu Hause anzubauen. </td>
   </tr>
 </tbody>
 </table>
