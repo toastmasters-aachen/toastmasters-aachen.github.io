@@ -36,6 +36,8 @@ Falls Du noch weiter Infos brauchst, dann schicke uns eine Mail!
 
 # Unsere Socials
 
+#  <img src="/assets/images/social_medien.pdf" width="600" style="display: block; margin-left: auto; margin-right: auto;">
+
 [Meetup](https://meetu.ps/c/4s2D7/Dg7x6/d) 
 
 [Facebook](https://www.facebook.com/ToastmastersAachen) 
