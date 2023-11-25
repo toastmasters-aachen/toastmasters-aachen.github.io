@@ -1,9 +1,12 @@
 ---
 layout: default
 ---
-#  <img src="/assets/images/TM_International_Numbers(1).png" width="600" style="display: block; margin-left: auto; margin-right: auto;">
 
 # Was ist Toastmasters International?
+
+#  <img src="/assets/images/TM_International_Numbers(1).png" width="600" style="display: block; margin-left: auto; margin-right: auto;">
+
+
 
 Toastmasters International ist eine Non-Profit-Bildungsorganisation, in der Mitglieder im Rahmen eines weltweiten Netzwerks von Clubs Kommunikations- und
 Rhetorikfähigkeiten sowie Führungskompetenzen erlernen können.
@@ -11,22 +14,11 @@ Die Organisation mit Zentrale in Kalifornien hat derzeit über 313.000 Mitgliede
 Seit 1924 hilft Toastmasters International Menschen dabei, mit mehr Selbstvertrauen vor Publikum zu sprechen.
 
 
-**Entwicklung von Führungskompetenzen**
-
-Verbessere deine Softskills im Bereich Zeitmanagement, Teamarbeit, Problemlösung und Entscheidungsfindung.
-
-**Bestimme dein eigenes Lerntempo**
-
-Toastmasters ist flexibel und passt sich an deinen Kalender an, damit du nicht die Balance verlierst.
-
-
-
 # Wie funktioniert Toastmasters?
 
 #  <img src="/assets/images/DE_club_enhanced.png" width="1200" style="display: block; margin-left: auto; margin-right: auto;">
 
 Der typische Toastmasters Club hat 20-40 Mitglieder.
-Jedes Mitglied setzt seine Ziele selbst und bestimmt sein eigenes Lerntempo.
 
 Der erste Teil jedes Treffens ist vorbereiteten Reden gewidmet.
 Mitglieder erarbeiten diese mithilfe eines Handbuchs.
