@@ -4,6 +4,8 @@ layout: default
 
 # Unser Club
 
+<img src="/assets/images/tmac-500-grouppic.jpg" width="800" style="display: block; margin-left: auto; margin-right: auto;">
+
 Wir sind eine dynamische Gruppe aus allen Teilen der Welt, die sich der Entwicklung von Fähigkeiten in den Bereichen Kommunikation und Führungskompetenz widmet.
 Egal ob Nestküken oder alter Hase, unser Verein besteht aus Mitgliedern aller Altersklassen und Erfahrungslevels.
 Durch Aachen als Universitätsstadt sind unsene Mitglieder sowohl Studierende als auch Berufstätige aus verschiedensten Branchen.
