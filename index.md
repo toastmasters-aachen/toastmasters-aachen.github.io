@@ -34,7 +34,7 @@ Falls Du noch weiter Infos brauchst, dann schicke uns eine Mail!
 [info@aachen-toastmasters.de](mailto:info@aachen-toastmasters.de).
 
 
-# Unsere Socials
+# So kannst du uns finden!
 
 #  <img src="/assets/images/social_medien.png" width="600" style="display: block; margin-left: auto; margin-right: auto;">
 
