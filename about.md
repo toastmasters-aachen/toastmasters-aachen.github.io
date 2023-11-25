@@ -51,6 +51,8 @@ Aachen Toastmasters ist der spaßigste Club in der Region, und wenn Du uns nicht
   <tr>
     <td class="row1">Schatzmeister<br><span style="font-style:italic">Treasurer</span></td>
     <td class="row2">Sebastian Vogt</td>
+    <td class="row3">Seit 2019 bin ich in Aachen und leidenschaftlich im Bereich Finanzen und Psychologie tätig. Ursprünglich komme ich aus Thüringen und habe Anfang 2023 Toastmasters für mich entdeckt. Der Spruch “Where Leaders Are Made” fasziniert mich an Toastmasters, weil man mit Reden so viele Menschen bewegen und zum Nachdenken anregen kann. Mein Ziel ist es, meinen bescheidenen Beitrag zum Team zu leisten und das Halten von Reden zu entwickeln. Besonders beeindruckt hat mich die Wertschätzung beim Halten von Reden. Wir arbeiten gemeinsam in einem engagierten Team und freuen uns über jedes Mitglied. In meiner Freizeit steht für mich das Thema Persönlichkeitsentwicklung im Vordergrund, was ich mit Toastmasters perfekt verbinden kann.
+</td>
   </tr>
   <tr>
     <td class="row1">Vizepräsident für Mitgliedschaft<br><span style="font-style:italic">VP Membership</span></td>
