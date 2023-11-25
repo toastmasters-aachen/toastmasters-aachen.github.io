@@ -34,10 +34,10 @@ Falls Du noch weiter Infos brauchst, dann schicke uns eine Mail!
 [info@aachen-toastmasters.de](mailto:info@aachen-toastmasters.de).
 
 
-# Our Socials
-
-Coming soon!
+# Unsere Socials
 
 [Meetup](https://meetu.ps/c/4s2D7/Dg7x6/d) 
 
 [Facebook](https://www.facebook.com/ToastmastersAachen) 
+
+[Instagram](https://www.instagram.com/toastmasters.aachen/?hl=de)
