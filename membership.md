@@ -4,7 +4,7 @@ layout: default
 
 # Mitglied werden
 
-<img src="/assets/images/members_vs_guests_v1.jpg" width="800" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="/assets/images/members_vs_guests_v1.png" width="800" style="display: block; margin-left: auto; margin-right: auto;">
 
 
 Die Toastmasters-Mitgliedschaft ist grundsätzlich allen volljährigen Interessent*innen offen.
