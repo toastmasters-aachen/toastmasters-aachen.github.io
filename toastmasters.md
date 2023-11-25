@@ -23,7 +23,7 @@ Toastmasters ist flexibel und passt sich an deinen Kalender an, damit du nicht d
 
 # Wie funktioniert Toastmasters?
 
-#  <img src="/assets/images/DE_club_enhanced.png" width="900" style="display: block; margin-left: auto; margin-right: auto;">
+#  <img src="/assets/images/DE_club_enhanced.png" width="1200" style="display: block; margin-left: auto; margin-right: auto;">
 
 Der typische Toastmasters Club hat 20-40 Mitglieder.
 Jedes Mitglied setzt seine Ziele selbst und bestimmt sein eigenes Lerntempo.
