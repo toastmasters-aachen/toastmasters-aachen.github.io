@@ -41,3 +41,5 @@ Falls Du noch weiter Infos brauchst, dann schicke uns eine Mail!
 [Facebook](https://www.facebook.com/ToastmastersAachen) 
 
 [Instagram](https://www.instagram.com/toastmasters.aachen/?hl=de)
+
+[LinkedIn](https://www.linkedin.com/company/11868161/admin/feed/posts/)
