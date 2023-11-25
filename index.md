@@ -37,3 +37,6 @@ Falls Du noch weiter Infos brauchst, dann schicke uns eine Mail!
 # Our Socials
 
 Coming soon!
+
+[Meetup](https://meetu.ps/c/4s2D7/Dg7x6/d) 
+[Facebook](https://www.facebook.com/ToastmastersAachen)https://www.facebook.com/ToastmastersAachen) 
