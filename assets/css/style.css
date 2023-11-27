@@ -149,16 +149,20 @@ p {
 
 .blog-preview-title {
     font-size: 15pt;
+    margin: 0;
     padding-bottom: 10px;
     color: #555;
-    text-align: left;
+    text-align: center;
 }
 
 .blog-preview {
+    background-color: #FAF9F6;
+    text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    border-radius: 10px;
     margin-bottom: 20px;
 }
 
