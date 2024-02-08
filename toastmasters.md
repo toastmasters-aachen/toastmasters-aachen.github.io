@@ -4,7 +4,7 @@ layout: default
 
 # Was ist Toastmasters International?
 
-#  <img src="/assets/images/TM_International_Numbers(1).png" width="600" style="display: block; margin-left: auto; margin-right: auto;">
+#  <img src="/assets/images/TM_International_Numbers.png" width="600" style="display: block; margin-left: auto; margin-right: auto;">
 
 
 
