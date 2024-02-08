@@ -105,7 +105,7 @@ Jetzt bin ich Vollzeitstudentin der Sozialen Arbeit und Teilzeit-Integrationsleh
 <a href="https://www.toastmasters.org/education/pathways">Toastmasters Basecamp and Pathways</a> - Our Education Tools and Programs
 
 
-# Achtung, Toastmasteres Aachen ist beim Wettbewerbe immer dabei!
+# Achtung, Toastmasters Aachen ist beim Wettbewerbe immer dabei!
 <i>Im Jahr 2017, weniger als ein Jahr nach meinem Eintritt in den Club als Mitglied, habe ich verschiedene Städte in NRW besucht und bin sogar zur Bezirkskonferenz nach Berlin gefahren, zum Halbfinale des Bewertungsredewettbewerbs. Ich habe diese Runde zwar nicht gewonnen, aber ich habe eine Menge Erfahrung gesammelt.</i>  
 
 <i>Damals vor ein paar hundert Leuten zu sprechen, hat immer noch einen Einfluss darauf, wie ich bei der Arbeit, zu Hause und in meinem Club auftrete.</i>
