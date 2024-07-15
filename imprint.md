@@ -8,13 +8,13 @@ layout: default
 ### Angaben gemäß § 5 TMG
 
 Toastmasters Aachen e. V.  
-Dammstraße 51  
-52066 Aachen  
+Elsassstraße 55a
+52068 Aachen
 
 Vereinsregister: VR 5558  
 Registergericht: Amtsgericht Aachen
 
-**Vertreten durch**: Harmen Westerhof
+**Vertreten durch**: Sebastian Vogt
 
 
 ### Kontakt
@@ -30,9 +30,9 @@ E-Mail: info@aachen-toastmasters.de
 
 ### Redaktionell verantwortlich
 
-Harmen Westerhof  
-Dammstraße 51  
-52066 Aachen  
+Sebastian Vogt  
+Elsassstraße 55a
+52068 Aachen
 
 
 ### Verbraucherstreitbeilegung/Universalschlichtungsstelle
