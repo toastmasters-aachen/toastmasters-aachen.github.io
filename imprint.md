@@ -8,7 +8,7 @@ layout: default
 ### Angaben gemäß § 5 TMG
 
 Toastmasters Aachen e. V.  
-Elsassstraße 55a
+Elsassstraße 55a<br>
 52068 Aachen
 
 Vereinsregister: VR 5558  
@@ -31,7 +31,7 @@ E-Mail: info@aachen-toastmasters.de
 ### Redaktionell verantwortlich
 
 Sebastian Vogt  
-Elsassstraße 55a
+Elsassstraße 55a<br>
 52068 Aachen
 
 
