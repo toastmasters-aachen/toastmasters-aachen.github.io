@@ -49,7 +49,7 @@ Aachen Toastmasters ist der spaßigste Club in der Region, und wenn Du uns nicht
       <td class="row3">Ich bin im Jahr 2022 Toastmasters-Club Aachen beigetreten, um meine Kommunikationsfähigkeiten zu stärken und mein soziales Netzwerk zu erweitern. Seitdem bin ich fast bei jedem Meeting dabei, da die einzigartige, konstruktive Atmosphäre und die ehrlichen, dennoch respektvollen Rückmeldungen der anderen Mitglieder mir enorm weiterhelfen. Beruflich bin ich in der Physik tätig, und in meiner Freizeit bin ich eine begeisterte Pflanzenliebhaberin.</td>
     </tr>
     <tr>
-      <td class="row1"><b>Schatzmeister</b><br><span style="font-style:italic">Finanzverwalterin des Clubs</span></td>
+      <td class="row1"><b>Schatzmeisterin</b><br><span style="font-style:italic">Finanzverwalterin des Clubs</span></td>
      <td class="row2" style="width: 160px;">Julia Kobuk</td>
       <td class="row3"></td>
     </tr>
@@ -64,7 +64,7 @@ Aachen Toastmasters ist der spaßigste Club in der Region, und wenn Du uns nicht
       <td class="row3"></td>
     </tr>
     <tr>
-      <td class="row1"><b>Saalmeister</b><br><span style="font-style:italic">Koordinatorin der Clubtreffen und verantwortlich für die Pflege und Aufbewahrung des Clubeigentums</span></td>
+      <td class="row1"><b>Saalmeisterin</b><br><span style="font-style:italic">Koordinatorin der Clubtreffen und verantwortlich für die Pflege und Aufbewahrung des Clubeigentums</span></td>
        <td class="row2" style="width: 160px;">Raneem Alkateb</td>
       <td class="row3"></td>
     </tr>
