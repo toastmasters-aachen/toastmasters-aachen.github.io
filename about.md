@@ -32,7 +32,7 @@ Aachen Toastmasters ist der spaßigste Club in der Region, und wenn Du uns nicht
   <thead>
     <tr>
       <th> <b>Vorstandsrolle</b> </th>
-      <th style="width: 160px;">Name</b> </th>
+      <th style="width: 160px;"> <b>Name</b> </th>
       <th> <b> Mini-Biografie </b> </th>
     </tr>
   </thead>
