@@ -28,8 +28,8 @@ Und eines hat sich in den zehn Jahren nicht geändert:
 Aachen Toastmasters ist der spaßigste Club in der Region, und wenn Du uns nicht glaubst, komm vorbei und überzeug' Dich selbst!
 
 ## Unser Team - Der Vorstand 2023-2024
-| **Rolle im Vorstand**  | **Officer Name**     | **Mini Bio**                                                                                                                                                                                                                       |
-|------------------------|----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Rolle im Vorstand**  | **Officer Name**     | **Mini Bio** |
+|------------------------|----------------------|--------------|
 | **Präsident**          | Sebastian Vogt       | Seit 2019 bin ich in Aachen und leidenschaftlich im Bereich Finanzen und Psychologie tätig. Ursprünglich komme ich aus Thüringen und habe Anfang 2023 Toastmasters für mich entdeckt und war als Schatzmeister im Vorstand tätig. Der Spruch “Where Leaders Are Made” fasziniert mich an Toastmasters, weil man mit Reden so viele Menschen bewegen und zum Nachdenken anregen kann. Mein Ziel ist es jetzt als Präsident meinen bescheidenen Beitrag zum Team zu leisten und das Halten von Reden zu entwickeln. Besonders beeindruckt hat mich die Wertschätzung beim Halten von Reden. Wir arbeiten gemeinsam in einem engagierten Team und freuen uns über jedes Mitglied. In meiner Freizeit steht für mich das Thema Persönlichkeitsentwicklung im Vordergrund, was ich mit Toastmasters perfekt verbinden kann. |
 
 # Online Resources
