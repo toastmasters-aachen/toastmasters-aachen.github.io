@@ -28,53 +28,49 @@ Und eines hat sich in den zehn Jahren nicht geändert:
 Aachen Toastmasters ist der spaßigste Club in der Region, und wenn Du uns nicht glaubst, komm vorbei und überzeug' Dich selbst!
 
 ## Unser Team - Der Vorstand 2023-2024
-
 <table class="tg">
-<thead>
-  <tr>
-    <th>Rolle im Vorstand<br><span style="font-style:italic">Officer Board Role</span></th>
-    <th>Officer Name </th>
-    <th>Mini Bio</th>
-  </tr>
-</thead>
+  <thead>
+    <tr>
+      <th> <b>Vorstandsrolle</b> </th>
+      <th style="width: 160px;">Name</b> </th>
+      <th> <b> Mini-Biografie </b> </th>
+    </tr>
+  </thead>
 
-<tbody>
-  <tr>
-    <td class="row1"> <b>Präseident</b> <br><span style="font-style:italic"> Leiter des Clubs und verantwortlich für die Gesamtführung, Koordination und Organisation der Clubaktivitäten</td>
-    <td class="row2">Sebastian Vogt</td>
-    <td class="row3">Seit 2019 bin ich in Aachen und leidenschaftlich im Bereich Finanzen und Psychologie tätig. Ursprünglich komme ich aus Thüringen und habe Anfang 2023 Toastmasters für mich entdeckt und war als Schatzmeister im Vorstand tätig. Der Spruch “Where Leaders Are Made” fasziniert mich an Toastmasters, weil man mit Reden so viele Menschen bewegen und zum Nachdenken anregen kann. Mein Ziel ist es jetzt als Präsident meinen bescheidenen Beitrag zum Team zu leisten und das Halten von Reden zu entwickeln. Besonders beeindruckt hat mich die Wertschätzung beim Halten von Reden. Wir arbeiten gemeinsam in einem engagierten Team und freuen uns über jedes Mitglied. In meiner Freizeit steht für mich das Thema Persönlichkeitsentwicklung im Vordergrund, was ich mit Toastmasters perfekt verbinden kann.
-</td>
-  </tr>
-  <tr>
-    <td class="row1"> <b>Vizepräsidentin für Weiterbildung</b><br><span style="font-style:italic"> Koordinatorin des Bildungsprogramms und zuständig für die Überwachung der Fortschritte von Mitglieder</td>
-    <td class="row2">Mia Giang Do</td>
-    <td class="row3">
-Ich bin im Jahr 2022 Toastmasters-Club Aachen beigetreten, um meine Kommunikationsfähigkeiten zu stärken und mein soziales Netzwerk zu erweitern. Seitdem bin ich fast bei jedem Meeting dabei, da die einzigartige, konstruktive Atmosphäre und die ehrlichen, dennoch respektvollen Rückmeldungen der anderen Mitglieder mir enorm weiterhelfen. Beruflich bin ich in der Physik tätig, und in meiner Freizeit bin ich eine begeisterte Pflanzenliebhaberin.
-</td>
-  </tr>
-  <tr>
-    <td class="row1"><b>Schatzmeister</b><br><span style="font-style:italic">  Zuständiger für die finanzielle Verwaltung des Clubs</td>
-    <td class="row2">Julia Kobuk</td>
-    <td class="row3">
-</td>
-  </tr>
-  <tr>
-    <td class="row1"><b>Vizepräsident für Mitgliedschaft</b><br><span style="font-style:italic"> Koordinator der Mitgliederakquise und -bindung; Erster Ansprechpartner für Mitglieder & Gäste</td>
-    <td class="row2">Marcel Speckens</td>
-    <td class="row3">Mein bester Freund würde über mich folgendes sagen: 
-“Marcel ist ein leidenschaftlicher Mensch – spontan, energiegeladen und empathisch. Das Leben führte ihn an einem Tiefpunkt zu Toastmasters. Hier lernte er, auch in schwierigen Momenten authentisch zu bleiben. Seit seinem Beitritt im Mai 2024 wirkt er selbstbewusster und hat seine Führungskompetenzen deutlich gestärkt."
-</td>
+  <tbody>
+    <tr>
+      <td class="row1"><b>Präsident</b><br><span style="font-style:italic">Leiter des Clubs und verantwortlich für die Gesamtführung, Koordination und Organisation der Clubaktivitäten</span></td>
+      <td class="row2" style="width: 160px;">Sebastian Vogt</td>
+      <td class="row3">Seit 2019 bin ich in Aachen und leidenschaftlich im Bereich Finanzen und Psychologie tätig. Ursprünglich komme ich aus Thüringen und habe Anfang 2023 Toastmasters für mich entdeckt und war als Schatzmeister im Vorstand tätig. Der Spruch “Where Leaders Are Made” fasziniert mich an Toastmasters, weil man mit Reden so viele Menschen bewegen und zum Nachdenken anregen kann. Mein Ziel ist es jetzt als Präsident meinen bescheidenen Beitrag zum Team zu leisten und das Halten von Reden zu entwickeln. Besonders beeindruckt hat mich die Wertschätzung beim Halten von Reden. Wir arbeiten gemeinsam in einem engagierten Team und freuen uns über jedes Mitglied. In meiner Freizeit steht für mich das Thema Persönlichkeitsentwicklung im Vordergrund, was ich mit Toastmasters perfekt verbinden kann.</td>
+    </tr>
+    <tr>
+      <td class="row1"><b>Vizepräsidentin für Weiterbildung</b><br><span style="font-style:italic">Koordinatorin des Bildungsprogramms und zuständig für die Überwachung der Fortschritte von Mitgliedern</span></td>
+      <td class="row2" style="width: 160px;">Mia Giang Do</td>
+      <td class="row3">Ich bin im Jahr 2022 Toastmasters-Club Aachen beigetreten, um meine Kommunikationsfähigkeiten zu stärken und mein soziales Netzwerk zu erweitern. Seitdem bin ich fast bei jedem Meeting dabei, da die einzigartige, konstruktive Atmosphäre und die ehrlichen, dennoch respektvollen Rückmeldungen der anderen Mitglieder mir enorm weiterhelfen. Beruflich bin ich in der Physik tätig, und in meiner Freizeit bin ich eine begeisterte Pflanzenliebhaberin.</td>
+    </tr>
+    <tr>
+      <td class="row1"><b>Schatzmeister</b><br><span style="font-style:italic">Finanzverwalterin des Clubs</span></td>
+     <td class="row2" style="width: 160px;">Julia Kobuk</td>
+      <td class="row3"></td>
+    </tr>
+    <tr>
+      <td class="row1"><b>Vizepräsident für Mitgliedschaft</b><br><span style="font-style:italic">Koordinator der Mitgliederakquise und -bindung; Erster Ansprechpartner für Mitglieder &; Gäste</span></td>
+      <td class="row2" style="width: 160px;">Marcel Speckens</td>
+      <td class="row3">Mein bester Freund würde über mich folgendes sagen: “Marcel ist ein leidenschaftlicher Mensch – spontan, energiegeladen und empathisch. Das Leben führte ihn an einem Tiefpunkt zu Toastmasters. Hier lernte er, auch in schwierigen Momenten authentisch zu bleiben. Seit seinem Beitritt im Mai 2024 wirkt er selbstbewusster und hat seine Führungskompetenzen deutlich gestärkt."</td>
+    </tr>
+    <tr>
+      <td class="row1"><b>Schriftführerin</b><br><span style="font-style:italic">Protokollführerin bei Clubtreffen und Verwalter über Club-Dokumente</span></td>
+       <td class="row2" style="width: 160px;">Anna K. Bernrath</td>
+      <td class="row3"></td>
+    </tr>
+    <tr>
+      <td class="row1"><b>Saalmeister</b><br><span style="font-style:italic">Koordinatorin der Clubtreffen und verantwortlich für die Pflege und Aufbewahrung des Clubeigentums</span></td>
+       <td class="row2" style="width: 160px;">Raneem Alkateb</td>
+      <td class="row3"></td>
+    </tr>
 
-  <tr>
-    <td class="row1"><b>Schriftführerin</b><br><span style="font-style:italic">Protokollführerin bei Clubtreffen und Verwalter über Club-Dokumente </span></td>
-    <td class="row2">Anna K. Bernrath</td>
-    <td class="row3"> </td>
-  <tr>
-    <td class="row1"><b>Saalmeister</b><br><span style="font-style:italic">Koordinator der Clubtreffen und verantwortlich für die Pflege und Aufbewahrung des Clubeigentums</span></td>
-    <td class="row2">Raneem Alkateb</td>
-    <td class="row3"> </td>
-</tbody>
-</table>
+  </tbody>
+</table> 
 
 # Online Resources
 
