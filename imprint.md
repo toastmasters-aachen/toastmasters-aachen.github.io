@@ -8,13 +8,13 @@ layout: default
 ### Angaben gemäß § 5 TMG
 
 Toastmasters Aachen e. V.  
-Elsassstraße 55a<br>
-52068 Aachen
+Grachtstr. 29<br>
+52134 Herzogenrath
 
 Vereinsregister: VR 5558  
 Registergericht: Amtsgericht Aachen
 
-**Vertreten durch**: Sebastian Vogt
+**Vertreten durch**: Yuliya Kobuk
 
 
 ### Kontakt
@@ -30,9 +30,9 @@ E-Mail: info@aachen-toastmasters.de
 
 ### Redaktionell verantwortlich
 
-Sebastian Vogt  
-Elsassstraße 55a<br>
-52068 Aachen
+Yuliya Kobuk  
+Grachtstr. 29<br>
+52134 Herzogenrath
 
 
 ### Verbraucherstreitbeilegung/Universalschlichtungsstelle
