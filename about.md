@@ -66,9 +66,13 @@ Aachen Toastmasters ist der spaßigste Club in der Region, und wenn Du uns nicht
     <tr>
       <td class="row1"><b>Saalmeister</b><br><span style="font-style:italic">Koordinator der Clubtreffen und verantwortlich für die Pflege und Aufbewahrung des Clubeigentums</span></td>
        <td class="row2" style="width: 160px;">Ayoub Lamrani</td>
-      <td class="row3"></td>
+      <td class="row3">Ich bin Ayoub, 24 Jahre alt und studiere Informatik an der RWTH. Ich bin Toastmasters beigetreten, um neue Leute kennenzulernen, zu lernen, wie man vor Publikum spricht, und um mehr Kontakte zu knüpfen. Was ich an Toastmasters liebe, ist das Gemeinschaftsgefühl und wie wir uns gegenseitig helfen, in einer entspannten und unterstützenden Atmosphäre voranzukommen.</td>
     </tr>
-
+    <tr>
+      <td class="row1"><b>Vizepräsidentin für Öffentlichkeitsarbeit</b><br><span style="font-style:italic">Zuständig für die Außendarstellung und externe Kommunikation des Clubs.</span></td>
+       <td class="row2" style="width: 160px;">Annika Reitz</td>
+      <td class="row3">Hi, ich bin Annika! Ich habe ein Startup gegründet und bin zu Toastmasters gekommen, um meine Bühnenangst zu überwinden und selbstbewusster auf der Bühne zu sprechen. Bei Toastmasters fühlt sich jeder willkommen und ich merke, wie ich jedes Mal ein Stück mehr über mich hinauswachse.</td>
+    </tr>
   </tbody>
 </table> 
 
