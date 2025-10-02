@@ -27,7 +27,7 @@ Wir haben schon viele Mitglieder auf überregionale Wettbewerbe geschickt und ha
 Und eines hat sich in den zehn Jahren nicht geändert:
 Aachen Toastmasters ist der spaßigste Club in der Region, und wenn Du uns nicht glaubst, komm vorbei und überzeug' Dich selbst!
 
-## Unser Team - Der Vorstand 2023-2024
+## Unser Team - Der Vorstand 2025-2026
 <table class="tg">
   <thead>
     <tr>
@@ -41,7 +41,7 @@ Aachen Toastmasters ist der spaßigste Club in der Region, und wenn Du uns nicht
     <tr>
       <td class="row1"><b>Präsidentin</b><br><span style="font-style:italic">Leiterin des Clubs und verantwortlich für die Gesamtführung, Koordination und Organisation der Clubaktivitäten</span></td>
       <td class="row2" style="width: 160px;">Yuliya Kobuk</td>
-      <td class="row3">tba</td>
+      <td class="row3">Ich bin Yuliya aus der Ukraine und es ist mir eine Ehre, als Präsidentin des Toastmasters Aachen Clubs zu fungieren. Nach vielen Jahren als Unternehmerin und Beraterin im Bereich der internationalen Bildung erweitere ich nun mein Fachwissen in den Bereichen IT-Systemmanagement, Geschäftstechnologien und Digitalisierung – und das alles in Kombination mit meinem geschäftigen Mutterdasein. Ich habe Toastmasters vor über 15 Jahren kennengelernt und hatte das Glück, Mitglied in insgesamt vier verschiedenen Clubs in drei verschiedenen Ländern zu sein. Aus meiner persönlichen Erfahrung kann ich bestätigen, dass sich Toastmasters seitdem kein bisschen verändert hat – es ist nach wie vor eine fördernde Gemeinschaft von aufgeschlossenen und engagierten Menschen, die nie müde werden, sich weiterzuentwickeln und Spaß zu haben. Lasst uns gemeinsam wachsen und Spaß haben!</td>
     </tr>
     <tr>
       <td class="row1"><b>Vizepräsident für Weiterbildung</b><br><span style="font-style:italic">Koordinator des Bildungsprogramms und zuständig für die Überwachung der Fortschritte von Mitgliedern</span></td>
@@ -51,12 +51,12 @@ Aachen Toastmasters ist der spaßigste Club in der Region, und wenn Du uns nicht
     <tr>
       <td class="row1"><b>Schatzmeisterin</b><br><span style="font-style:italic">Finanzverwalterin des Clubs</span></td>
      <td class="row2" style="width: 160px;">Raneem Alkateb</td>
-      <td class="row3"></td>
+      <td class="row3">Ich bin 2024 zu Toastmasters gekommen, um mich selbst herauszufordern und mich als Kommunikatorin und Führungskraft weiterzuentwickeln. Als Schatzmeisterin verwalte ich die Finanzen unseres Clubs, damit wir uns darauf konzentrieren können, uns gegenseitig dabei zu unterstützen, selbstbewusstere Redner zu werden. Außerhalb von Toastmasters gehe ich gerne laufen, reise gerne und tanze gerne.</td>
     </tr>
     <tr>
       <td class="row1"><b>Vizepräsident für Mitgliedschaft</b><br><span style="font-style:italic">Koordinator der Mitgliederakquise und -bindung; Erster Ansprechpartner für Mitglieder &; Gäste</span></td>
       <td class="row2" style="width: 160px;">Ivan Karetic</td>
-      <td class="row3">tba</td>
+      <td class="row3">Ich bin Mitbegründer eines Start-ups für Energiesoftware namens Calvergy, in dessen Wachstum ich derzeit den Großteil meiner Energie investiere. Außerhalb der Arbeit bin ich gerne aktiv, gehe ins Fitnessstudio, laufe und fahre Fahrrad. In meiner Freizeit tanze ich oft Salsa, spiele Schlagzeug oder lerne neue Sprachen (derzeit konzentriere ich mich auf Spanisch). Ich lerne auch sehr gerne neue Leute kennen, was einer der Gründe ist, warum ich mich bei Toastmasters angemeldet habe. Außerdem liebe ich es, neue Dinge auszuprobieren, Kontakte zu knüpfen und meine Fähigkeiten zu erweitern. Am meisten gefällt mir, wie unterstützend und unterhaltsam die Gruppe ist. Das hat mir geholfen, mich auf der Bühne viel sicherer zu fühlen, und ich gehe immer inspiriert nach Hause.</td>
     </tr>
     <tr>
       <td class="row1"><b>Schriftführer</b><br><span style="font-style:italic">Protokollführer bei Clubtreffen und Verwalter über Club-Dokumente</span></td>
