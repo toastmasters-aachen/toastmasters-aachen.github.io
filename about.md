@@ -61,7 +61,7 @@ Aachen Toastmasters ist der spaßigste Club in der Region, und wenn Du uns nicht
     <tr>
       <td class="row1"><b>Schriftführer</b><br><span style="font-style:italic">Protokollführer bei Clubtreffen und Verwalter über Club-Dokumente</span></td>
        <td class="row2" style="width: 160px;">Harmen Westerhof</td>
-      <td class="row3">Harmen ist der derzeitige Sekretär und verantwortlich für die Unterlagen des Vereins und die Protokolle der Vorstandssitzungen. Als ehemaliger Präsident steht er auch beratend zur Seite. Er liebt das Bergsteigen und trägt schon seit langem einen Bart, noch bevor dieser in Mode kam.</td>
+      <td class="row3">Ich bin Harmen und der derzeitige Sekretär und verantwortlich für die Unterlagen des Vereins und die Protokolle der Vorstandssitzungen. Als ehemaliger Präsident stehe ich auch beratend zur Seite. Ich liebe das Bergsteigen und trage schon seit langem einen Bart, noch bevor dieser in Mode kam.</td>
     </tr>
     <tr>
       <td class="row1"><b>Saalmeister</b><br><span style="font-style:italic">Koordinator der Clubtreffen und verantwortlich für die Pflege und Aufbewahrung des Clubeigentums</span></td>
