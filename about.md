@@ -46,7 +46,7 @@ Aachen Toastmasters ist der spaßigste Club in der Region, und wenn Du uns nicht
     <tr>
       <td class="row1"><b>Vizepräsident für Weiterbildung</b><br><span style="font-style:italic">Koordinator des Bildungsprogramms und zuständig für die Überwachung der Fortschritte von Mitgliedern</span></td>
       <td class="row2" style="width: 160px;">Levi Neumann</td>
-      <td class="row3">tba</td>
+      <td class="row3">Mein Weg zu Toastmasters begann mit dem Wunsch, mich persönlich weiterzuentwickeln. Ich spreche gerne vor Menschen – sei es im beruflichen Kontext, etwa in Workshops und Trainings, oder in meinem Hobby Dungeons & Dragons, wo ich als Spieler oder Spielleiter auftrete. Trotz meiner Begeisterung waren solche Situationen jedoch immer mit einer gewissen Nervosität verbunden. Durch meine Erfahrungen bei Toastmasters kann ich nicht nur meine Fähigkeiten verbessern, sondern auch meine Selbstsicherheit nachhaltig stärken.</td>
     </tr>
     <tr>
       <td class="row1"><b>Schatzmeisterin</b><br><span style="font-style:italic">Finanzverwalterin des Clubs</span></td>
@@ -61,7 +61,7 @@ Aachen Toastmasters ist der spaßigste Club in der Region, und wenn Du uns nicht
     <tr>
       <td class="row1"><b>Schriftführer</b><br><span style="font-style:italic">Protokollführer bei Clubtreffen und Verwalter über Club-Dokumente</span></td>
        <td class="row2" style="width: 160px;">Harmen Westerhof</td>
-      <td class="row3"></td>
+      <td class="row3">Harmen ist der derzeitige Sekretär und verantwortlich für die Unterlagen des Vereins und die Protokolle der Vorstandssitzungen. Als ehemaliger Präsident steht er auch beratend zur Seite. Er liebt das Bergsteigen und trägt schon seit langem einen Bart, noch bevor dieser in Mode kam.</td>
     </tr>
     <tr>
       <td class="row1"><b>Saalmeister</b><br><span style="font-style:italic">Koordinator der Clubtreffen und verantwortlich für die Pflege und Aufbewahrung des Clubeigentums</span></td>
