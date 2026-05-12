@@ -22,7 +22,7 @@ Dank des konstruktiven Feedbacks unserer Mitglieder hast du dabei die Möglichke
 
 # Unser nächstes Treffen
 
-**<span style="color:red;">Achtung: Unsere Treffen finden ab dem 12.05.26 immer Dienstagabends in der Digital Church (Jülicher Straße 72a, 52070 Aachen) statt.</span>** 
+**<span style="color:red;">Achtung: Unsere Treffen finden ab dem 12.05.26 immer Dienstagabends um 19:00 in der Digital Church (Jülicher Straße 72a, 52070 Aachen) statt.</span>** 
 
 Alle Events werden auf [Meetup](https://meetu.ps/c/4s2D7/Dg7x6/d) angekündigt. Die Clubabende sind abwechselnd auf Deutsch und Englisch.
 
