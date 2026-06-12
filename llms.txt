@@ -1,0 +1,23 @@
+# Blanko Website Starter
+
+This is a neutral PHP website starter for an AI website-building workshop.
+
+## Important context
+- The technical shell is already prepared: routing, shared header/footer, local assets, security headers, robots.txt, sitemap.xml and placeholder pages exist.
+- The visible website intentionally has no finished content, no real images and no organization-specific copy.
+- Future AI agents should focus on frontend content, layout, visual design, CSS and appropriate image assets.
+
+## Main files
+- `router.php`: extensionless routing for public pages.
+- `.htaccess`: Apache security, redirects, caching and router forwarding.
+- `config/config.php`: neutral site settings and environment defaults.
+- `includes/header.php` and `includes/footer.php`: shared layout shell.
+- `pages/`: public placeholder pages.
+- `assets/css/style.css`: neutral starter CSS.
+
+## Before publishing
+- Replace `https://example.com` in `sitemap.xml` and `robots.txt`.
+- Update `SITE_URL`, `SITE_NAME`, `CONTACT_EMAIL`, `LOCATION_SHORT` and `LOCATION_FULL`.
+- Replace legal placeholder pages with correct legal content.
+- Add extra public pages only when the user's actual website concept requires them.
+- Add real images only after deciding the website topic and visual direction.

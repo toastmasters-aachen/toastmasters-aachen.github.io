@@ -1,0 +1,3 @@
+# Blanko Website Starter
+
+See `llms.txt` for the AI-facing project instructions.
