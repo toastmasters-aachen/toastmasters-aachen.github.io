@@ -1,3 +1,3 @@
-# Blanko Website Starter
+# Toastmasters Aachen e. V.
 
-See `llms.txt` for the AI-facing project instructions.
+Bilingual public speaking & leadership club in Aachen. Weekly meetings Tuesdays at 19:00 at Digital Church. See `llms.txt` for detailed information.

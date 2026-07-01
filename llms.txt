@@ -1,23 +1,26 @@
-# Blanko Website Starter
+# Toastmasters Aachen e. V.
 
-This is a neutral PHP website starter for an AI website-building workshop.
+Toastmasters Aachen e. V. is a bilingual (German/English) non-profit public speaking and leadership club based in Aachen, Germany. Part of the global Toastmasters International network, the club helps members improve their public speaking, presentation, and leadership skills in a supportive and friendly environment.
 
-## Important context
-- The technical shell is already prepared: routing, shared header/footer, local assets, security headers, robots.txt, sitemap.xml and placeholder pages exist.
-- The visible website intentionally has no finished content, no real images and no organization-specific copy.
-- Future AI agents should focus on frontend content, layout, visual design, CSS and appropriate image assets.
+## Key Information
+- **Domain**: https://aachen-toastmasters.de
+- **Contact Email**: info@aachen-toastmasters.de
+- **Meeting Location**: Digital Church Aachen, Jülicher Straße 72a, 52070 Aachen (Germany)
+- **Meeting Schedule**: Every Tuesday at 7:00 PM (19:00). Alternating weekly between German and English.
+- **Guests Policy**: Guests are warmly welcome to attend any meeting for free (CTA: "Komm einfach vorbei!"). No registration required.
 
-## Main files
-- `router.php`: extensionless routing for public pages.
-- `.htaccess`: Apache security, redirects, caching and router forwarding.
-- `config/config.php`: neutral site settings and environment defaults.
-- `includes/header.php` and `includes/footer.php`: shared layout shell.
-- `pages/`: public placeholder pages.
-- `assets/css/style.css`: neutral starter CSS.
+## Core Board Members (2025/2026)
+- **President**: Ayoub (Club leadership, representation, and strategy)
+- **Vice President Education**: Adnen (Education program, meeting planning, and speech slots)
+- **Treasurer**: Sophia (Club finances, membership fees, and financial health)
+- **Vice President Membership**: Lev (Guest onboarding and relations)
+- **Vice President Public Relations**: Zisan (Marketing, website, and social media)
+- **Secretary**: Sebastian (Minutes, official documents, and club records)
+- **Sergeant at Arms**: Levi (Logistics, technical setup, and room preparation)
+- **Immediate Past President**: Julia (Advisory role, knowledge transfer)
 
-## Before publishing
-- Replace `https://example.com` in `sitemap.xml` and `robots.txt`.
-- Update `SITE_URL`, `SITE_NAME`, `CONTACT_EMAIL`, `LOCATION_SHORT` and `LOCATION_FULL`.
-- Replace legal placeholder pages with correct legal content.
-- Add extra public pages only when the user's actual website concept requires them.
-- Add real images only after deciding the website topic and visual direction.
+## Club Concept & Offerings
+- **Public Speaking Training**: Guided paths (Pathways) covering presentation design, vocal variety, body language, and storytelling.
+- **Impromptu Speaking (Table Topics)**: Practice speaking spontaneously without preparation.
+- **Constructive Evaluation**: Every speech receives constructive, structured feedback to foster personal growth.
+- **Zweisprachigkeit**: German and English alternating weekly, making the club highly accessible to students (RWTH, FH), international researchers, and professionals in the Städeregion Aachen.

@@ -32,7 +32,7 @@ include ROOT_PATH . '/includes/header.php';
         </div>
         <div class="hero-visual">
             <div class="visual-card-image">
-                <img src="/assets/images/Titelfoto.jpg" alt="Toastmasters Aachen Clubabend in der Digital Church" class="hero-main-img">
+                <img src="/assets/images/Titelfoto.jpg" alt="<?php echo t('Toastmasters Aachen Clubabend in der Digital Church', 'Toastmasters Aachen club meeting at the Digital Church'); ?>" class="hero-main-img" fetchpriority="high">
             </div>
         </div>
     </section>
@@ -161,7 +161,7 @@ include ROOT_PATH . '/includes/header.php';
             <div class="cards-carousel-track">
                 <!-- Slide 1 -->
                 <div class="cards-carousel-item active" data-index="0" role="button" tabindex="0" aria-label="<?php echo t('Bild vergrößern: Erlebe die Gemeinschaft', 'Enlarge Image: Experience the Community'); ?>">
-                    <img src="/assets/images/Galerie.jpg" alt="<?php echo t('Aachener Toastmasters Gemeinschaft', 'Aachen Toastmasters Community'); ?>">
+                    <img src="/assets/images/Galerie.jpg" alt="<?php echo t('Aachener Toastmasters Gemeinschaft', 'Aachen Toastmasters Community'); ?>" loading="lazy">
                     <div class="carousel-item-caption">
                         <h3><?php echo t('Gemeinsam wachsen', 'Grow Together'); ?></h3>
                         <p><?php echo t('Bei uns unterstützt jeder jeden. Herkunft, Alter oder Beruf spielen keine Rolle – Respekt und Zusammenhalt stehen an erster Stelle.', 'Everyone supports each other. Background, age, or profession do not matter – respect and support are our top priorities.'); ?></p>
@@ -170,7 +170,7 @@ include ROOT_PATH . '/includes/header.php';
                 
                 <!-- Slide 2 -->
                 <div class="cards-carousel-item next" data-index="1" role="button" tabindex="0" aria-label="<?php echo t('Bild vergrößern: Die Digital Church', 'Enlarge Image: The Digital Church'); ?>">
-                    <img src="/assets/images/Church 2.jpg" alt="Digital Church Aachen">
+                    <img src="/assets/images/Church 2.jpg" alt="<?php echo t('Die historische Digital Church Aachen, Treffpunkt von Toastmasters', 'The historic Digital Church Aachen, venue of Toastmasters'); ?>" loading="lazy">
                     <div class="carousel-item-caption">
                         <h3><?php echo t('Unsere Bühne für deinen Erfolg', 'Our Stage for Your Success'); ?></h3>
                         <p><?php echo t('In der inspirierenden Digital Church Aachen schaffen wir den optimalen Rahmen, damit du über dich hinauswachsen kannst.', 'In the inspiring Digital Church Aachen, we provide the perfect environment for you to exceed your limits.'); ?></p>
@@ -179,7 +179,7 @@ include ROOT_PATH . '/includes/header.php';
                 
                 <!-- Slide 3 -->
                 <div class="cards-carousel-item" data-index="2" role="button" tabindex="0" aria-label="<?php echo t('Bild vergrößern: Spontane Stegreifreden', 'Enlarge Image: Impromptu Speaking'); ?>">
-                    <img src="/assets/images/Galerie 4.jpg" alt="<?php echo t('Stegreifreden bei Toastmasters', 'Table Topics at Toastmasters'); ?>">
+                    <img src="/assets/images/Galerie 4.jpg" alt="<?php echo t('Stegreifreden bei Toastmasters', 'Table Topics at Toastmasters'); ?>" loading="lazy">
                     <div class="carousel-item-caption">
                         <h3><?php echo t('Mut zur Spontaneität', 'Embrace Spontaneity'); ?></h3>
                         <p><?php echo t('Bei den Stegreifreden lernen wir, ohne Vorbereitung strukturiert und überzeugend zu antworten – mit Spaß und gegenseitigem Vertrauen.', 'In impromptu speaking, we learn to answer in a structured and convincing way without preparation – with fun and mutual trust.'); ?></p>
@@ -188,7 +188,7 @@ include ROOT_PATH . '/includes/header.php';
 
                 <!-- Slide 4 -->
                 <div class="cards-carousel-item prev" data-index="3" role="button" tabindex="0" aria-label="<?php echo t('Bild vergrößern: Vorbereitete Reden', 'Enlarge Image: Prepared Speeches'); ?>">
-                    <img src="/assets/images/Galerie 3.jpg" alt="<?php echo t('Mitglied hält vorbereitete Rede', 'Member delivering prepared speech'); ?>">
+                    <img src="/assets/images/Galerie 3.jpg" alt="<?php echo t('Mitglied hält vorbereitete Rede', 'Member delivering prepared speech'); ?>" loading="lazy">
                     <div class="carousel-item-caption">
                         <h3><?php echo t('Wertschätzung & Feedback', 'Support & Feedback'); ?></h3>
                         <p><?php echo t('Exzellenz entsteht durch Praxis. Nach jeder Rede erhältst du konstruktives, ehrliches Feedback, das dich im Alltag weiterbringt.', 'Excellence comes through practice. After every speech, you receive constructive, honest feedback that helps you grow in daily life.'); ?></p>

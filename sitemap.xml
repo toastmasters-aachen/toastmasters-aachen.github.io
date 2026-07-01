@@ -1,29 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Replace https://example.com with the final live domain before publishing. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://example.com/</loc>
+        <loc>https://aachen-toastmasters.de/</loc>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://example.com/ueber-uns/</loc>
+        <loc>https://aachen-toastmasters.de/ueber-toastmasters</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://aachen-toastmasters.de/ueber-uns</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://aachen-toastmasters.de/mitglied-werden</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://aachen-toastmasters.de/kontakt</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://example.com/kontakt/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <loc>https://aachen-toastmasters.de/datenschutz</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
     </url>
     <url>
-        <loc>https://example.com/datenschutz/</loc>
+        <loc>https://aachen-toastmasters.de/impressum</loc>
         <changefreq>yearly</changefreq>
-        <priority>0.4</priority>
-    </url>
-    <url>
-        <loc>https://example.com/impressum/</loc>
-        <changefreq>yearly</changefreq>
-        <priority>0.4</priority>
+        <priority>0.3</priority>
     </url>
 </urlset>

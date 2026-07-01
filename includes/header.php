@@ -16,14 +16,83 @@ $canonicalUrl = site_url($currentPath);
     <title><?php echo e($page_title); ?></title>
     <meta name="description" content="<?php echo e($page_description); ?>">
     <link rel="canonical" href="<?php echo e($canonicalUrl); ?>">
+    
+    <!-- Multilingual SEO Link Relations -->
+    <link rel="alternate" hreflang="de" href="<?php echo e(site_url($currentPath . '?lang=de')); ?>">
+    <link rel="alternate" hreflang="en" href="<?php echo e(site_url($currentPath . '?lang=en')); ?>">
+    <link rel="alternate" hreflang="x-default" href="<?php echo e(site_url($currentPath)); ?>">
+
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="<?php echo e($canonicalUrl); ?>">
     <meta property="og:title" content="<?php echo e($page_title); ?>">
     <meta property="og:description" content="<?php echo e($page_description); ?>">
     <meta property="og:site_name" content="<?php echo e(SITE_NAME); ?>">
+
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="<?php echo e($page_title); ?>">
     <meta name="twitter:description" content="<?php echo e($page_description); ?>">
+
+    <!-- Structured Data for Search Engines & AI Assistants -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "EducationalOrganization",
+          "@id": "https://aachen-toastmasters.de/#organization",
+          "name": "Toastmasters Aachen e. V.",
+          "url": "https://aachen-toastmasters.de/",
+          "logo": "https://aachen-toastmasters.de/assets/images/Logo.png",
+          "image": "https://aachen-toastmasters.de/assets/images/Titelfoto.jpg",
+          "description": "Toastmasters Aachen e. V. ist dein lokaler Club für Rhetorik, öffentliche Reden, Präsentationen und Führungskompetenz im Raum Aachen.",
+          "sameAs": [
+            "https://www.toastmasters.org/",
+            "https://www.facebook.com/ToastmastersAachen"
+          ]
+        },
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://aachen-toastmasters.de/#localbusiness",
+          "name": "Toastmasters Aachen e. V.",
+          "image": "https://aachen-toastmasters.de/assets/images/Titelfoto.jpg",
+          "url": "https://aachen-toastmasters.de/",
+          "email": "info@aachen-toastmasters.de",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Jülicher Straße 72a",
+            "addressLocality": "Aachen",
+            "postalCode": "52070",
+            "addressCountry": "DE"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "50.780183",
+            "longitude": "6.101831"
+          },
+          "location": {
+            "@type": "Place",
+            "name": "Digital Church Aachen",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Jülicher Straße 72a",
+              "addressLocality": "Aachen",
+              "postalCode": "52070",
+              "addressCountry": "DE"
+            }
+          },
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Tuesday",
+            "opens": "19:00",
+            "closes": "21:15"
+          }
+        }
+      ]
+    }
+    </script>
+
     <link rel="preload" href="/assets/fonts/montserrat.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

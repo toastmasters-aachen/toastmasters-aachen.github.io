@@ -127,34 +127,85 @@ include ROOT_PATH . '/includes/header.php';
                 <p><?php echo $success_message; ?></p>
             </div>
         <?php else: ?>
+            <?php
+            // Calculate next 3 Tuesdays dynamically
+            $timezone = new DateTimeZone('Europe/Berlin');
+            $now = new DateTime('now', $timezone);
+            $tuesdays = [];
+            for ($i = 0; $i < 3; $i++) {
+                $date = clone $now;
+                if ($i === 0) {
+                    if ($now->format('N') == 2 && $now->format('H') < 19) {
+                        $date->setTime(19, 0, 0);
+                    } else {
+                        $date->modify('next Tuesday')->setTime(19, 0, 0);
+                    }
+                } else {
+                    $prev = $tuesdays[$i - 1]['datetime'];
+                    $date = clone $prev;
+                    $date->modify('+1 week');
+                }
+                
+                $week_num = (int)$date->format('W');
+                $is_eng = ($week_num % 2 !== 0); // Keep consistent with functions.php fallback
+                
+                $day = $date->format('j');
+                $month_num = (int)$date->format('n');
+                $months_de = ['', 'Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'];
+                $months_en = ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+                
+                $date_de = 'Dienstag, ' . $day . '. ' . $months_de[$month_num];
+                
+                if (!in_array(($day % 100), [11, 12, 13])) {
+                    switch ($day % 10) {
+                        case 1:  $suffix = 'st'; break;
+                        case 2:  $suffix = 'nd'; break;
+                        case 3:  $suffix = 'rd'; break;
+                        default: $suffix = 'th'; break;
+                    }
+                } else {
+                    $suffix = 'th';
+                }
+                $date_en = 'Tuesday, ' . $months_en[$month_num] . ' ' . $day . $suffix;
+                
+                $tuesdays[] = [
+                    'datetime' => $date,
+                    'label_de' => $date_de . ' um 19:00 Uhr (' . ($is_eng ? 'Englisch' : 'Deutsch') . ')',
+                    'label_en' => $date_en . ' at 7:00 PM (' . ($is_eng ? 'English' : 'German') . ')',
+                    'value' => $date_de . ' (' . ($is_eng ? 'Englisch' : 'English') . ')'
+                ];
+            }
+            ?>
             <form action="/kontakt" method="POST" class="streamlined-horizontal-form" id="guest-form">
                 <div class="form-fields-row">
                     <div class="form-group">
                         <label for="contact-name"><?php echo t('Dein Name *', 'Your Name *'); ?></label>
                         <input type="text" id="contact-name" name="name" placeholder="<?php echo t('z. B. Marie Aachen', 'e.g. Marie Aachen'); ?>" required>
                     </div>
-
+ 
                     <div class="form-group">
                         <label for="contact-email"><?php echo t('Deine E-Mail-Adresse *', 'Your Email Address *'); ?></label>
                         <input type="email" id="contact-email" name="email" placeholder="<?php echo t('z. B. marie@example.de', 'e.g. marie@example.com'); ?>" required>
                     </div>
-
+ 
                     <div class="form-group">
                         <label for="contact-date"><?php echo t('Termin / Anliegen *', 'Date / Subject *'); ?></label>
                         <select id="contact-date" name="visit_date" required>
-                            <option value="Dienstag, 16.06. (Englisch)"><?php echo t('Dienstag, 16.06. um 19:00 (Englisch)', 'Tuesday, 16.06. at 7:00 PM (English)'); ?></option>
-                            <option value="Dienstag, 23.06. (Deutsch)"><?php echo t('Dienstag, 23.06. um 19:00 (Deutsch)', 'Tuesday, 23.06. at 7:00 PM (German)'); ?></option>
-                            <option value="Dienstag, 30.06. (Englisch)"><?php echo t('Dienstag, 30.06. um 19:00 (Englisch)', 'Tuesday, 30.06. at 7:00 PM (English)'); ?></option>
+                            <?php foreach ($tuesdays as $tuesday): ?>
+                                <option value="<?php echo e($tuesday['value']); ?>">
+                                    <?php echo e(t($tuesday['label_de'], $tuesday['label_en'])); ?>
+                                </option>
+                            <?php endforeach; ?>
                             <option value="Generelle Frage / Anderer Termin"><?php echo t('Generelle Frage / Anderer Termin', 'General query / Other date'); ?></option>
                         </select>
                     </div>
                 </div>
-
+ 
                 <div class="form-group textarea-group">
                     <label for="contact-message"><?php echo t('Deine Nachricht oder Fragen (optional)', 'Your message or questions (optional)'); ?></label>
                     <textarea id="contact-message" name="message" rows="3" placeholder="<?php echo t('z. B. Ich möchte meine Redeangst überwinden und freue mich auf das Treffen...', 'e.g. I want to overcome my stage fright and look forward to the meeting...'); ?>"></textarea>
                 </div>
-
+ 
                 <div class="form-submit-row">
                     <button type="submit" class="btn btn-primary" id="submit-contact-btn"><?php echo t('Nachricht abschicken', 'Send Message'); ?></button>
                     <small class="form-privacy-note"><?php echo t('Mit Absenden dieses Formulars stimmst du zu, dass wir deine Daten zur Kontaktaufnahme bzgl. deines Clubbesuchs verwenden dürfen.', 'By submitting this form, you agree that we may use your data to contact you regarding your club visit.'); ?></small>

@@ -82,6 +82,10 @@ switch ($path) {
         require __DIR__ . '/pages/impressum.php';
         break;
 
+    case '/flyer':
+        require __DIR__ . '/pages/flyer.php';
+        break;
+
     default:
         http_response_code(404);
         require __DIR__ . '/errors/404.php';

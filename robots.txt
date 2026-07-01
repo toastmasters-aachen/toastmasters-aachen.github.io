@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Replace this URL with the final live domain before publishing.
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://aachen-toastmasters.de/sitemap.xml
