@@ -94,7 +94,7 @@ include ROOT_PATH . '/includes/header.php';
                 <h3><?php echo t('Mitgliedschaftsformular', 'Membership Form'); ?></h3>
                 <p class="card-desc"><?php echo t('Deutsches Anmeldeformular im PDF-Format. Ausfüllen, unterschreiben und einscannen.', 'German registration form in PDF format. Fill out, sign, and scan.'); ?></p>
                 <div class="card-meta">Format: PDF &bull; Sprache: Deutsch</div>
-                <a href="/downloads/tmac_membership_form_de.pdf" class="btn btn-primary btn-block" download>
+                <a href="/downloads/AC_TM_mitgliedsantrag_DE.pdf" class="btn btn-primary btn-block" download>
                     <i class="fas fa-download"></i> <?php echo t('Herunterladen (DE)', 'Download (DE)'); ?>
                 </a>
             </div>
@@ -106,7 +106,7 @@ include ROOT_PATH . '/includes/header.php';
                 <h3><?php echo t('Membership Form', 'Membership Form'); ?></h3>
                 <p class="card-desc"><?php echo t('English registration form in PDF format. Fill out, sign, and scan.', 'English registration form in PDF format. Fill out, sign, and scan.'); ?></p>
                 <div class="card-meta">Format: PDF &bull; Language: English</div>
-                <a href="/downloads/tmac_membership_form_en.pdf" class="btn btn-primary btn-block" download>
+                <a href="/downloads/AC_TM_mitgliedsantrag_EN.pdf" class="btn btn-primary btn-block" download>
                     <i class="fas fa-download"></i> <?php echo t('Download (EN)', 'Download (EN)'); ?>
                 </a>
             </div>
