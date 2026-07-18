@@ -1,0 +1,56 @@
+import { defineTranslation } from "../../lib/content";
+import { membershipDe } from "../de/membership";
+
+export const membershipEn = defineTranslation(membershipDe, {
+  "language": "en",
+  "metadata": {
+    "title": "Become a Member | Toastmasters Aachen",
+    "description": "Become a member of Toastmasters Aachen and get access to Pathways, mentoring, and regular speaking practice."
+  },
+  "text": {
+    "membershipOverview": "Membership Overview",
+    "takeTheNextStep": "Take the next step",
+    "becomeAToastmastersMember": "Become a Toastmasters Member",
+    "membershipIsOpenToAnyoneOverThe": "Membership is open to anyone over the age of 18. Invest in your communication and leadership skills in a supportive, hands-on community.",
+    "guestsVsMembersComparison": "Guests vs. Members Comparison",
+    "guestsVsMembersWhatIsTheDifference": "Guests vs. Members – What is the difference?",
+    "asAGuestYouCanDropBy": "As a guest, you can drop by for free anytime. As a member, you get access to the full training program:",
+    "activityBenefit": "Activity / Benefit",
+    "guests": "Guests",
+    "members": "Members",
+    "attendMeetings": "Attend Meetings",
+    "yesFree": "Yes (free)",
+    "yes": "Yes",
+    "tableTopicsImpromptu": "Table Topics (Impromptu)",
+    "yesOptional": "Yes (optional)",
+    "deliverPreparedSpeeches": "Deliver Prepared Speeches",
+    "no": "No",
+    "pathwaysPortalEducation": "Pathways Portal (Education)",
+    "yesIncluded": "Yes (included)",
+    "personalMentoring": "Personal Mentoring",
+    "evaluationsMeetingRoles": "Evaluations & Meeting Roles",
+    "membershipApplicationDownloads": "Membership Application Downloads",
+    "howToJoin": "How to Join",
+    "simplyFillOutTheMembershipFormAnd": "Simply fill out the membership form and send it by email to our VP Membership or bring it with you to the next meeting.",
+    "membershipForm": "Membership Form",
+    "germanRegistrationFormInPDFFormatFill": "German registration form in PDF format. Fill out, sign, and scan.",
+    "downloadDE": "Download (DE)",
+    "membershipForm2": "Membership Form",
+    "englishRegistrationFormInPDFFormatFill": "English registration form in PDF format. Fill out, sign, and scan.",
+    "downloadEN": "Download (EN)",
+    "whereToSendTheCompletedApplication": "Where to send the completed application?",
+    "simplySendTheScannedFormByEmail": "Simply send the scanned form by email to: <a href=\"mailto:aachen.toastmasters@gmail.com\">aachen.toastmasters@gmail.com</a>. Alternatively, you can hand the printed application to the board during one of our club meetings.",
+    "yourMemberBenefits": "Your Member Benefits",
+    "whatAwaitsYouAsAMember": "What Awaits You as a Member",
+    "pathwaysEducationProgram": "“Pathways” Education Program",
+    "accessToTheStructuredELearningPortal": "Access to the structured e-learning portal of Toastmasters International featuring 11 different development paths.",
+    "anExperiencedToastmasterWillBeByYour": "An experienced Toastmaster will be by your side as a free mentor to help you get started and provide feedback.",
+    "regularSpeakingRoutine": "Regular Speaking Routine",
+    "secureSpeakingSlotsForPreparedPresentationsAnd": "Secure speaking slots for prepared presentations and learn to connect with audiences under real conditions.",
+    "officialCertificates": "Official Certificates",
+    "receiveInternationallyRecognizedCertificatesAndCredentialsHighlighting": "Receive internationally recognized certificates and credentials highlighting your learned skills for your CV.",
+    "feesCosts": "Fees & Costs",
+    "transparencyNoticeOnClubFees": "Transparency Notice on Club Fees",
+    "asANonProfitAssociationWeOperate": "As a non-profit association, we operate voluntarily and without commercial intent. Membership fees cover the venue rental for the Digital Church and licensing fees to Toastmasters International. We will gladly share the exact details (semi-annual fee + one-time registration fee for new members) during your visit. Attending as a guest is and remains completely free!"
+  }
+});

@@ -1,0 +1,55 @@
+import { defineTranslation } from "../../lib/content";
+import { aboutToastmastersDe } from "../de/aboutToastmasters";
+
+export const aboutToastmastersEn = defineTranslation(aboutToastmastersDe, {
+  "language": "en",
+  "metadata": {
+    "title": "About Toastmasters | The Global Learning Concept",
+    "description": "Learn how the proven educational concept of Toastmasters International works: learning by doing, structured paths (Pathways), and supportive evaluation."
+  },
+  "text": {
+    "theToastmastersConcept": "The Toastmasters Concept",
+    "theEducationPrinciple": "The Education Principle",
+    "howDoesToastmastersWork": "How does Toastmasters work?",
+    "forOver100YearsToastmastersInternationalHas": "For over 100 years, Toastmasters International has been helping people become better speakers and leaders. The secret? There is no frontal teaching. We learn by active doing in a safe, non-judgmental community.",
+    "theThreePillarsOfSuccess": "The Three Pillars of Success",
+    "learningByDoing": "Learning by Doing",
+    "everyMemberTakesOnActiveRolesAt": "Every member takes on active roles at the club meetings – from giving prepared speeches and impromptu talks to hosting the evening. You only learn speaking by speaking.",
+    "supportiveFeedback": "Supportive Feedback",
+    "forEverySpeechYouDeliverYouReceive": "For every speech you deliver, you receive constructive and structured feedback from an assigned evaluator. You learn exactly what was great and where you can grow.",
+    "theStructuredPath": "The Structured Path",
+    "theOnlineLearningProgramPathwaysGuidesYou": "The online learning program \"Pathways\" guides you step-by-step through various communication and leadership paths. You choose what to focus on.",
+    "flowOfAClubMeeting": "Flow of a Club Meeting",
+    "theAnatomyOfAClubMeeting": "The Anatomy of a <span class=\"accent-color\">Club Meeting</span>",
+    "eachOfOurWeeklyMeetingsFollowsA": "Each of our weekly meetings follows a structured, diversified agenda:",
+    "part1PreparedSpeeches": "Part 1: Prepared Speeches",
+    "twoToThreeMembersGivePreparedSpeeches": "Two to three members give prepared speeches based on their projects from the Pathways program (duration: usually 5 to 7 minutes). Topics are entirely open – from exciting holiday stories to scientific RWTH presentations.",
+    "part2TableTopicsImpromptu": "Part 2: Table Topics (Impromptu)",
+    "theMostExcitingAndFunPartOur": "The most exciting and fun part! Our Table Topics Master poses spontaneous questions or topics. Members (and brave guests!) have 1 to 2 minutes to formulate a structured, entertaining response. The ultimate training for quick thinking!",
+    "part3EvaluationReports": "Part 3: Evaluation & Reports",
+    "noOneGoesHomeWithoutHavingLearned": "No one goes home without having learned something. Speech evaluators share their feedback. The Ah-Counter reports on unnecessary filler words, the Timer checks time limit compliance, and the Grammarian highlights language successes and slips.",
+    "thePathwaysEducationalProgram": "The Pathways Educational Program",
+    "yourPersonalCurriculumPathways": "Your Personal Curriculum: <span class=\"highlight-text\">Pathways</span>",
+    "uponJoiningYouGainAccessToThe": "Upon joining, you gain access to the interactive Pathways education program. You can choose from <strong>6 different education paths</strong>, custom-tailored to your career and life goals.",
+    "eachPathConsistsOf5LevelsGuiding": "Each path consists of 5 levels, guiding you step-by-step from beginner to mastery. These are the 6 official paths:",
+    "prasentationsMeisterschaft": "",
+    "focusOnBodyLanguageSpeechWritingAnd": "Focus on body language, speech writing, and storytelling.",
+    "dynamischeFuhrung": "",
+    "focusOnStrategicLeadershipConflictResolutionAnd": "Focus on strategic leadership, conflict resolution, and change management.",
+    "uberzeugenderEinfluss": "",
+    "focusOnNegotiationSkillsPersuasiveRhetoricAnd": "Focus on negotiation skills, persuasive rhetoric, and conflict management.",
+    "motivationsStrategien": "",
+    "focusOnEmotionalIntelligenceTeamBuildingAnd": "Focus on emotional intelligence, team building, and motivation techniques.",
+    "visionareKommunikation": "",
+    "focusOnStrategicCommunicationVisionaryDevelopmentAnd": "Focus on strategic communication, visionary development, and innovative solutions.",
+    "mitreiEnderHumor": "",
+    "focusOnHumorAsASpeakingTool": "Focus on humor as a speaking tool, spontaneity, and audience magnetism.",
+    "professionalCertificates": "Professional Certificates",
+    "everyCompletedLevelAndPathIsAwarded": "Every completed level and path is awarded with internationally recognized certificates – perfect for your CV!",
+    "tryItNow": "Try it now",
+    "readyToTakeTheFirstStep": "Ready to take the first step?",
+    "donTLetDoubtsHoldYouBack": "Don't let doubts hold you back. Every great speaker started small.",
+    "askAQuestion": "Ask a Question",
+    "aboutOurAachenClub": "About our Aachen Club"
+  }
+});

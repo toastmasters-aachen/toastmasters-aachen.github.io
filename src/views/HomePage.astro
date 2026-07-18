@@ -1,0 +1,320 @@
+---
+import type { PageContent } from "../lib/content";
+import { routeFor } from "../lib/routes";
+
+interface Props {
+  content: PageContent;
+}
+
+const { content } = Astro.props;
+---
+<main class="site-main home-page">
+    <!-- Hero Section -->
+    <section class="hero-section" aria-label={content.text.welcomeToToastmastersAachen}>
+        <div class="hero-content">
+            <span class="badge">Toastmasters Aachen e. V.</span>
+            <h1><Fragment set:html={content.text.transformYourStageFrightIntoConfidence} /></h1>
+            <p class="hero-sub">
+                {content.text.whetherItSAnRWTHPresentationAn}
+            </p>
+            <div class="hero-actions">
+                <a href="#treffen" class="btn btn-primary" id="cta-visit-btn">{content.text.visitAMeeting}</a>
+                <a href={routeFor("aboutToastmasters", content.language)} class="btn btn-secondary" id="cta-concept-btn">{content.text.exploreTheConcept}</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="visual-card-image">
+                <img src="/assets/images/Titelfoto.jpg" alt={content.text.toastmastersAachenClubMeetingAtTheDigital} class="hero-main-img" fetchpriority="high">
+            </div>
+        </div>
+    </section>
+
+    <!-- Pain Points Triggers with Flip Cards -->
+    <section class="pain-points-section" aria-label={content.text.typicalPublicSpeakingChallenges}>
+        <div class="section-header">
+            <h2><Fragment set:html={content.text.doesThisSoundFamiliar} /></h2>
+            <p>
+                {content.text.publicSpeakingIsNotAnInnateTalent}
+            </p>
+        </div>
+        
+        <div class="pain-grid">
+            <!-- Card 1: Lampenfieber -->
+            <div class="flip-card" role="button" tabindex="0" aria-label={content.text.flipCardTheRacingHeartbeat}>
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="flip-icon" aria-hidden="true"><i class="fas fa-sync-alt"></i></div>
+                        <div class="pain-icon"><i class="fas fa-heartbeat" aria-hidden="true"></i></div>
+                        <h3>{content.text.theRacingHeartbeat}</h3>
+                        <p>{content.text.youStandUpAllEyesAreOn}</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="flip-icon" aria-hidden="true"><i class="fas fa-sync-alt"></i></div>
+                        <div class="pain-icon"><i class="fas fa-shield-alt" aria-hidden="true"></i></div>
+                        <h3>{content.text.howWeHelpYou}</h3>
+                        <p>{content.text.atToastmastersAachenYouPracticeInA}</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Redestruktur -->
+            <div class="flip-card" role="button" tabindex="0" aria-label={content.text.flipCardTheLostRedThread}>
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="flip-icon" aria-hidden="true"><i class="fas fa-sync-alt"></i></div>
+                        <div class="pain-icon"><i class="fas fa-project-diagram" aria-hidden="true"></i></div>
+                        <h3>{content.text.theLostRedThread}</h3>
+                        <p>{content.text.youSpentHoursResearchingButWhenSpeaking}</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="flip-icon" aria-hidden="true"><i class="fas fa-sync-alt"></i></div>
+                        <div class="pain-icon"><i class="fas fa-bullseye" aria-hidden="true"></i></div>
+                        <h3>{content.text.howWeHelpYou}</h3>
+                        <p>{content.text.ourEducationalProgramTrainsYouToStructure}</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: Schlagfertigkeit -->
+            <div class="flip-card" role="button" tabindex="0" aria-label={content.text.flipCardTheFreezeShock}>
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="flip-icon" aria-hidden="true"><i class="fas fa-sync-alt"></i></div>
+                        <div class="pain-icon"><i class="fas fa-snowflake" aria-hidden="true"></i></div>
+                        <h3>{content.text.theFreezeShock}</h3>
+                        <p>{content.text.aColleagueOrBossAsksYouA}</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="flip-icon" aria-hidden="true"><i class="fas fa-sync-alt"></i></div>
+                        <div class="pain-icon"><i class="fas fa-bolt" aria-hidden="true"></i></div>
+                        <h3>{content.text.howWeHelpYou}</h3>
+                        <p>{content.text.atEveryClubMeetingWeTrainImpromptu}</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4: Sprache -->
+            <div class="flip-card" role="button" tabindex="0" aria-label={content.text.flipCardTheEnglishBlockade}>
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="flip-icon" aria-hidden="true"><i class="fas fa-sync-alt"></i></div>
+                        <div class="pain-icon"><i class="fas fa-globe-americas" aria-hidden="true"></i></div>
+                        <h3>{content.text.theEnglishBlockade}</h3>
+                        <p>{content.text.inGermanYouAreBrilliantButAs}</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="flip-icon" aria-hidden="true"><i class="fas fa-sync-alt"></i></div>
+                        <div class="pain-icon"><i class="fas fa-comments" aria-hidden="true"></i></div>
+                        <h3>{content.text.howWeHelpYou}</h3>
+                        <p>{content.text.throughOurBilingualEnvironmentGermanEnglishSpeaking}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compact 3D Cards Carousel Section -->
+    <section class="gallery-carousel-section" aria-label={content.text.imageGallery}>
+        <div class="section-header">
+            <h2><Fragment set:html={content.text.impressionsOfClubLife} /></h2>
+            <p>{content.text.experienceTheUniqueAtmosphereOnSiteIn}</p>
+        </div>
+
+        <div class="cards-carousel-container">
+            <button class="carousel-nav-btn prev-btn" aria-label={content.text.previousImage}><i class="fas fa-chevron-left" aria-hidden="true"></i></button>
+            
+            <div class="cards-carousel-track">
+                <!-- Slide 1 -->
+                <div class="cards-carousel-item active" data-index="0" role="button" tabindex="0" aria-label={content.text.enlargeImageExperienceTheCommunity}>
+                    <img src="/assets/images/Galerie.jpg" alt={content.text.aachenToastmastersCommunity} loading="lazy">
+                    <div class="carousel-item-caption">
+                        <h3>{content.text.growTogether}</h3>
+                        <p>{content.text.everyoneSupportsEachOtherBackgroundAgeOr}</p>
+                    </div>
+                </div>
+                
+                <!-- Slide 2 -->
+                <div class="cards-carousel-item next" data-index="1" role="button" tabindex="0" aria-label={content.text.enlargeImageTheDigitalChurch}>
+                    <img src="/assets/images/Church 2.jpg" alt={content.text.theHistoricDigitalChurchAachenVenueOf} loading="lazy">
+                    <div class="carousel-item-caption">
+                        <h3>{content.text.ourStageForYourSuccess}</h3>
+                        <p>{content.text.inTheInspiringDigitalChurchAachenWe}</p>
+                    </div>
+                </div>
+                
+                <!-- Slide 3 -->
+                <div class="cards-carousel-item" data-index="2" role="button" tabindex="0" aria-label={content.text.enlargeImageImpromptuSpeaking}>
+                    <img src="/assets/images/Galerie 4.jpg" alt={content.text.tableTopicsAtToastmasters} loading="lazy">
+                    <div class="carousel-item-caption">
+                        <h3>{content.text.embraceSpontaneity}</h3>
+                        <p>{content.text.inImpromptuSpeakingWeLearnToAnswer}</p>
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="cards-carousel-item prev" data-index="3" role="button" tabindex="0" aria-label={content.text.enlargeImagePreparedSpeeches}>
+                    <img src="/assets/images/Galerie 3.jpg" alt={content.text.memberDeliveringPreparedSpeech} loading="lazy">
+                    <div class="carousel-item-caption">
+                        <h3>{content.text.supportFeedback}</h3>
+                        <p>{content.text.excellenceComesThroughPracticeAfterEverySpeech}</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-nav-btn next-btn" aria-label={content.text.nextImage}><i class="fas fa-chevron-right" aria-hidden="true"></i></button>
+        </div>
+
+        <div class="carousel-dots">
+            <span class="carousel-dot active" data-index="0" role="button" aria-label={content.text.showSlide1}></span>
+            <span class="carousel-dot" data-index="1" role="button" aria-label={content.text.showSlide2}></span>
+            <span class="carousel-dot" data-index="2" role="button" aria-label={content.text.showSlide3}></span>
+            <span class="carousel-dot" data-index="3" role="button" aria-label={content.text.showSlide4}></span>
+        </div>
+    </section>
+
+    <!-- 3-Step Onboarding Guide Section (Repositioned & rewritten to address speaking anxiety & new activities) -->
+    <section class="steps-section" aria-label={content.text.yourPathToUs}>
+        <div class="section-header">
+            <h2><Fragment set:html={content.text.yourPathToConfidenceIn3Simple} /></h2>
+            <p>{content.text.weSupportYouOnYourJourneyFrom}</p>
+        </div>
+        
+        <div class="steps-container">
+            <!-- Step 1 -->
+            <div class="step-item">
+                <div class="step-number">01</div>
+                <h3>{content.text.justDropIn}</h3>
+                <p>{content.text.simplyVisitUsAsAGuestWithout}</p>
+            </div>
+            
+            <!-- Step 2 -->
+            <div class="step-item">
+                <div class="step-number">02</div>
+                <h3>{content.text.embraceTheChallenge}</h3>
+                <p>{content.text.ifYouLikeItAndWantTo}</p>
+            </div>
+            
+            <!-- Step 3 -->
+            <div class="step-item">
+                <div class="step-number">03</div>
+                <h3>{content.text.growStepByStep}</h3>
+                <p>{content.text.takeOnSmallRolesInTheMeeting}</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Weekly Meeting info -->
+    <section id="treffen" class="meeting-section" aria-label={content.text.weeklyMeetingsOfToastmastersAachen}>
+        <div class="meeting-card">
+            <div class="meeting-info">
+                <span class="badge accent">{content.text.nextMeeting}</span>
+                <h2>{content.text.justComeByAsAGuest}</h2>
+                <p>
+                    {content.text.everyTuesdayEveningWeMeetAt7}
+                </p>
+                <div class="meeting-meta-grid">
+                    <div class="meta-item">
+                        <div class="meta-icon"><i class="far fa-calendar-alt" aria-hidden="true"></i></div>
+                        <div>
+                            <strong>{content.text.everyTuesday}</strong>
+                            <span>{content.text.at700PM}</span>
+                        </div>
+                    </div>
+                    <div class="meta-item">
+                        <div class="meta-icon"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></div>
+                        <div>
+                            <strong>Digital Church Aachen</strong>
+                            <span>Jülicher Str. 72a, 52070 Aachen</span>
+                        </div>
+                    </div>
+                    <div class="meta-item">
+                        <div class="meta-icon"><i class="fas fa-language" aria-hidden="true"></i></div>
+                        <div>
+                            <strong>{content.text.germanEnglish}</strong>
+                            <span>{content.text.alternatingWeekly}</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="next-event-alert">
+                    <p>
+                        <i class="fas fa-info-circle" aria-hidden="true"></i> 
+                        <strong class="next-event-label">{content.text.everyTuesday}</strong>
+                        {content.text.at700PM} · {content.text.germanEnglish} ({content.text.alternatingWeekly})
+                    </p>
+                </div>
+            </div>
+            <div class="meeting-cta-wrapper">
+                <h3>{content.text.guestBenefitsAtAGlance}</h3>
+                <ul class="benefit-list">
+                    <li><i class="fas fa-check" aria-hidden="true"></i> {content.text.freeAttendanceAsAGuest}</li>
+                    <li><i class="fas fa-check" aria-hidden="true"></i> {content.text.noObligationToSpeak}</li>
+                    <li><i class="fas fa-check" aria-hidden="true"></i> {content.text.warmSupportiveAtmosphere}</li>
+                    <li><i class="fas fa-check" aria-hidden="true"></i> {content.text.firstPracticalTipsToTakeHome}</li>
+                </ul>
+                <a href={routeFor("contact", content.language)} class="btn btn-primary btn-block">{content.text.askUsYourQuestions}</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" aria-label={content.text.frequentlyAskedQuestions}>
+        <div class="section-header">
+            <h2><Fragment set:html={content.text.stillUnsure} /></h2>
+            <p>{content.text.donTWorryAlmostAllGuestsAsk}</p>
+        </div>
+
+        <div class="faq-container">
+            <!-- FAQ 1 -->
+            <div class="faq-item">
+                <details>
+                    <summary>
+                        <span>{content.text.doIHaveToSpeakInFront}</span>
+                        <span class="faq-icon-toggle"><i class="fas fa-chevron-down" aria-hidden="true"></i></span>
+                    </summary>
+                    <div class="faq-content">
+                        <p>{content.text.noAbsolutelyNotAsAGuestYou}</p>
+                    </div>
+                </details>
+            </div>
+
+            <!-- FAQ 2 -->
+            <div class="faq-item">
+                <details>
+                    <summary>
+                        <span>{content.text.doesItCostAnythingToVisitAs}</span>
+                        <span class="faq-icon-toggle"><i class="fas fa-chevron-down" aria-hidden="true"></i></span>
+                    </summary>
+                    <div class="faq-content">
+                        <p>{content.text.noVisitingAsAGuestIsCompletely}</p>
+                    </div>
+                </details>
+            </div>
+
+            <!-- FAQ 3 -->
+            <div class="faq-item">
+                <details>
+                    <summary>
+                        <span>{content.text.inWhichLanguageDoTheMeetingsTake}</span>
+                        <span class="faq-icon-toggle"><i class="fas fa-chevron-down" aria-hidden="true"></i></span>
+                    </summary>
+                    <div class="faq-content">
+                        <p>{content.text.ourMeetingsAlternateWeeklyBetweenGermanAnd}</p>
+                    </div>
+                </details>
+            </div>
+
+            <!-- FAQ 4 -->
+            <div class="faq-item">
+                <details>
+                    <summary>
+                        <span>{content.text.doINeedToSignUpIn}</span>
+                        <span class="faq-icon-toggle"><i class="fas fa-chevron-down" aria-hidden="true"></i></span>
+                    </summary>
+                    <div class="faq-content">
+                        <p>{content.text.youCanSimplyDropByOnAny}</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+</main>

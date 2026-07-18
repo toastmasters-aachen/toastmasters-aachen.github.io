@@ -1,0 +1,181 @@
+---
+import type { PageContent } from "../lib/content";
+import { routeFor } from "../lib/routes";
+
+interface Props {
+  content: PageContent;
+}
+
+const { content } = Astro.props;
+---
+<main class="site-main about-toastmasters-page">
+    <section class="page-intro-section" aria-label={content.text.theToastmastersConcept}>
+        <span class="badge">{content.text.theEducationPrinciple}</span>
+        <h1>{content.text.howDoesToastmastersWork}</h1>
+        <p class="lead-text">
+            {content.text.forOver100YearsToastmastersInternationalHas}
+        </p>
+    </section>
+
+    <!-- The 3 Pillars -->
+    <section class="pillars-section" aria-label={content.text.theThreePillarsOfSuccess}>
+        <div class="pillars-grid">
+            <div class="pillar-card">
+                <div class="pillar-num">01</div>
+                <h3>{content.text.learningByDoing}</h3>
+                <p>{content.text.everyMemberTakesOnActiveRolesAt}</p>
+            </div>
+            <div class="pillar-card">
+                <div class="pillar-num">02</div>
+                <h3>{content.text.supportiveFeedback}</h3>
+                <p>{content.text.forEverySpeechYouDeliverYouReceive}</p>
+            </div>
+            <div class="pillar-card">
+                <div class="pillar-num">03</div>
+                <h3>{content.text.theStructuredPath}</h3>
+                <p>{content.text.theOnlineLearningProgramPathwaysGuidesYou}</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Anatomy of a Meeting -->
+    <section class="anatomy-section" aria-label={content.text.flowOfAClubMeeting}>
+        <div class="section-header">
+            <h2><Fragment set:html={content.text.theAnatomyOfAClubMeeting} /></h2>
+            <p>{content.text.eachOfOurWeeklyMeetingsFollowsA}</p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-marker">1</div>
+                <div class="timeline-content">
+                    <h3>{content.text.part1PreparedSpeeches}</h3>
+                    <p>
+                        {content.text.twoToThreeMembersGivePreparedSpeeches}
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker">2</div>
+                <div class="timeline-content">
+                    <h3>{content.text.part2TableTopicsImpromptu}</h3>
+                    <p>
+                        {content.text.theMostExcitingAndFunPartOur}
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-marker">3</div>
+                <div class="timeline-content">
+                    <h3>{content.text.part3EvaluationReports}</h3>
+                    <p>
+                        {content.text.noOneGoesHomeWithoutHavingLearned}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pathways Educational Program -->
+    <section class="pathways-section" aria-label={content.text.thePathwaysEducationalProgram}>
+        <div class="pathways-content">
+            <h2><Fragment set:html={content.text.yourPersonalCurriculumPathways} /></h2>
+            <p>
+                <Fragment set:html={content.text.uponJoiningYouGainAccessToThe} /> 
+            </p>
+            <p>
+                {content.text.eachPathConsistsOf5LevelsGuiding}
+            </p>
+            <ul class="pathways-list">
+                <li>
+                    <div class="path-title-col">
+                        <i class="fas fa-check-circle" aria-hidden="true"></i>
+                        <span>
+                            <strong>Presentation Mastery</strong>
+                            <small class="path-translation">{content.text.prasentationsMeisterschaft}</small>
+                        </span>
+                    </div>
+                    <div class="path-desc-col">
+                        {content.text.focusOnBodyLanguageSpeechWritingAnd}
+                    </div>
+                </li>
+                <li>
+                    <div class="path-title-col">
+                        <i class="fas fa-check-circle" aria-hidden="true"></i>
+                        <span>
+                            <strong>Dynamic Leadership</strong>
+                            <small class="path-translation">{content.text.dynamischeFuhrung}</small>
+                        </span>
+                    </div>
+                    <div class="path-desc-col">
+                        {content.text.focusOnStrategicLeadershipConflictResolutionAnd}
+                    </div>
+                </li>
+                <li>
+                    <div class="path-title-col">
+                        <i class="fas fa-check-circle" aria-hidden="true"></i>
+                        <span>
+                            <strong>Persuasive Influence</strong>
+                            <small class="path-translation">{content.text.uberzeugenderEinfluss}</small>
+                        </span>
+                    </div>
+                    <div class="path-desc-col">
+                        {content.text.focusOnNegotiationSkillsPersuasiveRhetoricAnd}
+                    </div>
+                </li>
+                <li>
+                    <div class="path-title-col">
+                        <i class="fas fa-check-circle" aria-hidden="true"></i>
+                        <span>
+                            <strong>Motivational Strategies</strong>
+                            <small class="path-translation">{content.text.motivationsStrategien}</small>
+                        </span>
+                    </div>
+                    <div class="path-desc-col">
+                        {content.text.focusOnEmotionalIntelligenceTeamBuildingAnd}
+                    </div>
+                </li>
+                <li>
+                    <div class="path-title-col">
+                        <i class="fas fa-check-circle" aria-hidden="true"></i>
+                        <span>
+                            <strong>Visionary Communication</strong>
+                            <small class="path-translation">{content.text.visionareKommunikation}</small>
+                        </span>
+                    </div>
+                    <div class="path-desc-col">
+                        {content.text.focusOnStrategicCommunicationVisionaryDevelopmentAnd}
+                    </div>
+                </li>
+                <li>
+                    <div class="path-title-col">
+                        <i class="fas fa-check-circle" aria-hidden="true"></i>
+                        <span>
+                            <strong>Engaging Humor</strong>
+                            <small class="path-translation">{content.text.mitreiEnderHumor}</small>
+                        </span>
+                    </div>
+                    <div class="path-desc-col">
+                        {content.text.focusOnHumorAsASpeakingTool}
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="pathways-badge-visual">
+            <div class="pathways-card">
+                <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                <h4>{content.text.professionalCertificates}</h4>
+                <p>{content.text.everyCompletedLevelAndPathIsAwarded}</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-banner" aria-label={content.text.tryItNow}>
+        <h2>{content.text.readyToTakeTheFirstStep}</h2>
+        <p>{content.text.donTLetDoubtsHoldYouBack}</p>
+        <div class="cta-actions">
+            <a href={routeFor("contact", content.language)} class="btn btn-primary">{content.text.askAQuestion}</a>
+            <a href={routeFor("about", content.language)} class="btn btn-secondary">{content.text.aboutOurAachenClub}</a>
+        </div>
+    </section>
+</main>

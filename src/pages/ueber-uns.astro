@@ -1,0 +1,6 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { aboutDe } from "../translations/de/about";
+import AboutPage from "../views/AboutPage.astro";
+---
+<BaseLayout content={aboutDe} pageId="about"><AboutPage content={aboutDe} /></BaseLayout>

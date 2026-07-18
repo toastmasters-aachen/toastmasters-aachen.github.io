@@ -1,0 +1,139 @@
+---
+import type { PageContent } from "../lib/content";
+
+interface Props {
+  content: PageContent;
+}
+
+const { content } = Astro.props;
+---
+<main class="site-main contact-page">
+    <section class="page-intro-section" aria-label={content.text.getInTouch}>
+        <span class="badge">{content.text.visitUs}</span>
+        <h1>{content.text.comeByAsAGuest}</h1>
+        <p class="lead-text">
+            {content.text.weLookForwardToMeetingYouToastmasters}
+        </p>
+    </section>
+
+    <!-- 1. Prominent CTA Banner: Just Drop By -->
+    <section class="contact-hero-banner" aria-label="CTA">
+        <div class="banner-badge">
+            <i class="fas fa-bolt" aria-hidden="true"></i>
+            <span>{content.text.nOREGISTRATIONREQUIRED}</span>
+        </div>
+        <div class="banner-body">
+            <h2>{content.text.justDropBySpontaneously}</h2>
+            <p>
+                {content.text.youCanSimplyDropByAsA}
+            </p>
+            <div class="banner-next-meeting" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed rgba(119, 36, 50, 0.2); font-weight: 700; color: var(--tm-maroon); display: flex; align-items: center; gap: 8px;">
+                <i class="far fa-calendar-check" aria-hidden="true" style="font-size: 1.1rem;"></i>
+                <span>{content.text.everyTuesdayAt700PM}</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. So findest du uns (Horizontal Grid) -->
+    <section class="directions-section" aria-label={content.text.directionsAndMeetingTimes}>
+        <h2 class="section-title-center">{content.text.howToFindUs}</h2>
+        <div class="horizontal-directions-grid">
+            <!-- Col 1: Wo -->
+            <div class="direction-col">
+                <div class="col-icon-box"><i class="fas fa-church" aria-hidden="true"></i></div>
+                <h3>{content.text.locationVenue}</h3>
+                <p>
+                    <strong>Digital Church Aachen</strong><br>
+                    Jülicher Str. 72a, 52070 Aachen
+                </p>
+                <a href="https://maps.google.com/?q=Digital+Church+Aachen+Juelicher+Str+72a" target="_blank" rel="noopener" class="btn btn-secondary btn-sm directions-link">
+                    <i class="fas fa-map-marker-alt" aria-hidden="true"></i> {content.text.getDirections}
+                </a>
+            </div>
+
+            <!-- Col 2: Wann -->
+            <div class="direction-col">
+                <div class="col-icon-box"><i class="far fa-clock" aria-hidden="true"></i></div>
+                <h3>{content.text.timeLanguage}</h3>
+                <p>
+                    <strong>{content.text.everyTuesdayAt700PM}</strong><br>
+                    {content.text.doorsOpenAt645PMWe}
+                </p>
+                <div class="next-lang-badge" style="margin-top: auto; font-weight: 700; color: var(--tm-maroon); font-size: 0.9rem; display: flex; align-items: center; gap: 6px;">
+                    <i class="fas fa-info-circle" aria-hidden="true"></i> 
+                    <span>{content.text.doorsOpenAt645PMWe}</span>
+                </div>
+            </div>
+
+            <!-- Col 3: Wie -->
+            <div class="direction-col">
+                <div class="col-icon-box"><i class="fas fa-route" aria-hidden="true"></i></div>
+                <h3>{content.text.howToGetHere}</h3>
+                <ul class="clean-list">
+                    <li><i class="fas fa-bus" aria-hidden="true"></i> <strong>{content.text.bus}</strong> {content.text.stopLudwigForumDirectlyOpposite}</li>
+                    <li><i class="fas fa-car" aria-hidden="true"></i> <strong>{content.text.car}</strong> {content.text.julicherStraEOrLudwigForumParking}</li>
+                    <li><i class="fas fa-bicycle" aria-hidden="true"></i> <strong>{content.text.bike}</strong> {content.text.bikeRacksRightInFrontOfThe}</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Formular (Streamlined & Horizontal Oriented) -->
+    <section class="form-section" aria-label={content.text.guestRegistrationQuestions}>
+        <div class="form-section-header">
+            <h2>{content.text.preferToRegisterInAdvanceOrAsk}</h2>
+            <p>{content.text.attendingAsAGuestIsCompletelyFree}</p>
+        </div>
+
+            <form action="/api/contact" method="POST" class="streamlined-horizontal-form" id="guest-form">
+                <div class="form-fields-row">
+                    <div class="form-group">
+                        <label for="contact-name">{content.text.yourName}</label>
+                        <input type="text" id="contact-name" name="name" placeholder={content.text.eGMarieAachen} required>
+                    </div>
+ 
+                    <div class="form-group">
+                        <label for="contact-email">{content.text.yourEmailAddress}</label>
+                        <input type="email" id="contact-email" name="email" placeholder={content.text.eGMarieExampleCom} required>
+                    </div>
+ 
+                    <div class="form-group">
+                        <label for="contact-date">{content.text.dateSubject}</label>
+                        <select id="contact-date" name="visit_date" required>
+                            <option value="Tuesday guest visit">{content.text.everyTuesdayAt700PM}</option>
+                            <option value="Generelle Frage / Anderer Termin">{content.text.generalQueryOtherDate}</option>
+                        </select>
+                    </div>
+                </div>
+ 
+                <div class="form-group textarea-group">
+                    <label for="contact-message">{content.text.yourMessageOrQuestionsOptional}</label>
+                    <textarea id="contact-message" name="message" rows="3" placeholder={content.text.eGIWantToOvercomeMy}></textarea>
+                </div>
+ 
+                <div class="form-submit-row">
+                    <button type="submit" class="btn btn-primary" id="submit-contact-btn">{content.text.sendMessage}</button>
+                    <small class="form-privacy-note">{content.text.bySubmittingThisFormYouAgreeThat}</small>
+                </div>
+            </form>
+
+        <!-- Direct Channels (Subtle Footer of Form section) -->
+        <div class="direct-channels-minimal">
+            <p>{content.text.orContactUsDirectlyViaOtherChannels}</p>
+            <div class="channels-row">
+                <a href="mailto:info@aachen-toastmasters.de" class="channel-pill">
+                    <i class="far fa-envelope" aria-hidden="true"></i> <span>info@aachen-toastmasters.de</span>
+                </a>
+                <a href="https://www.meetup.com/de-DE/toastmasters-aachen/" target="_blank" rel="noopener" class="channel-pill">
+                    <i class="fab fa-meetup" aria-hidden="true"></i> <span>Meetup</span>
+                </a>
+                <a href="https://www.linkedin.com/company/toastmasters-aachen" target="_blank" rel="noopener" class="channel-pill">
+                    <i class="fab fa-linkedin-in" aria-hidden="true"></i> <span>LinkedIn</span>
+                </a>
+                <a href="https://www.instagram.com/toastmasters.aachen/" target="_blank" rel="noopener" class="channel-pill">
+                    <i class="fab fa-instagram" aria-hidden="true"></i> <span>Instagram</span>
+                </a>
+            </div>
+        </div>
+    </section>
+</main>

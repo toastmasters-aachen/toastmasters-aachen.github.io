@@ -1,0 +1,107 @@
+---
+import type { PageContent } from "../lib/content";
+
+interface Props {
+  content: PageContent;
+}
+
+const { content } = Astro.props;
+---
+<main class="site-main legal-page">
+    <div class="legal-container" style="max-width: 800px; margin: 0 auto; padding: 40px 20px;">
+        <span class="badge">{content.text.legalInfo}</span>
+        <h1 style="font-size: 2.5rem; margin-bottom: 24px; color: var(--tm-navy-dark);">{content.text.privacyPolicy}</h1>
+        
+        <div class="legal-card" style="background: var(--tm-card-bg); border: 1px solid var(--tm-line); border-radius: var(--radius-md); padding: 40px; box-shadow: var(--shadow-soft); color: var(--tm-text); line-height: 1.7; font-size: 0.95rem;">
+            
+            <h2 style="font-size: 1.4rem; margin-top: 0; margin-bottom: 16px; color: var(--tm-navy-dark);">{content.text.text1PrivacyAtAGlance}</h2>
+            <p>
+                {content.text.theFollowingInformationProvidesASimpleOverview}
+            </p>
+
+            <h3 style="font-size: 1.15rem; margin-top: 24px; margin-bottom: 12px; color: var(--tm-navy-dark);">{content.text.dataCollectionOnThisWebsite}</h3>
+            <p>
+                {content.text.theDataProcessingOnThisWebsiteIs}
+            </p>
+
+            <hr style="border: 0; border-top: 1px solid var(--tm-line); margin: 32px 0;">
+
+            <h2 style="font-size: 1.4rem; margin-bottom: 16px; color: var(--tm-navy-dark);">{content.text.text2Controller}</h2>
+            <p>
+                {content.text.theResponsiblePartyForDataProcessingOn}
+            </p>
+            <p style="padding-left: 16px; border-left: 3px solid var(--tm-blue); margin-bottom: 24px;">
+                <strong>Toastmasters Aachen e. V.</strong><br>
+                Grachtstr. 29<br>
+                52134 Herzogenrath<br><br>
+                <strong>E-Mail:</strong> info@aachen-toastmasters.de
+            </p>
+
+            <hr style="border: 0; border-top: 1px solid var(--tm-line); margin: 32px 0;">
+
+            <h2 style="font-size: 1.4rem; margin-bottom: 16px; color: var(--tm-navy-dark);">{content.text.text3DataCollectionOnOurWebsite}</h2>
+            
+            <h3 style="font-size: 1.15rem; margin-top: 24px; margin-bottom: 12px; color: var(--tm-navy-dark);">{content.text.serverLogFiles}</h3>
+            <p>
+                {content.text.theProviderOfThePagesAutomaticallyCollects}
+            </p>
+            <ul style="padding-left: 20px; margin-bottom: 16px;">
+                <li>{content.text.browserTypeAndVersion}</li>
+                <li>{content.text.operatingSystemUsed}</li>
+                <li>{content.text.referrerURLThePreviouslyVisitedPage}</li>
+                <li>{content.text.hostnameOfTheAccessingComputer}</li>
+                <li>{content.text.timeOfTheServerRequest}</li>
+                <li>{content.text.iPAddress}</li>
+            </ul>
+            <p>
+                {content.text.thisDataIsNotMergedWithOther}
+            </p>
+
+            <h3 style="font-size: 1.15rem; margin-top: 24px; margin-bottom: 12px; color: var(--tm-navy-dark);">{content.text.contactAndGuestRegistrationForm}</h3>
+            <p>
+                {content.text.ifYouSendUsInquiriesOrRegistrations}
+            </p>
+            <p>
+                {content.text.theProcessingOfThisDataIsBased}
+            </p>
+
+            <hr style="border: 0; border-top: 1px solid var(--tm-line); margin: 32px 0;">
+
+            <h2 style="font-size: 1.4rem; margin-bottom: 16px; color: var(--tm-navy-dark);">{content.text.text4SocialMediaAndExternalLinks}</h2>
+            <p>
+                {content.text.weLinkOnThisWebsiteToProfiles}
+            </p>
+            <ul style="padding-left: 20px; margin-bottom: 16px;">
+                <li><strong>Meetup:</strong> Meetup Inc., 611 Broadway, Suite 377, New York, NY 10012, USA.</li>
+                <li><strong>LinkedIn:</strong> LinkedIn Ireland Unlimited Company, Wilton Place, Dublin 2, Irland.</li>
+                <li><strong>Instagram:</strong> Meta Platforms Ireland Limited, Merrion Road, Dublin 4, Irland.</li>
+                <li><strong>Google Maps (Routenplaner):</strong> Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland.</li>
+            </ul>
+            <p>
+                {content.text.theseLinksAreSimpleStaticHyperlinksNot}
+            </p>
+
+            <hr style="border: 0; border-top: 1px solid var(--tm-line); margin: 32px 0;">
+
+            <h2 style="font-size: 1.4rem; margin-bottom: 16px; color: var(--tm-navy-dark);">{content.text.text5YourRightsAsADataSubject}</h2>
+            <p>
+                {content.text.withinTheScopeOfTheApplicableLegal}
+            </p>
+            <ul style="padding-left: 20px; margin-bottom: 16px;">
+                <li>{content.text.informationAboutYourStoredPersonalDataArt}</li>
+                <li>{content.text.correctionOfIncorrectDataArt16GDPR}</li>
+                <li>{content.text.erasureOfYourDataStoredWithUs}</li>
+                <li>{content.text.restrictionOfDataProcessingArt18GDPR}</li>
+                <li>{content.text.dataPortabilityArt20GDPR}</li>
+                <li>{content.text.withdrawalOfConsentGrantedArt7Para}</li>
+            </ul>
+            <p>
+                {content.text.toDoThisOrIfYouHave}
+            </p>
+
+            <p style="margin-top: 32px; font-size: 0.85rem; color: var(--tm-muted); margin-bottom: 0;">
+                Quelle: eRecht24
+            </p>
+        </div>
+    </div>
+</main>

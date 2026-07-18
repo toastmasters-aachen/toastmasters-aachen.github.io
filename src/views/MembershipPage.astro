@@ -1,0 +1,155 @@
+---
+import type { PageContent } from "../lib/content";
+
+interface Props {
+  content: PageContent;
+}
+
+const { content } = Astro.props;
+---
+<main class="site-main membership-page">
+    <!-- Intro Sektion -->
+    <section class="page-intro-section" aria-label={content.text.membershipOverview}>
+        <span class="badge">{content.text.takeTheNextStep}</span>
+        <h1>{content.text.becomeAToastmastersMember}</h1>
+        <p class="lead-text">
+            {content.text.membershipIsOpenToAnyoneOverThe}
+        </p>
+    </section>
+
+    <!-- Info-Vergleich: Gäste vs. Mitglieder -->
+    <section class="comparison-section" aria-label={content.text.guestsVsMembersComparison}>
+        <div class="comparison-container">
+            <div class="comparison-header">
+                <h2>{content.text.guestsVsMembersWhatIsTheDifference}</h2>
+                <p>{content.text.asAGuestYouCanDropBy}</p>
+            </div>
+            
+            <!-- Accessible Table / Grid instead of just a raw image -->
+            <div class="comparison-table-wrapper">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>{content.text.activityBenefit}</th>
+                            <th class="col-guests">{content.text.guests}</th>
+                            <th class="col-members">{content.text.members}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>{content.text.attendMeetings}</strong></td>
+                            <td><span class="status-yes"><i class="fas fa-check"></i> {content.text.yesFree}</span></td>
+                            <td><span class="status-yes"><i class="fas fa-check"></i> {content.text.yes}</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>{content.text.tableTopicsImpromptu}</strong></td>
+                            <td><span class="status-yes"><i class="fas fa-check"></i> {content.text.yesOptional}</span></td>
+                            <td><span class="status-yes"><i class="fas fa-check"></i> {content.text.yes}</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>{content.text.deliverPreparedSpeeches}</strong></td>
+                            <td><span class="status-no"><i class="fas fa-times"></i> {content.text.no}</span></td>
+                            <td><span class="status-yes"><i class="fas fa-check"></i> {content.text.yes}</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>{content.text.pathwaysPortalEducation}</strong></td>
+                            <td><span class="status-no"><i class="fas fa-times"></i> {content.text.no}</span></td>
+                            <td><span class="status-yes"><i class="fas fa-check"></i> {content.text.yesIncluded}</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>{content.text.personalMentoring}</strong></td>
+                            <td><span class="status-no"><i class="fas fa-times"></i> {content.text.no}</span></td>
+                            <td><span class="status-yes"><i class="fas fa-check"></i> {content.text.yesFree}</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>{content.text.evaluationsMeetingRoles}</strong></td>
+                            <td><span class="status-no"><i class="fas fa-times"></i> {content.text.no}</span></td>
+                            <td><span class="status-yes"><i class="fas fa-check"></i> {content.text.yes}</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Downloads Bereich -->
+    <section class="downloads-section" aria-label={content.text.membershipApplicationDownloads}>
+        <div class="downloads-header">
+            <h2>{content.text.howToJoin}</h2>
+            <p>{content.text.simplyFillOutTheMembershipFormAnd}</p>
+        </div>
+
+        <div class="download-grid">
+            <!-- German Card -->
+            <div class="download-card">
+                <div class="card-lang-badge">DE</div>
+                <div class="card-icon"><i class="far fa-file-pdf"></i></div>
+                <h3>{content.text.membershipForm}</h3>
+                <p class="card-desc">{content.text.germanRegistrationFormInPDFFormatFill}</p>
+                <div class="card-meta">Format: PDF &bull; Sprache: Deutsch</div>
+                <a href="/downloads/AC_TM_mitgliedsantrag_DE.pdf" class="btn btn-primary btn-block download-link" download>
+                    <i class="fas fa-download"></i> {content.text.downloadDE}
+                </a>
+            </div>
+
+            <!-- English Card -->
+            <div class="download-card">
+                <div class="card-lang-badge">EN</div>
+                <div class="card-icon"><i class="far fa-file-pdf"></i></div>
+                <h3>{content.text.membershipForm2}</h3>
+                <p class="card-desc">{content.text.englishRegistrationFormInPDFFormatFill}</p>
+                <div class="card-meta">Format: PDF &bull; Language: English</div>
+                <a href="/downloads/AC_TM_mitgliedsantrag_EN.pdf" class="btn btn-primary btn-block download-link" download>
+                    <i class="fas fa-download"></i> {content.text.downloadEN}
+                </a>
+            </div>
+        </div>
+
+        <!-- Submit notice -->
+        <div class="submit-notice-box">
+            <i class="far fa-envelope-open"></i>
+            <div>
+                <h4>{content.text.whereToSendTheCompletedApplication}</h4>
+                <p><Fragment set:html={content.text.simplySendTheScannedFormByEmail} /></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vorteile der Mitgliedschaft -->
+    <section class="benefits-section" aria-label={content.text.yourMemberBenefits}>
+        <h2 class="section-title-center">{content.text.whatAwaitsYouAsAMember}</h2>
+        <div class="benefits-grid">
+            <div class="benefit-card-small">
+                <i class="fas fa-road"></i>
+                <h3>{content.text.pathwaysEducationProgram}</h3>
+                <p>{content.text.accessToTheStructuredELearningPortal}</p>
+            </div>
+            <div class="benefit-card-small">
+                <i class="fas fa-hands-helping"></i>
+                <h3>{content.text.personalMentoring}</h3>
+                <p>{content.text.anExperiencedToastmasterWillBeByYour}</p>
+            </div>
+            <div class="benefit-card-small">
+                <i class="fas fa-microphone-alt"></i>
+                <h3>{content.text.regularSpeakingRoutine}</h3>
+                <p>{content.text.secureSpeakingSlotsForPreparedPresentationsAnd}</p>
+            </div>
+            <div class="benefit-card-small">
+                <i class="fas fa-ribbon"></i>
+                <h3>{content.text.officialCertificates}</h3>
+                <p>{content.text.receiveInternationallyRecognizedCertificatesAndCredentialsHighlighting}</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transparenz-Hinweis zu Kosten -->
+    <section class="fees-section" aria-label={content.text.feesCosts}>
+        <div class="fees-card">
+            <i class="fas fa-info-circle"></i>
+            <div>
+                <h3>{content.text.transparencyNoticeOnClubFees}</h3>
+                <p>{content.text.asANonProfitAssociationWeOperate}</p>
+            </div>
+        </div>
+    </section>
+</main>
