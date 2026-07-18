@@ -1,0 +1,22 @@
+# Toastmasters Aachen e. V.
+
+Toastmasters Aachen e. V. is a bilingual German/English non-profit public-speaking and leadership club in Aachen, Germany.
+
+## Key information
+
+- Domain: https://aachen-toastmasters.de
+- Contact: info@aachen-toastmasters.de
+- Location: Digital Church Aachen, Jülicher Straße 72a, 52070 Aachen, Germany
+- Meetings: every Tuesday at 19:00, alternating weekly between German and English
+- Guests: visitors are welcome to attend free of charge and do not need to register
+
+## Website languages
+
+German pages use root-level routes. English equivalents are under `/en/`. The printable English flyer is available at `/flyer`.
+
+## Club offering
+
+- Guided public-speaking education through Toastmasters Pathways
+- Impromptu speaking practice through Table Topics
+- Constructive speech evaluation and feedback
+- Leadership development through meeting and club roles

@@ -1,0 +1,23 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import type { PageContent } from "../lib/content";
+
+const content = {
+  language: "de",
+  metadata: {
+    title: "404 | Toastmasters Aachen",
+    description: "Die angefragte Seite wurde nicht gefunden.",
+  },
+  text: {},
+} as const satisfies PageContent;
+---
+<BaseLayout content={content} noIndex>
+  <main class="site-main">
+    <section class="placeholder-section" aria-labelledby="page-heading">
+      <p class="placeholder-label">404</p>
+      <h1 id="page-heading">Seite nicht gefunden</h1>
+      <p class="placeholder-intro">Die angefragte Adresse existiert nicht.</p>
+      <p><a class="button-link" href="/">Zur Startseite</a></p>
+    </section>
+  </main>
+</BaseLayout>

@@ -1,46 +1,61 @@
-# Blanko Website Starter
+# Toastmasters Aachen website
 
-Diese Vorlage ist fuer einen KI-Workshop vorbereitet. Routing, gemeinsame Includes, Sicherheitsregeln und neutrale Platzhalterseiten sind vorhanden; Inhalte, Bilder und Design sollen spaeter mit KI entwickelt werden.
+Static bilingual website for Toastmasters Aachen e. V., built with Astro. German is the default language at root-level routes; English pages live below `/en/`. Each logical page has one shared Astro view and separate translation data.
 
-## Lokal starten
+## Local development
+
+Requires Node.js 22 or newer.
 
 ```bash
-php -S localhost:8000 router.php
+npm install
+npm run dev
 ```
 
-Dann im Browser oeffnen:
+Astro serves the site at `http://localhost:4321` by default.
 
-```text
-http://localhost:8000
+## Checks and production build
+
+```bash
+npm run check
+npm run build
+npm run preview
 ```
 
-## Wichtige Dateien
+The static production site is written to `dist/`.
 
-- `SETUP.md`: erster Fragebogen fuer Ziel, Zielgruppe, Design, Tonalitaet, Inhalte und Funktionen.
-- `router.php`: leitet saubere URLs auf PHP-Seiten weiter.
-- `.htaccess`: Apache-Sicherheit, Redirects, Cache-Regeln und Routing.
-- `config/config.php`: Name, URL, Kontakt und Orts-Platzhalter.
-- `includes/header.php` und `includes/footer.php`: gemeinsamer Seitenrahmen.
-- `pages/`: oeffentliche Platzhalterseiten.
-- `assets/css/style.css`: neutrales Starter-CSS.
-- `AGENTS.md`: automatische Anleitung fuer Codex.
-- `SKILL.md`: Workshop-Skill fuer spaetere KI-Agenten.
+## Project structure
 
-## Erster KI-Start
+- `src/pages/`: file-based German and English routes, plus the standalone flyer.
+- `src/views/`: one shared UI implementation per logical page.
+- `src/translations/`: German and English page text and shared navigation text.
+- `src/components/`: shared header, footer, and language switcher.
+- `src/layouts/BaseLayout.astro`: metadata, SEO, structured data, and shared page shell.
+- `src/lib/routes.ts`: mappings between each page's German and English URL.
+- `public/assets/`: styles, scripts, fonts, icons, and images copied unchanged from the previous site.
+- `public/downloads/`: membership application PDFs.
 
-Wenn ein Agent diese Vorlage zum ersten Mal bearbeitet, soll er zuerst `SETUP.md` lesen. Dort steht ein kurzer Fragebogen fuer Zweck, Zielgruppe, Inhalte, Designrichtung, Tonalitaet, Funktionen und vorhandenes Material.
+## Cloudflare deployment
 
-Nach dem Gespraech traegt der Agent die Antworten in `SETUP.md` ein und setzt oben den Status auf:
+The initial release is fully static: it has no Astro server adapter and no Worker entry point. `wrangler.jsonc` configures Cloudflare Workers Static Assets to serve the generated `dist/` directory.
 
-```text
-Status: [x] Setup wurde erledigt
+Before the first deployment, copy `.env.example` to `.env` (that is, remove the `.example` suffix from the local copy):
+
+```bash
+cp .env.example .env
 ```
 
-Danach soll ein spaeterer Agent das gespeicherte Briefing nutzen und nicht jedes Mal dieselben Startfragen erneut stellen.
+Then replace `<your_cloudflare_account_id>` in `.env` with the account ID for the Cloudflare account that should receive the deployment. You can find the account ID in the Cloudflare dashboard.
 
-## Vor dem Veroeffentlichen
+Deploy from the project root with:
 
-- `https://example.com` in `robots.txt` und `sitemap.xml` ersetzen.
-- Werte in `config/config.php` anpassen.
-- Datenschutz und Impressum mit echten, passenden Angaben ersetzen.
-- Eigene Texte, Bilder und CSS ergaenzen.
+```bash
+npm run deploy
+```
+
+This runs the checked production build and then deploys it with Wrangler. On the first deployment, Wrangler downloads through `npx` if needed and asks you to sign in to Cloudflare. It creates or updates the Worker named `toastmasters-aachen` and prints its `workers.dev` URL.
+
+After the first deployment, add `aachen-toastmasters.de` under the Worker's **Settings > Domains & Routes > Add > Custom domain**. The domain must be active in the same Cloudflare account. Subsequent deployments use the same `npm run deploy` command.
+
+The contact form is already present and posts to `/api/contact`, but that endpoint intentionally does not exist yet. A small Cloudflare Worker can implement it later without changing the pages or translations.
+
+The live domain is not changed by this branch.

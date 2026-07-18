@@ -1,0 +1,100 @@
+---
+import type { PageContent } from "../lib/content";
+import { routeFor, type PageId } from "../lib/routes";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+
+interface Props {
+  content: PageContent;
+  pageId?: PageId;
+  noIndex?: boolean;
+}
+
+const { content, pageId, noIndex = false } = Astro.props;
+const canonicalUrl = new URL(pageId ? routeFor(pageId, content.language) : Astro.url.pathname, Astro.site);
+const germanUrl = pageId ? new URL(routeFor(pageId, "de"), Astro.site) : undefined;
+const englishUrl = pageId ? new URL(routeFor(pageId, "en"), Astro.site) : undefined;
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "EducationalOrganization",
+      "@id": "https://aachen-toastmasters.de/#organization",
+      name: "Toastmasters Aachen e. V.",
+      url: "https://aachen-toastmasters.de/",
+      logo: "https://aachen-toastmasters.de/assets/images/Logo.png",
+      image: "https://aachen-toastmasters.de/assets/images/Titelfoto.jpg",
+      description: content.metadata.description,
+      sameAs: [
+        "https://www.toastmasters.org/",
+        "https://www.facebook.com/ToastmastersAachen",
+        "https://www.linkedin.com/company/toastmasters-aachen",
+        "https://www.instagram.com/toastmasters.aachen/",
+      ],
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://aachen-toastmasters.de/#localbusiness",
+      name: "Toastmasters Aachen e. V.",
+      image: "https://aachen-toastmasters.de/assets/images/Titelfoto.jpg",
+      url: "https://aachen-toastmasters.de/",
+      email: "info@aachen-toastmasters.de",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Jülicher Straße 72a",
+        addressLocality: "Aachen",
+        postalCode: "52070",
+        addressCountry: "DE",
+      },
+      geo: { "@type": "GeoCoordinates", latitude: 50.780183, longitude: 6.101831 },
+      openingHoursSpecification: {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: "Tuesday",
+        opens: "19:00",
+        closes: "21:15",
+      },
+    },
+  ],
+};
+---
+<!doctype html>
+<html lang={content.language}>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{content.metadata.title}</title>
+    <meta name="description" content={content.metadata.description}>
+    {noIndex && <meta name="robots" content="noindex, follow">}
+    <link rel="canonical" href={canonicalUrl}>
+    {germanUrl && <link rel="alternate" hreflang="de" href={germanUrl}>}
+    {englishUrl && <link rel="alternate" hreflang="en" href={englishUrl}>}
+    {germanUrl && <link rel="alternate" hreflang="x-default" href={germanUrl}>}
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content={canonicalUrl}>
+    <meta property="og:title" content={content.metadata.title}>
+    <meta property="og:description" content={content.metadata.description}>
+    <meta property="og:site_name" content="Toastmasters Aachen">
+    <meta property="og:image" content="https://aachen-toastmasters.de/assets/images/Titelfoto.jpg">
+    <meta property="og:locale" content={content.language === "de" ? "de_DE" : "en_US"}>
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content={content.metadata.title}>
+    <meta name="twitter:description" content={content.metadata.description}>
+    <meta name="twitter:image" content="https://aachen-toastmasters.de/assets/images/Titelfoto.jpg">
+
+    <script type="application/ld+json" set:html={JSON.stringify(structuredData)} is:inline />
+    <link rel="preload" href="/assets/fonts/montserrat.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+  <body>
+    <Header language={content.language} pageId={pageId} />
+    <slot />
+    <Footer language={content.language} />
+    <script src="/assets/js/main.js" is:inline></script>
+  </body>
+</html>

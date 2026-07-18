@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://aachen-toastmasters.de/sitemap.xml

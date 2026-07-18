@@ -1,0 +1,54 @@
+---
+import type { Language } from "../lib/content";
+import { routeFor, type PageId } from "../lib/routes";
+import { commonContent } from "../translations/common";
+import LanguageSwitcher from "./LanguageSwitcher.astro";
+
+interface Props {
+  language: Language;
+  pageId?: PageId;
+}
+
+const { language, pageId } = Astro.props;
+const content = commonContent[language];
+const navItems: Array<{ pageId: PageId; label: string }> = [
+  { pageId: "home", label: content.navigation.home },
+  { pageId: "aboutToastmasters", label: content.navigation.aboutToastmasters },
+  { pageId: "about", label: content.navigation.about },
+  { pageId: "membership", label: content.navigation.membership },
+  { pageId: "contact", label: content.navigation.contact },
+];
+---
+<div class="top-announcement-bar">
+  <div class="announcement-content">
+    <span><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Digital Church Aachen</span>
+    <span class="separator" aria-hidden="true">|</span>
+    <span><i class="far fa-clock" aria-hidden="true"></i> {content.meetingTime}</span>
+    <span class="separator" aria-hidden="true">|</span>
+    <span class="next-meeting-badge">
+      <i class="fas fa-language" aria-hidden="true"></i> {content.meetingLanguages}
+    </span>
+  </div>
+</div>
+<header class="site-header">
+  <a class="site-brand" href={routeFor("home", language)} aria-label="Toastmasters Aachen">
+    <img src="/assets/images/Logo.png" alt="Toastmasters International Logo" class="brand-logo-img">
+    <span>
+      <strong>Toastmasters Aachen e. V.</strong>
+      <small>{content.tagline}</small>
+    </span>
+  </a>
+
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+    <i class="fas fa-bars" aria-hidden="true"></i> {content.menu}
+  </button>
+
+  <nav id="site-nav" class="site-nav" aria-label={content.mainNavigation}>
+    {navItems.map((item) => (
+      <a href={routeFor(item.pageId, language)} aria-current={item.pageId === pageId ? "page" : undefined}>
+        {item.label}
+      </a>
+    ))}
+    {pageId && <LanguageSwitcher language={language} pageId={pageId} />}
+  </nav>
+</header>

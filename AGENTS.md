@@ -1,33 +1,34 @@
 # Codex Instructions
 
-This repository is a prepared blank PHP website starter. Treat the backend shell as already set up and focus future work on the public frontend.
+This repository contains the static Astro website for Toastmasters Aachen e. V. Focus work on the public frontend and keep the production output statically deployable unless the user explicitly requests server functionality.
 
-## First-run setup
-- Always check `SETUP.md` before starting frontend work.
-- If `SETUP.md` says `Status: [ ] Setup wurde erledigt`, ask the user the setup questions, write the answers into `SETUP.md`, then change the status to `Status: [x] Setup wurde erledigt`.
-- If `SETUP.md` is already checked, use the filled briefing and do not restart the full questionnaire.
-- Ask follow-up questions only when the briefing is missing information that materially changes the implementation.
+## Project brief
 
-## What is already prepared
-- Apache security and routing rules in `.htaccess`.
-- Extensionless PHP routing in `router.php`.
-- Neutral configuration in `config/config.php`.
-- Shared layout shell in `includes/header.php` and `includes/footer.php`.
-- Public placeholder pages in `pages/`.
-- Neutral local CSS and JS in `assets/`.
-- Placeholder `robots.txt`, `sitemap.xml`, `llms.txt` and `llm.txt`.
-- A first-run project questionnaire in `SETUP.md`.
+- Read `SETUP.md` before frontend work. Its completed briefing defines the audience, content, visual direction, and tone.
+- Do not restart the setup questionnaire while `SETUP.md` says `Status: [x] Setup wurde erledigt`.
+- Ask follow-up questions only when missing information would materially change the implementation.
 
-## How to work in this starter
-- Keep the existing PHP routing and security structure unless the user explicitly asks to change it.
-- Replace placeholder page content with real content for the new website topic.
-- Build the actual frontend experience directly in PHP, HTML, CSS and local assets.
-- Add images only when the website concept requires them; store them under `assets/`.
-- Keep configuration values generic until the user provides real domain, contact and legal details.
-- Update `robots.txt`, `sitemap.xml`, `llms.txt` and legal pages before publishing.
+## Architecture
 
-## Do not reintroduce
-- Real club, organization, member, event or personal data from the source project.
-- SQLite databases or exported response HTML files.
-- Membership/admin/event microsite code unless the user specifically asks for those features.
-- Hardcoded production domains other than the user's final domain.
+- Astro runs in static-output mode and builds to `dist/`.
+- Routes are file-based in `src/pages/`.
+- German is the default language at root-level routes; English equivalents are under `src/pages/en/`.
+- Each logical page has one shared UI in `src/views/`. Route files only select the appropriate translation object and view.
+- Translated text lives in `src/translations/`. Language-independent values such as image paths, addresses, and external URLs stay in shared markup.
+- The mapping between German and English URLs lives in `src/lib/routes.ts` and drives the language switcher and alternate-link metadata.
+- Public assets and downloads live under `public/`.
+
+## Current scope
+
+- Keep the site fully static. Do not add SSR, a server adapter, or a Worker entry point unless explicitly requested.
+- The contact form is intentionally present and posts to the future `/api/contact` endpoint. Do not remove or rewrite its existing text merely because the endpoint is not implemented yet.
+- Do not reintroduce Meetup RSS fetching, writable caches, PHP routing, or runtime next-meeting calculations.
+- `/flyer` is a standalone English-only print page; do not add a German or `/en/flyer` duplicate.
+- Keep the existing public URLs and visual design unless the user asks to change them.
+
+## Checks
+
+- Run `npm run check` after structural or content changes.
+- Run `npm run build` before handing off deployable work.
+- Confirm the German and English routes, language switcher counterparts, static assets, 404 page, sitemap, and robots file.
+- Preserve legal/contact details and existing translated strings unless the user explicitly requests content changes.

@@ -1,0 +1,154 @@
+---
+import type { PageContent } from "../lib/content";
+
+interface Props {
+  content: PageContent;
+}
+
+const { content } = Astro.props;
+---
+<main class="site-main about-club-page">
+    <!-- Club Intro Section -->
+    <section class="club-intro-section" aria-label={content.text.aboutToastmastersAachen}>
+        <span class="badge">{content.text.theAachenClub}</span>
+        <h1>{content.text.publicSpeakingInTheHeartOfAachen}</h1>
+        <p class="lead-text">
+            <Fragment set:html={content.text.forManyYearsToastmastersAachenEV} />
+        </p>
+    </section>
+
+    <!-- Club Details Grid -->
+    <section class="club-details-section" aria-label={content.text.detailsAboutOurClub}>
+        <div class="details-grid">
+            <div class="detail-card">
+                <div class="detail-image-placeholder">
+                    <i class="fas fa-church" aria-hidden="true"></i>
+                    <img src="/assets/images/Einzigartige Location.jpg" alt={content.text.historicInteriorOfTheDigitalChurchAachen} class="detail-img" loading="lazy">
+                </div>
+                <div class="detail-card-content">
+                    <h2>{content.text.uniqueLocation}</h2>
+                    <p><Fragment set:html={content.text.weMeetInTheHistoricDigitalChurch} /></p>
+                </div>
+            </div>
+            <div class="detail-card">
+                <div class="detail-image-placeholder">
+                    <i class="fas fa-language" aria-hidden="true"></i>
+                    <img src="/assets/images/Internationaler Austausch.jpg" alt={content.text.membersTalkingInGermanAndEnglish} class="detail-img" loading="lazy">
+                </div>
+                <div class="detail-card-content">
+                    <h2>{content.text.internationalExchange}</h2>
+                    <p><Fragment set:html={content.text.ourEveningsTakePlaceAlternatingBetweenGerman} /></p>
+                </div>
+            </div>
+            <div class="detail-card">
+                <div class="detail-image-placeholder">
+                    <i class="fas fa-users" aria-hidden="true"></i>
+                    <img src="/assets/images/Bunte Gemeinschaft.jpg" alt={content.text.theDiverseAndWelcomingToastmastersAachenCommunity} class="detail-img" loading="lazy">
+                </div>
+                <div class="detail-card-content">
+                    <h2>{content.text.diverseCommunity}</h2>
+                    <p>{content.text.fromRWTHStudentsAndFHProfessorsTo}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- Club Board / Vorstand Section -->
+    <section class="board-section" aria-label={content.text.ourClubBoard}>
+        <div class="section-header">
+            <h2><Fragment set:html={content.text.theFacesBehindTheClub} /></h2>
+            <p>{content.text.ourBoardIsElectedAnnuallyAndRuns}</p>
+        </div>
+        <div class="board-group-photo-wrapper">
+            <img src="/assets/images/Board Members/OfficerBoardGesamt.jpg" alt={content.text.groupPhotoOfTheToastmastersAachenBoard} class="board-group-photo" loading="lazy">
+        </div>
+
+        <div class="board-intro-text">
+            <h3>{content.text.meetOurBoardMembers}</h3>
+            <p>{content.text.eachBoardMemberContributesIndividualStrengthsTo}</p>
+        </div>
+
+        <div class="board-grid">
+            <div class="board-card">
+                <div class="board-avatar-placeholder">
+                    <i class="fas fa-user-tie" aria-hidden="true"></i>
+                    <img src="/assets/images/Board Members/Ayoub_President.jpg" alt={content.text.ayoubPresidentOfToastmastersAachen} class="board-img" loading="lazy">
+                </div>
+                <h4>Ayoub</h4>
+                <div class="board-title">{content.text.president}</div>
+                <p class="board-role">{content.text.clubManagementStrategy}</p>
+                <p>{content.text.responsibleForTheOverallDirectionOfThe}</p>
+            </div>
+            <div class="board-card">
+                <div class="board-avatar-placeholder">
+                    <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                    <img src="/assets/images/Board Members/Adnen_VPEducation.jpg" alt={content.text.adnenVicePresidentEducationOfToastmastersAachen} class="board-img" loading="lazy">
+                </div>
+                <h4>Adnen</h4>
+                <div class="board-title">{content.text.vicePresidentEducation}</div>
+                <p class="board-role">{content.text.educationProgramAgenda}</p>
+                <p>{content.text.plansMeetingsOrganizesSpeakingSlotsAndSupports}</p>
+            </div>
+            <div class="board-card">
+                <div class="board-avatar-placeholder">
+                    <i class="fas fa-calculator" aria-hidden="true"></i>
+                    <img src="/assets/images/Board Members/Sophia_Treasurer.jpg" alt={content.text.sophiaTreasurerOfToastmastersAachen} class="board-img" loading="lazy">
+                </div>
+                <h4>Sophia</h4>
+                <div class="board-title">{content.text.treasurer}</div>
+                <p class="board-role">{content.text.financeFees}</p>
+                <p>{content.text.responsibleForMembershipFeeManagementClubFinances}</p>
+            </div>
+            <div class="board-card">
+                <div class="board-avatar-placeholder">
+                    <i class="fas fa-user-plus" aria-hidden="true"></i>
+                    <img src="/assets/images/Board Members/Lev_VPMembership.jpg" alt={content.text.levVicePresidentMembershipOfToastmastersAachen} class="board-img" loading="lazy">
+                </div>
+                <h4>Lev</h4>
+                <div class="board-title">{content.text.vicePresidentMembership}</div>
+                <p class="board-role">{content.text.guestRelationsOnboarding}</p>
+                <p>{content.text.theFirstPointOfContactForGuests}</p>
+            </div>
+            <div class="board-card">
+                <div class="board-avatar-placeholder">
+                    <i class="fas fa-bullhorn" aria-hidden="true"></i>
+                    <img src="/assets/images/Board Members/Zisan_VPPR.jpg" alt={content.text.zisanVicePresidentPublicRelationsOfToastmasters} class="board-img" loading="lazy">
+                </div>
+                <h4>Zisan</h4>
+                <div class="board-title">{content.text.vicePresidentPublicRelations}</div>
+                <p class="board-role">{content.text.marketingSocialMedia}</p>
+                <p>{content.text.shapesOurPublicImageManagesSocialMedia}</p>
+            </div>
+            <div class="board-card">
+                <div class="board-avatar-placeholder">
+                    <i class="fas fa-file-alt" aria-hidden="true"></i>
+                    <img src="/assets/images/Board Members/Sebastian_Secretary.jpg" alt={content.text.sebastianSecretaryOfToastmastersAachen} class="board-img" loading="lazy">
+                </div>
+                <h4>Sebastian</h4>
+                <div class="board-title">{content.text.secretary}</div>
+                <p class="board-role">{content.text.administrationRecords}</p>
+                <p>{content.text.responsibleForMinutesOfficialDocumentsAndThe}</p>
+            </div>
+            <div class="board-card">
+                <div class="board-avatar-placeholder">
+                    <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                    <img src="/assets/images/Board Members/Levi_SergeantAtArms.jpg" alt={content.text.leviSergeantAtArmsOfToastmastersAachen} class="board-img" loading="lazy">
+                </div>
+                <h4>Levi</h4>
+                <div class="board-title">{content.text.sergeantAtArms}</div>
+                <p class="board-role">{content.text.logisticsVenueSetup}</p>
+                <p>{content.text.preparesTheMeetingRoomManagesTechnicalEquipment}</p>
+            </div>
+            <div class="board-card">
+                <div class="board-avatar-placeholder">
+                    <i class="fas fa-history" aria-hidden="true"></i>
+                    <img src="/assets/images/Board Members/Julia_ImmediatePastPresident.jpg" alt={content.text.juliaImmediatePastPresidentOfToastmastersAachen} class="board-img" loading="lazy">
+                </div>
+                <h4>Julia</h4>
+                <div class="board-title">{content.text.immediatePastPresident}</div>
+                <p class="board-role">{content.text.advisoryKnowledgeTransfer}</p>
+                <p>{content.text.supportsTheCurrentBoardWithExperienceAnd}</p>
+            </div>
+        </div>
+    </section>
+</main>

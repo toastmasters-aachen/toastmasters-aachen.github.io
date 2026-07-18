@@ -1,0 +1,27 @@
+---
+import type { Language } from "../lib/content";
+import { alternateLanguage, routeFor, type PageId } from "../lib/routes";
+
+interface Props {
+  language: Language;
+  pageId: PageId;
+}
+
+const { language, pageId } = Astro.props;
+const otherLanguage = alternateLanguage(language);
+---
+<div class="lang-switcher" aria-label="Language selection">
+  <a
+    href={language === "de" ? routeFor(pageId, "de") : routeFor(pageId, otherLanguage)}
+    class:list={["lang-btn", { active: language === "de" }]}
+    aria-current={language === "de" ? "page" : undefined}
+    aria-label="Deutsch"
+  >DE</a>
+  <span class="lang-separator" aria-hidden="true">|</span>
+  <a
+    href={language === "en" ? routeFor(pageId, "en") : routeFor(pageId, otherLanguage)}
+    class:list={["lang-btn", { active: language === "en" }]}
+    aria-current={language === "en" ? "page" : undefined}
+    aria-label="English"
+  >EN</a>
+</div>

@@ -1,0 +1,3 @@
+# Toastmasters Aachen e. V.
+
+Bilingual public-speaking and leadership club in Aachen. Meetings take place every Tuesday at 19:00 at Digital Church Aachen, alternating between German and English. See `/llms.txt` for more information.

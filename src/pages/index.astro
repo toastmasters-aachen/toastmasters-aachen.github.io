@@ -1,0 +1,6 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { homeDe } from "../translations/de/home";
+import HomePage from "../views/HomePage.astro";
+---
+<BaseLayout content={homeDe} pageId="home"><HomePage content={homeDe} /></BaseLayout>

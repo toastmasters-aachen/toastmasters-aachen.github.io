@@ -1,0 +1,41 @@
+---
+import type { Language } from "../lib/content";
+import { routeFor } from "../lib/routes";
+import { commonContent } from "../translations/common";
+
+interface Props {
+  language: Language;
+}
+
+const { language } = Astro.props;
+const content = commonContent[language];
+---
+<footer class="site-footer">
+  <div class="footer-left">
+    <strong>Toastmasters Aachen e. V.</strong>
+    <p>{content.tagline}</p>
+    <p class="footer-contact">
+      <i class="far fa-envelope" aria-hidden="true"></i> info@aachen-toastmasters.de &bull;
+      <i class="fas fa-map-marker-alt" aria-hidden="true"></i> Digital Church, Aachen
+    </p>
+  </div>
+  <div class="footer-right">
+    <div class="footer-socials" aria-label={content.socialChannels}>
+      <a href="https://www.meetup.com/de-DE/toastmasters-aachen/" target="_blank" rel="noopener" aria-label={content.meetupGroup}><i class="fab fa-meetup" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/company/toastmasters-aachen" target="_blank" rel="noopener" aria-label={content.linkedInProfile}><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+      <a href="https://www.instagram.com/toastmasters.aachen/" target="_blank" rel="noopener" aria-label={content.instagramProfile}><i class="fab fa-instagram" aria-hidden="true"></i></a>
+    </div>
+    <nav aria-label={content.legalInformation} class="footer-nav">
+      <a href={routeFor("imprint", language)}>{content.imprint}</a>
+      <a href={routeFor("privacy", language)}>{content.privacy}</a>
+    </nav>
+  </div>
+</footer>
+
+<div id="gallery-lightbox" class="lightbox-modal" aria-hidden="true" role="dialog" aria-modal="true">
+  <button class="lightbox-close" aria-label={content.close}>&times;</button>
+  <div class="lightbox-content">
+    <img id="lightbox-img" src="" alt="">
+    <div id="lightbox-caption" class="lightbox-caption"></div>
+  </div>
+</div>
