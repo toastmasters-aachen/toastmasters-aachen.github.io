@@ -38,6 +38,14 @@ The static production site is written to `dist/`.
 
 The initial release is fully static: it has no Astro server adapter and no Worker entry point. `wrangler.jsonc` configures Cloudflare Workers Static Assets to serve the generated `dist/` directory.
 
+Before the first deployment, copy `.env.example` to `.env` (that is, remove the `.example` suffix from the local copy):
+
+```bash
+cp .env.example .env
+```
+
+Then replace `<your_cloudflare_account_id>` in `.env` with the account ID for the Cloudflare account that should receive the deployment. You can find the account ID in the Cloudflare dashboard.
+
 Deploy from the project root with:
 
 ```bash

@@ -369,6 +369,7 @@ textarea:focus-visible {
     display: flex;
     justify-content: flex-end;
     position: relative;
+    overflow: clip;
 }
 
 .hero-visual::before {
@@ -3050,7 +3051,15 @@ textarea:focus-visible {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-width: 0;
+    hyphens: auto;
+    overflow-wrap: anywhere;
     transition: var(--transition);
+}
+
+.legal-page {
+    hyphens: auto;
+    overflow-wrap: anywhere;
 }
 
 .download-card:hover {
